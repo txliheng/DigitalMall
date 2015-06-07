@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+#html("common:static/js/require.js")
+##html("common:static/js/mod-amd.js")
+    #head()
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>$title#if( $titleAffix ) - $titleAffix#end</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/static/common/icon/favicon.ico" />
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="/common/static/lib/js/html5shiv.min.js"></script>
+          <script src="/common/static/lib/js/respond.min.js"></script>
+        <![endif]-->
+		#require("common:static/lib/css/normalize.css")
+        #require("common:static/lib/css/bootstrap.css")
+        ##require("common:static/lib/css/bootstrap-theme.css")
+        #require("common:static/scss/global.scss")
+    #end## end head
+
+    #body()
+            #block("body")
+            #end
+    #end## end of body
+	#* 
+    #script()
+    // 启用 bootstrap
+    #require(['common:static/lib/js/bootstrap']);
+    #end  
+	*#
+    ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+    #require("common:page/frame.vm")
+#end## end of html

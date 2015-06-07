@@ -1,0 +1,113 @@
+<html>
+<head>
+	<base target="_blank">
+    <style type="text/css">
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    </style>
+    <style id="cloudAttachStyle" type="text/css">
+    #divNeteaseBigAttach,
+    #divNeteaseBigAttach_bak {
+        display: none;
+    }
+    </style>
+    <style type="text/css">
+    body,
+    p,
+    h2,
+    h3 {
+        margin: 0px;
+        padding: 0px;
+        font: 12px/18px arial
+    }
+    </style>
+</head>
+
+<body>
+    <div class="email" style="width:570px; border:1px solid #FF8523">
+        <div class="hd" style="height:28px; padding-left:24px; background-color:#FF8523">            
+            <h2 style="line-height:28px; color:#fff;">数码城邮件</h2>
+        </div>
+        <div class="bd" style="padding:0px 10px 10px">
+            <h3 style="font:bold 14px/42px arial; text-indent:10px">亲爱的，离成功注册数码城就差一步了！<span style="font-size:12px; font-weight:400; color:#5A5A5A">(请在24小时内完成)</span></h3>
+
+            <div class="link-href" style="padding:20px 10px; background-color:#FFFCCD">
+                <div>
+					请点击下面的按钮完成注册
+					<br>
+                    <div class="finish-btn" style="height:40px; padding:10px 0px 0px 221px;">
+                        <a target="_blank" href="${emailPlaceHolder}" style="width:104px; height:40px; float:left; background-color:#FFFCCD;">
+                            ##<img src="https://s.tbcdn.cn//app/uc/img/conform_email_submit.png" style="border:0px;">
+							<img src="cid:confirm_email_submit">
+                        </a>
+                    </div>
+                  如果您看不到上方的按钮，同样可以点击以下链接完成注册：
+                    <a target="_blank" href="${emailPlaceHolder}" style="color:#0040D8; text-decoration:none">${emailPlaceHolder}</a>
+                </div>
+            </div>
+            <div class="link-text" style="padding:10px 0px 15px; color:#41648D">
+             也可以复制下面的链到浏览器地址栏完成注册：
+                <br>
+                <span style="color:#000">${emailPlaceHolder}</span>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+    body {
+        font-size: 14px;
+        font-family: arial, verdana, sans-serif;
+        line-height: 1.666;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+        white-space: normal;
+        word-wrap: break-word;
+        min-height: 100px
+    }
+    td,
+    input,
+    button,
+    select,
+    body {
+        font-family: Helvetica, 'Microsoft Yahei', verdana
+    }
+    pre {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+        padding-right: 1px;
+    }
+    th,
+    td {
+        font-family: arial, verdana, sans-serif;
+        line-height: 1.666
+    }
+    img {
+        border: 0
+    }
+    header,
+    footer,
+    section,
+    aside,
+    article,
+    nav,
+    hgroup,
+    figure,
+    figcaption {
+        display: block
+    }
+    </style>
+
+    <style id="ntes_link_color" type="text/css">
+    a,
+    td a {
+        color: #064977
+    }
+    </style>
+</body>
+
+</html>

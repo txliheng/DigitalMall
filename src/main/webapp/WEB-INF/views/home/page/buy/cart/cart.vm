@@ -1,0 +1,296 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/buy/cart/css/index.css") 
+#require("home:static/buy/cart/css/global.css") 
+#require("home:static/buy/cart/css/cart.css") 
+#block("top") 
+#widget("common:widget/top/top.vm") 
+#end 
+#block("content")
+<div id="header">
+    #block("logo") 
+    #widget("common:widget/logo/logo.vm") 
+    #end 
+    #block("searchBox") 
+    #widget("common:widget/search/search.vm") 
+    #end
+</div>
+<div class="cart-layout-TB">
+        <div id="J_Cart" class="cart">
+            <div id="J_FilterBar" class="cart-filter-bar">
+                <ul id="J_CartSwitch" class="switch-cart">
+                    <li class="btn-switch-cart switch-cart-0 current">
+                        <a href="http://cart.taobao.com/cart.htm?spm=a1z0d.7625083.1997525049.1.8xDzuF&amp;from=mini&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501036000a02c5c3739" class="J_MakePoint" data-point="tbcart.8.35">
+                            <em>全部商品</em>
+                            <span class="number">2</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                    <li class="btn-switch-cart switch-cart-2 disabled">
+                        <a href="javascript: void(0);" class="J_MakePoint" data-point="tbcart.8.34">
+                            <em>降价商品</em>
+                            <span class="number">0</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                    <li class="btn-switch-cart switch-cart-4 disabled">
+                        <a href="javascript: void(0);" class="J_MakePoint" data-point="tbcart.8.36">
+                            <em>库存紧张</em>
+                            <span class="number">0</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="cart-sum">已选商品（不含运费）
+                    <strong class="price">¥
+					<em id="J_SmallTotal">0.00</em>
+				</strong>
+                    <a id="J_SmallSubmit" class="submit-btn submit-btn-disabled">结&nbsp;算
+				</a>
+                </div>
+                <div class="wrap-line">
+                    <div class="floater" style="width: 123px; left: -1px;">
+                    </div>
+                </div>
+            </div>
+            <div id="J_CartMain" class="cart-main">
+                <div class="cart-table-th">
+                    <div class="wp">
+                        <div class="th th-chk">
+                            <div id="J_SelectAll1" class="select-all J_SelectAll">
+                                <div class="cart-checkbox">
+                                    <input class="J_CheckBoxShop" id="J_SelectAllCbx1" type="checkbox" name="select-all" value="true">
+                                    <label for="J_SelectAllCbx1">勾选购物车内所有商品
+                                    </label>
+                                </div>&nbsp;&nbsp;全选
+                            </div>
+                        </div>
+                        <div class="th th-item">
+                            <div class="td-inner">商品信息
+                            </div>
+                        </div>
+                        <div class="th th-info">
+                            <div class="td-inner">&nbsp;
+                            </div>
+                        </div>
+                        <div class="th th-price">
+                            <div class="td-inner">单价（元）
+                            </div>
+                        </div>
+                        <div class="th th-amount">
+                            <div class="td-inner">数量
+                            </div>
+                        </div>
+                        <div class="th th-sum">
+                            <div class="td-inner">金额（元）
+                            </div>
+                        </div>
+                        <div class="th th-op">
+                            <div class="td-inner">操作
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="J_OrderList" data-spm="1997196601">
+                    <div id="J_OrderHolder_s_112862194_1" style="height: auto;">
+                        <div id="J_Order_s_112862194_1" class="J_Order clearfix order-body  ">
+                            <div class="order-content">
+                                <div id="J_BundleList_s_112862194_1" class="item-list">
+                                    <div id="J_Bundle_s_112862194_1_0" class="bundle  bundle-last ">
+                                        <div id="J_ItemHolder_115800002547">
+                                            <div id="J_Item_115800002547" class="J_ItemBody item-body clearfix item-normal  first-item   ">
+                                                <ul class="item-content clearfix">
+                                                    <li class="td td-chk">
+                                                        <div class="td-inner">
+                                                            <div class="cart-checkbox ">
+                                                                <input class="J_CheckBoxItem" id="J_CheckBox_115800002547" type="checkbox" name="items[]" value="115800002547">
+                                                                <label for="J_CheckBox_115800002547">勾选商品</label>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-item">
+                                                        <div class="td-inner">
+                                                            <div class="item-pic J_ItemPic img-loaded">
+                                                                <a href="/item/item.html?itemId=1" target="_blank" title="2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮" class="J_MakePoint" data-point="tbcart.8.12"><img src="http://img.taobaocdn.com/bao/uploaded/i3/TB1MFWqHpXXXXcIXXXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg" class="itempic J_ItemImg">
+                                                                </a>
+                                                            </div>
+                                                            <div class="item-info">
+                                                                <div class="item-basic-info"> <a href="/item/item.html?itemId=1" target="_blank" title="2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮" class="item-title J_MakePoint" data-point="tbcart.8.11">2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮</a> </div>
+                                                                <div class="item-other-info">
+                                                                    <div class="promo-logos"></div>
+                                                                    <div class="item-icon-list clearfix">
+                                                                        <div class="item-icons J_ItemIcons  item-icons-fixed ">
+                                                                            <a href="//xiaobao.taobao.com/contract/item_service.htm?scm=1010.100.100.1&amp;contract_id=7d&amp;item_id=44303153323" target="_blank" class="item-icon item-icon-0 J_MakePoint" data-point="tbcart.8.26" title="7天无理由"><img src="//img.alicdn.com/tps/i1/T1EQA5FpVgXXceOP_X-16-16.jpg" alt="7天无理由">
+                                                                            </a>
+                                                                            <a href="//www.taobao.com/go/act/315/xfzbz_rsms.php?ad_id=&amp;am_id=130011830696bce9eda3&amp;cm_id=&amp;pm_id=" target="_blank" class="item-icon item-icon-1 J_MakePoint" data-point="tbcart.8.26" title="消费者保障服务，卖家承诺商品如实描述"><img src="//img.alicdn.com/tps/i3/T1bnR4XEBhXXcQVo..-14-16.png" alt="">
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-info">
+                                                        <div class="item-props item-props-can">
+                                                            <p class="sku-line" tabindex="0">颜色分类：黑色</p>
+                                                            <p class="sku-line" tabindex="0">尺码：35[偏大半码]</p><span tabindex="0" class="btn-edit-sku J_BtnEditSKU J_MakePoint" data-point="tbcart.8.10">修改</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-price">
+                                                        <div class="td-inner">
+                                                            <div class="item-price price-promo-">
+                                                                <div class="price-content">
+                                                                    <div class="price-line"><em class="J_Price price-now" tabindex="0">39.60</em>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-amount">
+                                                        <div class="td-inner">
+                                                            <div class="amount-wrapper ">
+                                                                <div class="item-amount "><a href="#" class="J_Minus minus" style="text-decoration:none">-</a>
+                                                                    <input type="text" value="2" class="text text-amount J_ItemAmount" data-max="1115" data-now="2" autocomplete="off"><a href="#" class="J_Plus plus" style="text-decoration:none">+</a>
+                                                                </div>
+                                                                <div class="amount-msg J_AmountMsg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-sum">
+                                                        <div class="td-inner"><em tabindex="0" class="J_ItemSum number">79.20</em>
+                                                            <div class="J_ItemLottery"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-op">
+                                                        <div class="td-inner">
+															<a href="javascript:;" data-point-url="//www.atpanel.com/jsclick?cache=14321339446212&amp;cartlist=delete" class="J_Del J_MakePoint">删除</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div id="J_ItemHolder_116013270445">
+                                            <div id="J_Item_116013270445" class="J_ItemBody item-body clearfix item-normal    last-item   ">
+                                                <ul class="item-content clearfix">
+                                                    <li class="td td-chk">
+                                                        <div class="td-inner">
+                                                            <div class="cart-checkbox ">
+                                                                <input class="J_CheckBoxItem" id="J_CheckBox_116013270445" type="checkbox" name="items[]" value="116013270445">
+                                                                <label for="J_CheckBox_116013270445">勾选商品</label>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-item">
+                                                        <div class="td-inner">
+                                                            <div class="item-pic J_ItemPic img-loaded">
+                                                                <a href="//item.taobao.com/item.htm?id=44303153323" target="_blank" title="2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮" class="J_MakePoint" data-point="tbcart.8.12"><img src="http://img.taobaocdn.com/bao/uploaded/i3/TB1MFWqHpXXXXcIXXXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg" class="itempic J_ItemImg">
+                                                                </a>
+                                                            </div>
+                                                            <div class="item-info">
+                                                                <div class="item-basic-info"> <a href="//item.taobao.com/item.htm?id=44303153323" target="_blank" title="2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮" class="item-title J_MakePoint" data-point="tbcart.8.11">2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮</a> </div>
+                                                                <div class="item-other-info">
+                                                                    <div class="promo-logos"></div>
+                                                                    <div class="item-icon-list clearfix">
+                                                                        <div class="item-icons J_ItemIcons  item-icons-fixed ">
+                                                                            <a href="//xiaobao.taobao.com/contract/item_service.htm?scm=1010.100.100.1&amp;contract_id=7d&amp;item_id=44303153323" target="_blank" class="item-icon item-icon-0 J_MakePoint" data-point="tbcart.8.26" title="7天无理由"><img src="//img.alicdn.com/tps/i1/T1EQA5FpVgXXceOP_X-16-16.jpg" alt="7天无理由">
+                                                                            </a>
+                                                                            <a href="//www.taobao.com/go/act/315/xfzbz_rsms.php?ad_id=&amp;am_id=130011830696bce9eda3&amp;cm_id=&amp;pm_id=" target="_blank" class="item-icon item-icon-1 J_MakePoint" data-point="tbcart.8.26" title="消费者保障服务，卖家承诺商品如实描述"><img src="//img.alicdn.com/tps/i3/T1bnR4XEBhXXcQVo..-14-16.png" alt="">
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-info">
+                                                        <div class="item-props item-props-can">
+                                                            <p class="sku-line" tabindex="0">颜色分类：米杏色</p>
+                                                            <p class="sku-line" tabindex="0">尺码：38[偏大半码]</p><span tabindex="0" class="btn-edit-sku J_BtnEditSKU J_MakePoint" data-point="tbcart.8.10">修改</span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-price">
+                                                        <div class="td-inner">
+                                                            <div class="item-price price-promo-">
+                                                                <div class="price-content">
+                                                                    <div class="price-line"><em class="J_Price price-now" tabindex="0">39.60</em>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-amount">
+                                                        <div class="td-inner">
+                                                            <div class="amount-wrapper ">
+                                                                <div class="item-amount "><a href="#" class="J_Minus no-minus">-</a>
+                                                                    <input type="text" value="1" class="text text-amount J_ItemAmount" data-max="974" data-now="1" autocomplete="off"><a href="#" class="J_Plus plus" style="text-decoration:none">+</a>
+                                                                </div>
+                                                                <div class="amount-msg J_AmountMsg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-sum">
+                                                        <div class="td-inner"><em tabindex="0" class="J_ItemSum number">39.60</em>
+                                                            <div class="J_ItemLottery"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="td td-op">
+                                                        <div class="td-inner">
+															<a href="javascript:;" data-point-url="//www.atpanel.com/jsclick?cache=14321339447622&amp;cartlist=delete" class="J_Del J_MakePoint">删除</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="J_FloatBarHolder" class="float-bar-holder">
+                <div id="J_FloatBar" class="float-bar clearfix default" style="position: static;">
+                    <div id="J_SelectedItems" class="group-wrapper group-popup hidden" style="display: none;">
+                        <div id="J_SelectedItemsList" class="group-content"></div><span class="arrow" style="left: 668px;"></span>
+                    </div>
+                    <div class="float-bar-wrapper">
+                        <div id="J_SelectAll2" class="select-all J_SelectAll">
+                            <div class="cart-checkbox">
+                                <input class="J_CheckBoxShop" id="J_SelectAllCbx2" type="checkbox" name="select-all" value="true">
+                                <label for="J_SelectAllCbx2">勾选购物车内所有商品</label>
+                            </div>&nbsp;全选</div>
+                        <div class="operations">
+							<a href="#" hidefocus="true" class="J_DeleteSelected">删除</a>
+							<a href="#" hidefocus="true" class="J_ClearInvalid hidden">清除失效宝贝</a>
+							<a href="#" hidefocus="true" class="J_BatchFav hidden">移入收藏夹</a>
+							<a href="#" hidefocus="true" class="J_BatchShare hidden">分享</a>
+							<a href="#" hidefocus="true" class="J_BatchCompare hidden" target="_blank" data-tips="至少要选择两件宝贝才能进行对比" data-point="tbcart.8.41">开始对比</a>
+                        </div>
+                        <div class="float-bar-right">
+                            <div id="J_ShowSelectedItems" class="amount-sum"><span class="txt">已选商品</span><em id="J_SelectedItemsCount">0</em><span class="txt">件</span>
+                                <div class="arrow-box"><span class="selected-items-arrow"></span><span class="arrow"></span>
+                                </div>
+                            </div>
+                            <div id="J_CheckCOD" class="check-cod" style="display: none;"><span class="icon-cod"></span><span class="s-checkbox J_CheckCOD"></span>货到付款</div>
+                            <div class="pipe"></div>
+                            <div class="price-sum"><span class="txt">合计（不含运费）:</span><strong class="price">¥<em id="J_Total">0.00</em></strong>
+                            </div>
+                            <div class="btn-area"><a href="javascript:void(0)" id="J_Go" class="submit-btn submit-btn-disabled" aria-label="请注意如果没有选择宝贝，将无法结算"><span>结&nbsp;算</span><b></b></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+#end## end of content 
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#require("home:static/buy/cart/js/cart.js")
+#end ## end of body 
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/cart/cart.vm") 
+#end

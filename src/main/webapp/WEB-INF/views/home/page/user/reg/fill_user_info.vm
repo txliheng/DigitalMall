@@ -1,0 +1,121 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+        #require("home:static/user/reg/css/reg.css")
+        #block("top")
+            #widget("common:widget/top/top.vm")
+        #end
+        #block("content")
+        <div class="header">
+        #block("logo")
+            #widget("common:widget/logo/logo.vm" "var:isReg=true")
+        #end
+        </div>
+    <div class="steps">
+        <ol>
+            <li class="active">
+				<i>1</i>
+				<span class="tsl" >设置登录名</span>
+			</li>
+            <li class="active">
+				<i>2</i>
+				<span class="tsl" >填写账户信息</span>
+			</li>
+            <li>
+				<i class="iconfont">√</i>
+				<span class="tsl" >注册成功</span>
+			</li>
+        </ol>
+
+    </div>
+    
+<div class="content">
+        <div class="form-list form-main-list">
+			##action="/user/reg.do"
+            <form method="post" id="J_InfoForm">
+				
+                <div class="form-group">
+                    <div class="form-item">
+                        <span class="form-label form-label-b tsl" >登录名</span>
+                        $loginName
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-item">
+                        <span class="form-label form-label-b tsl" >设置登录密码</span>
+                        <span class="tsl" >登录时验证，保护账户信息</span>
+                    </div>
+                    <div class="form-item">
+                        <span class="form-label tsl" >登录密码</span>
+                        <input class="form-text" id="J_Password" name="pwd" type="password" placeholder="设置你的登录密码"  value="">
+                        
+                        
+                        <div class="pw-tip" id="J_PwdTip">
+                            <i class="pw-tip-arr"></i>
+                            <div class="pw-tip-bd">
+                                <div class="pw-strength">
+                                    <span class="tsl" >安全程度：</span>
+                                    <div class="pw-strength-bar">
+                                        <span class="pw-strength-1"></span>
+                                        <span class="pw-strength-2"></span>
+                                        <span class="pw-strength-3"></span>
+                                        <em></em>
+                                    </div>
+                                </div>
+                                <div class="pw-rule">
+                                    <div class="pw-rule-item pw-rule-length">
+                                        <i class="iconfont"></i><span class="tsl" data-phase-id="r_ui_pwdLengthTip">6-20个字符</span>
+                                    </div>
+                                    <div class="pw-rule-item pw-rule-legal">
+                                        <i class="iconfont"></i><span class="tsl" data-phase-id="r_ui_pwdCharacterTip">只能包含字母、数字以及标点符号（除空格）</span>
+                                    </div>
+                                    <div class="pw-rule-item pw-rule-multi">
+                                        <i class="iconfont"></i><span class="tsl" data-phase-id="u_ui_pwdStengthTip">字母、数字和标点符号至少包含2种</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-item">
+                        <span class="form-label tsl" >再次确认</span>
+                        <input class="form-text" id="J_RePassword" name="confirmPwd" type="password" placeholder="再次输入你的登录密码" value="">
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-item">
+                        <span class="form-label form-label-b tsl" >设置会员名</span>
+                    </div>
+                    <div class="form-item">
+                        <span class="form-label tsl" >会员名</span>
+                        <input class="form-text" id="J_Nick" name="nick" autocomplete="off" type="text" placeholder="会员名一旦设置成功，无法修改"  value="" style="width:211px;">
+                        <div class="nick-suggest-container">
+                            <div class="nick-suggest" id="J_NickSuggest"></div>
+                        </div>                        
+                        <div class="nick-size" id="J_NickSize" style="visibility: hidden;"> <span class="tsl" >个字符</span></div>
+                    </div>
+                    <div class="form-item">
+                        <button type="submit" id="J_BtnInfoForm" class="btn btn-large tsl" >确　定</button>
+                        <div class="msg tsl msg-type-error" id="J_MsgInfoForm" data-display="block">
+							<i class="iconfont">󰅕</i>
+							<div class="msg-tit"></div>
+							<div class="msg-cnt"></div>
+						</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+ #widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#require("home:static/user/reg/js/reg.js")
+#end##end of body
+
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("home:page/user/reg/fill_user_info.vm")
+#end
+

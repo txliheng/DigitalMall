@@ -1,0 +1,690 @@
+.loading {
+    background: url(http://img03.taobaocdn.com/tps/i3/T1b1m3XkVpXXXXXXXX-32-32.gif) no-repeat 50% 50%;
+    min-height: 50px
+}
+
+body, html {
+    background-color: #fff;
+}
+.cart {
+    min-height: 400px;
+    clear:both;
+}
+.td-chk, .th-chk {
+    width: 45px
+}
+.td-item, .th-item {
+    width: 302px
+}
+.td-info, .th-info {
+    width: 172px;
+    padding-right: 20px
+}
+.td-amount, .td-price, .th-amount, .th-price {
+    width: 120px
+}
+.td-sum, .th-sum {
+    width: 105px
+}
+.td-op, .th-op {
+    width: 84px;
+    padding: 0 0 0 15px
+}
+.td-service-title {
+    width: 360px
+}
+.td-inner {
+    padding-top: 20px;
+    _zoom: 1
+}
+.th .td-inner {
+    padding: 0 0 0 10px
+}
+.cart-main {
+    min-height: 210px
+}
+.cart-table-th {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c
+}
+.cart-table-th .th {
+    float: left
+}
+.cart-table-th .th-chk {
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    height: 50px
+}
+.cart-table-th .th-chk .select-all {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px
+}
+.cart-table-th .th-chk .cart-checkbox, .cart-table-th .th-chk .s-checkbox {
+    margin: -1px 0 0 15px;
+    _margin-left: 7px;
+    *margin-top: 19px
+}
+.cart-table-th .th-item .td-inner {
+    padding-left: 91px
+}
+.cart-table-th .th-op .td-inner, .cart-table-th .th-sum .td-inner {
+    padding: 0
+}
+.cart-btn-white {
+    border: 1px solid #d9d9d9;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px;
+    color: #3c3c3c;
+    padding: 0 10px;
+    line-height: 23px;
+    height: 23px;
+    display: inline-block
+}
+.cart-btn-white:hover {
+    color: #f40
+}
+
+#crumbs a, #empty a {
+    color: #36C
+}
+#crumbs a:hover, #empty a:hover {
+    color: #f60
+}
+#crumbs {
+    overflow: hidden;
+    zoom: 1;
+    color: #000;
+    margin: 20px 0 10px
+}
+#crumbs strong {
+    float: left;
+    font-weight: 400
+}
+#crumbs span.cart-tip {
+    float: right;
+    color: gray
+}
+.crumbs {
+    float: left;
+    list-style-type: none;
+}
+.crumbs a {
+    background: url(http://a.tbcdn.cn/sys/common/img/crumb_bg.gif) no-repeat 100% 50%;
+    padding-right: 8px;
+    margin-right: 1px
+}
+.crumbs li {
+    float: left;
+    padding: 0 0 0 5px
+}
+.crumbs .current {
+    background: 0 0
+}
+#empty {
+    padding: 88px 0 100px 156px;
+    background: url(http://img03.taobaocdn.com/tps/i3/T1TvXUXnNjXXXXXXXX-100-100.png) no-repeat 40px 86px;
+    position: relative
+}
+
+#empty h2 {
+    font: 700 14px / 20px arial
+}
+#empty ul {
+    margin-top: 12px;
+    line-height: 20px
+}
+
+.switch-cart {
+    overflow: hidden;
+    height: 33px;
+    float: left
+}
+.btn-switch-cart {
+    float: left;
+    font-weight: 700;
+    font-size: 16px;
+    height: 16px;
+    line-height: 1.1;
+    font-family: 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', SimSun;
+    text-align: center;
+    padding: 0 0 15px;
+    cursor: pointer;
+    margin-left: -1px
+}
+.btn-switch-cart a {
+    padding-left: 25px;
+    text-decoration: none
+}
+.btn-switch-cart .pipe {
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    background: #e8e8e8
+}
+.switch-cart-4 .pipe {
+    display: none
+}
+.switch-cart-0 a {
+    padding-left: 15px
+}
+.btn-switch-cart a:hover  {
+    color: #3c3c3c
+}
+.switch-cart .current a em {
+    color: #f40
+}
+.btn-switch-cart .number {
+    color: #f40;
+    font-size: 14px;
+    margin: 0 30px 0 5px;
+    font-weight: 400
+}
+.switch-cart .disabled, .switch-cart .disabled a {
+    cursor: not-allowed
+}
+.wrap-line {
+    clear: both;
+    background: #e6e6e6;
+    height: 2px;
+    position: relative
+}
+.wrap-line .floater {
+    background: #f40;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden
+}
+.cart-filter-bar .cart-sum {
+/*     position: absolute;
+right: 0;
+top: 0; */
+    height: 25px;
+    line-height: 25px;
+    float:right
+}
+.cart-sum .price {
+    font-family: Arial, Verdana;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #f40
+}
+.cart-sum .price em {
+    font-family: Verdana, Arial;
+    padding-left: 2px;
+    font-weight: 700
+}
+.cart-sum .submit-btn {
+    display: inline-block;
+    width: 55px;
+    color: #fff;
+    background: #f40;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none
+}
+.cart-sum .submit-btn:hover {
+    background: #f22d00
+}
+.cart-sum .combine-not-supported, .cart-sum .combine-not-supported:hover, .cart-sum .submit-btn-disabled, .cart-sum .submit-btn-disabled:hover {
+    background: #e5e5e5;
+    color: #9c9c9c;
+    cursor: not-allowed
+}
+.cart-sum .combine-not-supported {
+    width: 100px
+}
+.order-body {
+    margin-bottom: 15px;
+    *position: relative
+}
+.shop {
+    position: relative;
+    height: 38px;
+    background: #fff;
+    overflow: hidden
+}
+.shop-info {
+    line-height: 38px;
+    padding-left: 15px;
+    _padding-top: 8px
+}
+.shop .s-checkbox {
+    margin: -2px 0 0 0
+}
+.shop .cart-checkbox {
+    margin-top: -2px;
+    +margin-top: 14px;
+    _margin-top: 6px;
+    vertical-align: middle
+}
+.item-body {
+  background: #fcfcfc;
+  border-bottom: 1px solid #e7e7e7;
+  _zoom: 1;
+}
+.all-select, .all-select .combo-order-op, .item-redemption, .item-selected, .selected .item-content {
+  background: #fff8e1;
+}
+.item-content .item-amount, .services-list .td-amount .number {
+    width: 77px
+}
+.item-content .item-amount {
+    height: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1
+}
+.item-content .item-amount a, .item-content .text-amount {
+    float: left
+}
+.item-content .text-amount {
+    width: 42px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding: 4px 0;
+    background-color: #fff;
+    background-position: -75px -375px;
+    position: absolute;
+    z-index: 2;
+    left: 18px;
+    top: 0
+}
+.item-content .item-amount a {
+    display: block;
+    height: 25px;
+    width: 19px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 25px;
+    color: #444;
+    position: absolute;
+    top: 0
+}
+.item-content .item-amount .minus, .item-content .item-amount .no-minus {
+    border-right-color: transparent;
+    left: 0
+}
+.item-content .item-amount .no-plus, .item-content .item-amount .plus {
+    border-left-color: transparent;
+    right: 0
+}
+.item-content .item-amount .minus:hover, .item-content .item-amount .plus:hover {
+    color: #f50;
+    z-index: 3;
+    border-color: #f60
+}
+.item-content .item-amount a:hover {
+    text-decoration: none
+}
+.item-content .td-sum {
+  color: #f40;
+  font-weight: 700;
+}
+.item-content .item-amount .no-minus, .item-content .item-amount .no-plus {
+    color: #e5e5e5
+}
+.item-content .item-amount .no-minus:hover {
+    cursor: default;
+    border-color: #e5e5e5;
+    border-right-color: #aaa;
+    color: #e5e5e5
+}
+.item-content .td {
+    float: left;
+    min-height: 119px;
+    _height: 119px;
+    overflow: hidden;
+    _overflow: visible;
+    _zoom: 1
+}
+.item-content .td-chk {
+    position: relative;
+    overflow: hidden
+}
+.td-chk .cart-checkbox, .td-chk .s-checkbox {
+    margin: 0 10px 0 0;
+    float: right
+}
+.item-content .item-pic {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+    float: left;
+    overflow: hidden;
+    background: #fff url(http://img03.taobaocdn.com/tps/i3/T1b1m3XkVpXXXXXXXX-32-32.gif) no-repeat 50% 50%
+}
+.item-content .img-loaded {
+    background: #fff
+}
+.item-content .item-pic a {
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    *display: block;
+    *font-family: Arial;
+    *line-height: 1;
+    *font-size: 70px
+}
+.item-content .item-pic img {
+    max-height: 80px;
+    max-width: 80px;
+    vertical-align: middle
+}
+.td-item .item-info {
+    margin: -3px 0 0 91px;
+    padding-right: 25px
+}
+.td-item .item-basic-info {
+    height: 40px
+}
+.item-content .item-title {
+    font-size: 12px;
+    display: block;
+    max-height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    _height: expression(this.scrollHeight > 36 ? "36px": "auto")
+}
+.item-content .item-title:hover {
+    color: #f60
+}
+.order-content {
+    border: 1px solid #ccc
+}
+.item-content .item-props {
+    padding: 16px 0;
+    min-height: 84px;
+    _height: 84px;
+    border: 1px dashed transparent;
+    position: relative;
+    _border-color: #EEF6FF
+}
+.selected .item-content .item-props {
+    _border-color: #fff
+}
+.item-invalid .item-content .item-props {
+    _border-color: #f5f5f5
+}
+.item-content .btn-edit-sku {
+    display: none
+}
+.item-content:hover .item-props-can {
+    border-color: #dbebfe;
+    background: 0 0
+}
+.item-content:hover .btn-edit-sku {
+    display: block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 19px;
+    height: 17px;
+    background-position: -107px -195px;
+    overflow: hidden;
+    line-height: 200px
+}
+.item-content .td .item-props-can-hover, .selected .item-content .td .item-props-can-hover {
+    border-color: #f60;
+    background: #fff
+}
+.item-content .td .item-props-can-hover .btn-edit-sku {
+    display: block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    color: #fff;
+    cursor: pointer;
+    background: #f60;
+    padding: 2px 4px 0;
+    width: auto;
+    height: 16px;
+    line-height: 1
+}
+.cart-tmall .item-content .td .item-props-can-hover .btn-edit-sku {
+    background: #b10000
+}
+.item-content .sku-line {
+    margin: 0 5px 0 15px;
+    color: #9c9c9c;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.btn-select-sku {
+    margin-left: 15px
+}
+.item-content .td-price .td-inner {
+    padding-top: 12px
+}
+.item-content .td-price {
+    color: #9c9c9c
+}
+.item-content .price-content {
+    padding: 8px 0 0 10px;
+    line-height: 1;
+    width: 74px
+}
+.item-content .td-price .price-line {
+    padding: 0 0 4px
+}
+.item-content .price-original {
+    color: #9c9c9c;
+    text-decoration: line-through
+}
+.item-content .price-now {
+    color: #3c3c3c;
+    font-weight: 700
+}
+.float-bar {
+    position: relative
+}
+.float-bar-holder {
+    position: relative;
+    height: 50px
+}
+.float-bar-right, .float-bar-wrapper {
+    background: #e5e5e5
+}
+.float-bar-wrapper {
+    height: 50px;
+    overflow: hidden
+}
+.float-bar .select-all {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px
+}
+.float-bar .select-all .s-checkbox {
+    margin: -2px 0 0
+}
+.float-bar .select-all .cart-checkbox {
+    *margin-top: 17px
+}
+.float-bar .operations {
+    float: left;
+    line-height: 50px;
+    height: 50px
+}
+.float-bar .operations a {
+    margin-left: 25px;
+    float: left
+}
+.float-bar .operations a:active {
+    outline: 0
+}
+.fixed-bottom {
+    bottom: -1px;
+    z-index: 9999
+}
+.float-bar-right {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    padding-left: 20px
+}
+.float-bar .amount-sum, .float-bar .btn-area, .float-bar .price-sum {
+    float: left
+}
+.float-bar .amount-sum, .float-bar .price-sum {
+    height: 48px;
+    color: #3c3c3c
+}
+.float-bar .txt {
+    line-height: 48px
+}
+.float-bar .amount-sum em, .float-bar .price-sum .price em {
+    color: #f40;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: tohoma, arial
+}
+.float-bar .price-sum .price {
+    color: #f40;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: Arial;
+    vertical-align: middle
+}
+.float-bar .price-sum .price em {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0 3px
+}
+.float-bar .amount-sum .txt, .float-bar .amount-sum em, .float-bar .price-sum .txt, .float-bar .price-sum strong {
+    float: left
+}
+.float-bar .amount-sum {
+    cursor: pointer;
+    +margin-top: 2px
+}
+.float-bar .amount-sum em {
+    line-height: 50px;
+    padding: 0 5px;
+    +line-height: 45px
+}
+.float-bar .check-cod {
+    display: none;
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+    line-height: 48px;
+    color: #666;
+    _margin-top: 17px
+}
+.check-cod .icon-cod {
+    display: inline-block;
+    background-position: -95px -105px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: -2px 5px 0 0
+}
+.check-cod .s-checkbox {
+    margin: -2px 5px 0 0
+}
+.float-bar .pipe {
+    float: left;
+    margin: 0 10px 0 18px;
+    width: 1px;
+    height: 12px
+}
+.float-bar .amount-sum .arrow-box {
+    float: left
+}
+.float-bar .amount-sum .arrow {
+    display: inline-block;
+    width: 5px;
+    height: 6px;
+    background-position: 0 -115px;
+    margin: 21px 10px 0 6px;
+    +margin-top: 18px
+}
+.show-selected-items .float-bar-right .amount-sum .arrow {
+    background-position: 0 -125px
+}
+.float-bar .submit-btn {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background: #f40;
+    text-align: center;
+    font-family: 'Lantinghei SC', 'Microsoft Yahei';
+    font-size: 20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer
+}
+.float-bar .submit-btn:link {
+    color: #fff
+}
+.float-bar .submit-btn:hover {
+    background: #f22d00
+}
+.float-bar .combine-not-supported:hover, .float-bar .combine-not-supported:link, .float-bar .submit-btn-disabled:hover, .float-bar .submit-btn-disabled:link {
+    background: #e5e5e5;
+    color: #9c9c9c;
+    border-left: 1px solid #e7e7e7;
+    width: 119px;
+    cursor: not-allowed;
+    text-decoration: none
+}
+.float-bar .combine-not-supported {
+    font-size: 12px;
+    font-weight: 400
+}
+.cart-checkbox {
+    position: relative;
+    display: inline-block;
+    *float: left;
+    width: 15px;
+    height: 15px;
+    overflow: hidden
+}
+.cart-checkbox input {
+    position: absolute;
+    z-index: 0;
+    left: -20px;
+    top: -20px
+}
+.cart-checkbox label {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-position: 0 0;
+    line-height: 200em;
+    overflow: hidden;
+    cursor: pointer
+}
+.cart-checkbox-checked label {
+    background-position: 0 -20px
+}

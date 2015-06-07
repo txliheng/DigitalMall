@@ -1,0 +1,21 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+                
+        #require("home:static/user/login/css/login.css")
+        #block("logo")
+            #widget("common:widget/logo/logo.vm")
+        #end
+        #block("content")
+            #widget("home:widget/loginBox/loginBox.vm")
+        #end
+
+        #block("footer")
+            #widget("common:widget/footer/footer.vm")
+        #end
+    #require("home:static/user/login/js/login.js")
+    #end##end of body
+
+    ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+    #require("home:page/user/login/login.vm")
+#end

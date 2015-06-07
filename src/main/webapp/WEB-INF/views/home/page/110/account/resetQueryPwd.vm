@@ -1,0 +1,138 @@
+<div class="container">
+    <div class="content">
+
+
+
+<div class="maincenter">
+    
+<ol class="ui-iconfontstep ui-iconfontstep-3">
+    <li class="ui-iconfontstep-start  ui-iconfontstep-done ">
+        <em><i class="iconfont" title="菱形">y</i><strong></strong><i class="ui-iconfontstep-stepNum">1</i></em>
+        <span>验证身份</span>
+    </li>
+    <li class="ui-iconfontstep-press  ui-iconfontstep-active ">
+        <em><i class="iconfont" title="菱形">y</i><strong></strong><i class="ui-iconfontstep-stepNum">2</i></em>
+        <span>重置登录密码</span>
+    </li>
+    <li class="ui-iconfontstep-end ">
+        <em><i class="iconfont" title="菱形">y</i><strong></strong><i class="iconfont ui-iconfontstep-stepNumEnd" title="成功">r</i></em>
+        <span>重置成功</span>
+    </li>
+</ol>
+    <div class="maincenter-box">
+
+        <form class="ui-form" id="J-resetPwdForm" method="POST" action="resetQueryPwd.htm?sp=0-resetQueryPwd-fullpage" novalidate="novalidate" data-widget-cid="widget-0">
+                <input type="hidden" name="_form_token" value="H4w4OwjaqZh3lCxxSwEqJQq76XRulnnf">
+                <input type="hidden" name="securityId" value="web|render_aliedit|674fa3a5-daa5-473b-97ba-d261c3669955GZ00">
+            <div class="ui-form-item">
+                <label class="ui-label ui-label-reset">账户名</label>
+                <p class="ui-form-text">
+					<span class="ui-text-amount">ale***@163.com</span>
+				</p>
+            </div>
+
+            <div class="ui-form-item">
+                <label class="ui-label">新的登录密码</label>
+				<span class="alieditContainer" id="newPwd_container"><object id="edit_newPwd" name="edit_newPwd" type="application/aliedit" width="220" height="24" tabindex=""><param name="PasswordMode" value="1"></object></span>
+				<input type="hidden" name="scid" value="">
+				<span class="standardPwdContainer" style="display:none">
+				<input type="password" tabindex="" id="newPwd_input" name="newPwd_input" class="ui-input" oncontextmenu="return false" onpaste="return false" oncopy="return false" oncut="return false" autocomplete="off" seed="standardPwdContainer-newPwd_input" smartracker="on" data-id="newPwd_input1425398273169455">
+				</span>
+				<input type="hidden" name="J_aliedit_using" value="true">
+				<input type="hidden" id="newPwd" name="newPwd" value="" data-widget-cid="widget-1" data-explain="<i class=&quot;ui-form-icon&quot;></i>
+                        必须是6-20个英文字母、数字或符号，不能是纯数字
+                    ">
+                <input type="hidden" name="J_aliedit_key_hidn" value="newPwd">
+                
+                <input type="hidden" name="J_aliedit_uid_hidn" value="alieditUid">
+                <input type="hidden" id="alieditUid" name="alieditUid" value="b41437d4e5fbe66a220962ca18425f71">
+                
+                <input type="hidden" name="REMOTE_PCID_NAME" value="_seaside_gogo_pcid">
+                <input type="hidden" name="_seaside_gogo_pcid" value="">
+                <input type="hidden" name="_seaside_gogo_" value="XOR_1_000000000000000000000000000000_63584750400978737E03760C">
+                <input type="hidden" name="_seaside_gogo_p" value="">
+                
+                <input type="hidden" name="J_aliedit_prod_type" value="">
+                
+                <input type="hidden" name="security_activeX_enabled" value="false">
+                
+                <input type="hidden" name="J_aliedit_net_info" value="">
+                
+                <input type="hidden" id="edit_infor" value="">
+
+                <div class="ui-poptip fn-hide" id="J-how2set-pop" data-widget-cid="widget-0">
+                    <div class="ui-poptip-shadow">
+                        <div class="ui-poptip-container">
+                            <div class="ui-poptip-arrow ui-poptip-arrow-11">
+                                <em>◆</em>
+                                <span>◆</span>
+                            </div>
+                            <div class="ui-poptip-content" data-role="content">
+                                <ul class="how2set-list">
+                                    <li>建议采用字母和数字混合</li>
+                                    <li>避免与账户名、生日、手机号等部分或完全相同</li>
+                                    <li>避免使用有规律的数字或字母</li>
+                                </ul>
+                                <a href="http://help.alipay.com/lab/help_detail.htm?help_id=246001&amp;keyword=%B0%B2%C8%AB%C3%DC%C2%EB" target="_blank" seed="link-how2set">更多设置技巧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="ui-form-explain"><i class="ui-form-icon"></i>
+                        必须是6-20个英文字母、数字或符号，不能是纯数字
+                </p>
+             </div>
+
+     <div class="ui-form-item    ">
+           <label class="ui-label">确认新的登录密码</label>
+
+            <span class="alieditContainer" id="newPwdConfirm_container"><object id="edit_newPwdConfirm" name="edit_newPwdConfirm" type="application/aliedit" width="220" height="24" tabindex=""><param name="PasswordMode" value="1"></object></span>
+            <input type="hidden" name="scid" value="">
+            
+            <span class="standardPwdContainer" style="display:none">
+              <input type="password" tabindex="" id="newPwdConfirm_input" name="newPwdConfirm_input" class="ui-input" oncontextmenu="return false" onpaste="return false" oncopy="return false" oncut="return false" autocomplete="off" seed="standardPwdContainer-newPwdConfirm_input" smartracker="on" data-id="newPwdConfirm_input1425398273254233">
+            </span>
+            
+            
+            <input type="hidden" name="J_aliedit_using" value="true">
+            <input type="hidden" id="newPwdConfirm" name="newPwdConfirm" value="" data-widget-cid="widget-2" data-explain="">
+            <input type="hidden" name="J_aliedit_key_hidn" value="newPwdConfirm">
+            
+            <input type="hidden" name="J_aliedit_uid_hidn" value="alieditUid">
+            <input type="hidden" id="alieditUid" name="alieditUid" value="b41437d4e5fbe66a220962ca18425f71">
+            
+            <input type="hidden" name="REMOTE_PCID_NAME" value="_seaside_gogo_pcid">
+            <input type="hidden" name="_seaside_gogo_pcid" value="">
+            <input type="hidden" name="_seaside_gogo_" value="XOR_1_000000000000000000000000000000_63584750400978737E03760C">
+            <input type="hidden" name="_seaside_gogo_p" value="">
+            
+            <input type="hidden" name="J_aliedit_prod_type" value="">
+            
+            <input type="hidden" name="security_activeX_enabled" value="">
+            
+            <input type="hidden" name="J_aliedit_net_info" value="">
+            
+            <input type="hidden" id="edit_infor" value="">
+                                                                                                                                                                                                                                   
+               <div class="ui-form-item J-tiptext-message    ">
+                    <div class="ui-tiptext-container ui-tiptext-container-message">
+                        <p class="ui-tiptext ui-tiptext-message">
+                            <i class="ui-tiptext-icon iconfont" title="提示"></i>重置成功后，支付宝账户的登录密码也将同步修改
+                        </p>
+                    </div>
+                </div>
+                            
+                <div class="ui-form-item ui-form-item-last    ">
+                    <div class="ui-button ui-button-morange">
+                        <input type="submit" value="确定" class="ui-button-text" seed="Do-resetQueryPwd-Select-email">
+                    </div>
+                </div>
+                </div>
+        </form>
+    </div>
+</div>
+
+
+
+</div></div>

@@ -1,0 +1,28 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/buy/order/css/index.css")
+#block("top") 
+#widget("common:widget/top/top.vm") 
+#end 
+
+#block("content")
+<div style="height:200px;padding-top:50px;">
+##<center>
+<div style="padding-left:50px;">
+<h3>
+	<font color="#000000">
+	${message}
+	</font>
+</h3>
+</div>
+##</center>
+</div>
+#end##end of the content
+#widget("home:widget/helper/helper.vm") 
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#end ## end of body 
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/payment/response.vm") 
+#end

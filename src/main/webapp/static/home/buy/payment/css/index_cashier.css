@@ -1,0 +1,424 @@
+body {
+    background: #eff0f1
+}
+
+#container {
+    background: #fff;
+    border-bottom: 3px solid #bbb
+}
+
+#content {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+    background: #fff;
+    margin-top: 0
+}
+
+.cashier-channel-box {
+    border: 0
+}
+
+#footer {
+    background: #eff0f1
+}
+
+#partner {
+    border-top: 0;
+    text-align: center
+}
+
+#ServerNum {
+    color: #eff0f1
+}
+
+.fn-14 {
+    font-size: 14px
+}
+
+.fn-blue {
+    color: #08c
+}
+
+.fn-green {
+    color: #393
+}
+
+.fn-yellow {
+    color: #fa0
+}
+
+.fn-orange {
+    color: #f60
+}
+
+.fn-red {
+    color: red
+}
+
+.fn-gray {
+    color: #888
+}
+
+.fn-margin-v {
+    margin: 10px 0
+}
+
+.tag {
+    margin-right: 2px;
+    padding: 2px 4px;
+    background: #EBA956;
+    color: #fff
+}
+
+.tag-green {
+    background: #393
+}
+
+.tag-grey {
+    background: #999
+}
+
+.tag-red {
+    background: #CE3C3E
+}
+
+.tag-ext {
+    margin-right: 4px;
+    padding: 1px 1px 1px 0;
+    *padding: 0;
+    color: #1246a6;
+    border: 1px solid #08c;
+    background: #fff;
+    *line-height: 15px;
+    zoom:1}
+
+.tag-ext i {
+    padding: 1px 3px 1px 2px;
+    font-style: normal;
+    color: #fff;
+    background: #08c
+}
+
+.tag-ext .iconfont {
+    padding: 0;
+    color: #1246a6;
+    background: 0 0
+}
+
+.tag-ext-disabled {
+    color: #444;
+    border-color: #999
+}
+
+.tag-ext-disabled i {
+    background: #999
+}
+
+.tag-ext-disabled .iconfont {
+    color: #444
+}
+
+.tag-ext-line {
+    margin: 10px 0;
+    border-bottom: 1px dashed #ccc;
+    display: block
+}
+
+.order {
+    height: 89px;
+    overflow: visible;
+    margin-bottom: 40px;
+    position: relative;
+    zoom:1;z-index: 101
+}
+
+.order-wrapper {
+    position: relative;
+    z-index: 10;
+    line-height: 1.8em;
+    padding: 10px 20px;
+    border-bottom: 3px solid #bbb;
+    background: #eff0f1;
+    min-height: 66px;
+    _height: 66px
+}
+
+.order-type {
+    height: 21px
+}
+
+.order-title {
+    width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.order-seller {
+    height: 21px
+}
+
+.order-amount {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    text-align: right
+}
+
+.order-real-amount em {
+    color: #f60;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.order-forex-amount {
+}
+
+.order-forex-amount em {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000
+}
+
+.order-forex-amount span {
+    border-right: 1px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px
+}
+
+.order-ext-trigger {
+    position: absolute;
+    right: 20px;
+    bottom: -28px;
+    height: 22px;
+    padding: 2px 8px 1px;
+    font-weight: 700;
+    border: 3px solid #bbb;
+    border-top: 0;
+    background: #eff0f1
+}
+
+.order-ext-trigger i {
+    color: #08c;
+    font-weight: 400
+}
+
+.order-ext,.order-ext-loading {
+    display: none
+}
+
+.order-ext table th.sub-th {
+    vertical-align: top
+}
+
+.order-ext table td.type a.ico-bow {
+    display: none
+}
+
+.order-ext table td {
+    vertical-align: top;
+    width: 800px
+}
+
+.order-expanded .order-title {
+    white-space: normal
+}
+
+.order-expanded .order-ext,.order-expanded .order-ext-loading {
+    display: block
+}
+
+.order-with-qr .order-amount {
+    right: 141px
+}
+
+.qr {
+    position: absolute;
+    right: 10px;
+    top: -46px;
+    width: 111px;
+    height: 111px;
+    border: 5px solid #fff;
+    background: #fff
+}
+
+.qr-discount {
+    position: absolute;
+    left: -5px;
+    top: -25px;
+    width: 111px;
+    height: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #fff;
+    background: #08c
+}
+
+.qr-wrapper {
+    width: 111px;
+    height: 111px;
+    background: #f2f2f2
+}
+
+.qr-tip {
+    padding: 20px
+}
+
+.qr-tip h3 {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+.qr-tip p {
+    margin-bottom: 2px
+}
+
+.qr-tip .qr-overlay-link {
+    margin: 10px 0 0;
+    padding: 4px 0;
+    border-top: 1px dotted #999;
+    color: #999
+}
+
+.qr-tip .qr-overlay-discount {
+    margin-bottom: 14px;
+    font-size: 14px
+}
+
+.qr-tip .qr-overlay-discount span {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;height: 15px;
+    line-height: 15px;
+    padding: 0 4px;
+    color: #fff;
+    background-color: #1589ca;
+    margin-right: 8px
+}
+
+.order .ajax-Account {
+    width: 685px;
+    padding-bottom: 20px;
+    line-height: 22px
+}
+
+.order .ajax-Account .ico-shield,.order .ajax-Account .ico-bow,.order .ajax-Account .ico-assure {
+    display: none
+}
+
+.order .acount-merge {
+    width: 100%
+}
+
+.order .ajax-Account th {
+    white-space: nowrap
+}
+
+.order .muti-order {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 24px
+}
+
+.order .muti-order .muti-list {
+    background-color: #fff;
+    height: 24px
+}
+
+.order .muti-order .muti-list th {
+    border-bottom: 1px solid #bfbfbf
+}
+
+.order .muti-order tbody {
+    border-bottom: 1px solid #dcdcdc
+}
+
+.order .muti-order tbody tr {
+    height: 36px
+}
+
+.order .muti-order tbody td {
+    border-bottom: 1px dashed #dcdcdc
+}
+
+.order .muti-order .trade-type,#J-orderDetail .muti-order .order-type {
+    padding-left: 10px
+}
+
+.order .muti-order .order-type a {
+    display: none
+}
+
+.moneyFund-toggle {
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+    top: -2px\9;
+    _top: 0;
+    left: 8px;
+    margin-right: 12px;
+    background: url(https://i.alipayobjects.com/i/localhost/png/201405/2f6P8bE1OZ.png) no-repeat;
+    _background-position-y: 1px
+}
+
+.moneyFund-fastpay {
+    top: 2px;
+    _top: 0
+}
+
+.moneyFund-hidden {
+    background-position-y: -13px
+}
+
+.icon-limit-exceed {
+    padding: 1px 4px;
+    border-radius: 3px;
+    background-color: #d75351;
+    color: #fff;
+    margin-right: 15px
+}
+
+.tag-ext-multiline {
+    margin-bottom: 5px;
+    *width: 300px
+}
+
+.tag-ext-split {
+    *width: 300px
+}
+
+.see-limit {
+    margin: 0 15px
+}
+
+.enjoy-interest {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;padding: 0 5px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #f57403
+}
+
+.channel-explain-text {
+    background-color: #f60;
+    color: #fff;
+    padding: 2px 10px;
+    cursor: pointer
+}
+
+.baitiao-installment-icon {
+    background-color: #748fcd;
+    color: #FFF;
+    padding: 0 2px;
+    text-decoration: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-right: 5px
+}

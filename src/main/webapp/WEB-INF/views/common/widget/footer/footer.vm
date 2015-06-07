@@ -1,0 +1,12 @@
+<!-- footer -->
+<div class="footer">
+<footer >
+	<p>
+		<a href="#">关于我们</a> | <a href="#">服务条款</a> | <a href="#">免责声明</a> |
+		<a href="#">网站地图</a> | <a href="#">联系我们</a> <em class="copyRight ">
+
+			©2014-2015数码城 版权所有</em>
+	</p>
+</footer>
+</div>
+<!-- end of footer -->

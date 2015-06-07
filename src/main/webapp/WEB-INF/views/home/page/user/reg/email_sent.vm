@@ -1,0 +1,72 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+        #require("home:static/user/reg/css/reg.css")
+        #block("top")
+            #widget("common:widget/top/top.vm")
+        #end
+        #block("content")
+        <div class="header">
+        #block("logo")
+            #widget("common:widget/logo/logo.vm" "var:isReg=true")
+        #end
+        ## #block("searchBox")
+        ##     #widget("common:widget/search/search.vm")
+        ## #end
+        </div>
+    <div class="steps">
+        <ol>
+            <li class="active">
+				<i>1</i>
+				<span class="tsl" >设置登录名</span>
+			</li>
+            <li>
+				<i>2</i>
+				<span class="tsl" >填写账户信息</span>
+			</li>
+           <li>
+				<i class="iconfont">√</i>
+				<span class="tsl" >注册成功</span>
+		   </li>
+        </ol>                
+    </div>
+    
+    <!--用邮箱注册，显示的信息-->
+     
+    <div class="content">
+        <div class="email-sent">
+            <h2><span class="tsl" >验证邮件已发送到邮箱</span>&nbsp;<em>${email}</em></h2>
+            <p class="tsl" >请在24小时内点击邮箱中的链接继续注册</p>
+            <div class="email-sent-op">
+                <input type="hidden" id="J_Email" value="${email}">
+                <input type="hidden" id="J_UserNumId" value="">
+                <a class="btn tsl" target="_blank" id="J_GoToEmailWeb" href="http://mail.qq.com/">立即查收邮件</a>
+                <div class="email-sent-noreceived">
+                    <a href="#nogo" class="tsl" id="J_NoReceiveHandler">没有收到邮件?</a>
+                    <div class="tips tips-below tips-email" id="J_TipsEmailNoReceived" style="display: none;">
+                        <i></i>
+                        <div class="tips-body">
+                            <ul>
+                                <li class="tsl" >请先检查是否在垃圾邮件中</li>
+                                <li><span class="tsl" >如果还未收到</span><button class="btn-resend-email tsl"  id="J_ReSendEmail">重新发送邮件</button></li>
+                                <li><span class="tsl" >一直收不到，请试试</span><a href="/user/reg/mobile_used.html" class="tsl" >更换邮箱</a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--用邮箱注册，显示的信息-->
+ 
+#widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#end##end of body
+
+    ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+    #require("home:page/user/reg/email_sent.vm")
+#end
+

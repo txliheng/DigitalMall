@@ -1,0 +1,98 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+        #require("home:static/user/reg/css/reg.css")
+        #block("top")
+            #widget("common:widget/top/top.vm")
+        #end
+        #block("content")
+        <div class="header">
+        #block("logo")
+            #widget("common:widget/logo/logo.vm" "var:isReg=true")
+        #end
+        ## #block("searchBox")
+        ##     #widget("common:widget/search/search.vm")
+        ## #end
+        </div>
+    <div class="steps">
+        <ol>
+            <li class="active">
+				<i>1</i>
+				<span class="tsl" >设置登录名</span>
+			</li>
+            <li>
+				<i>2</i>
+				<span class="tsl" >填写账户信息</span>
+			</li>
+            <li>
+				<i class="iconfont">√</i>
+				<span class="tsl" >注册成功</span>
+			</li>
+        </ol>                
+    </div>
+    
+<!-- 手机号已注册，显示的信息-->
+
+    <div class="content">
+        <div class="form-list form-main-list">
+            <form id="J_EmailForm" method="post" action="#">
+                <div class="form-msg">
+                    <div class="msg f14 msg-type-info msg-display-block" id="J_MsgMobileUsed" >
+						<i class="iconfont">󰅂</i>
+						<div class="msg-tit"></div>
+						<div class="msg-cnt">
+                            <span class="tsl" >手机号<em>$mobile</em>已注册，你可以<a target="_blank" href="/user/login.html">直接登录</a>或使用邮箱继续注册。</span>
+                            <div class="mobile-used-detail">
+                                <a class="tsl" href="#nogo">查看详情</a>
+                                <div class="tips tips-below tips-mobile-used" id="J_TipsMobileUsed" style="display: none;">
+                                    <i></i>
+                                    <div class="tips-body">
+                                        <ul>
+                                            <li class="tsl" >如你曾经使用此手机号注册或绑定过以下任一网站：数码城等，可使用该手机号直接登录。若忘记密码请先找回密码再登录。</li>
+                                            <li class="tsl" >如你从未做过以上操作，也可能为该手机号的前主人使用过。你可添加一个邮箱作为登录名继续完成注册。</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+                </div>
+                <div class="form-group">
+                    <div class="form-item">
+                        <span class="form-label tsl" >电子邮箱</span>
+                        <input class="form-text " name="email" id="J_Email" type="text" value="" placeholder="请输入你的电子邮箱" >
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-item form-item-short">
+                        <button type="submit" id="J_BtnEmailForm" class="btn btn-large tsl" >下一步</button>
+                        <div class="msg " id="J_MsgEmailForm" >
+							<i class="iconfont"></i>
+							<div class="msg-tit"></div>
+							<div class="msg-cnt"></div>
+						</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+	<div class="msg tsl " id="J_MsgEmail" style="position: absolute; left: 602.5px; top: 266px;display:none;">
+		<i class="iconfont"></i>
+		<div class="msg-tit"></div>
+		<div class="msg-cnt"></div>
+	</div>
+ #widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+
+#require("home:static/user/reg/js/reg.js")
+#end##end of body
+
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("home:page/user/reg/mobile_used.vm")
+#end
+

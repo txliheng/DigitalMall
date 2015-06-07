@@ -1,0 +1,58 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+        #require("home:static/user/reg/css/reg.css")
+        #block("top")
+            #widget("common:widget/top/top.vm")
+        #end
+        #block("content")
+        <div class="header">
+        #block("logo")
+            #widget("common:widget/logo/logo.vm" "var:isReg=true")
+        #end
+        </div>
+    <div class="steps">
+        <ol>
+            <li class="active">
+				<i>1</i>
+				<span class="tsl" >设置登录名</span>
+			</li>
+            <li class="active">
+				<i>2</i>
+				<span class="tsl" >填写账户信息</span>
+			</li>
+            <li class="active">
+				<i class="iconfont">√</i>
+				<span class="tsl" >注册成功</span>
+			</li>
+        </ol>
+    </div>
+    
+	<div class="content">
+        <div class="reg-success">
+            <i class="iconfont">󰅖</i>
+            <h2 class="tsl" >恭喜注册成功！你的账户为：</h2>
+            <p><span class="tsl" >登录名：</span>
+                $loginName</em>
+               <span class="tsl" >（可登录和使用以下网站：数码城等）</span>
+            </p>
+            <p><span class="tsl" >绑定手机：</span>$mobile<span class="tsl" >（用于接收短信校验码）</span></p>
+			<div class="nick-item">
+				<div class="nick">
+					<span class="tsl" >数码城会员名：</span>
+					$nick
+				</div>
+             </div>
+        </div> 
+    </div>
+ #widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#end##end of body
+
+    ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+    #require("home:page/user/reg/reg_success.vm")
+#end
+

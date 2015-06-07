@@ -1,0 +1,8 @@
+    <div class="logo">
+        <h3>
+			<a href="/" target="_top" >数码城</a>
+		</h3>
+		#if( ${isReg} )
+			<h4>账户注册</h4>
+		#end
+    </div>

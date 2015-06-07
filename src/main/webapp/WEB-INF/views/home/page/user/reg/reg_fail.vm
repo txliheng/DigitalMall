@@ -1,0 +1,24 @@
+#extends("common:page/frame.vm")
+#block("body")
+#require("home:static/user/reg/css/reg.css")
+#block("top")
+#widget("common:widget/top/top.vm")
+#end
+#block("content")
+<div class="page">
+		<div class="gmsg fail">
+    		<i class="iconfont">&#xf0155;</i>
+    		<h2 class="tsl" >
+    			${REGISTER_MESSAGE}
+    		</h2>
+		</div>
+</div>
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#end##end of body
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("home:page/user/reg/reg_fail.vm")
+#end
+

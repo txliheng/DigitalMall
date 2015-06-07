@@ -1,0 +1,773 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/buy/payment/css/index_cashier.css")
+#require("home:static/buy/payment/css/cashierx.css")
+#block("content")
+<style>
+.g_nav {
+  height: 26px;
+  line-height: 26px;
+  background: #81868b;
+}
+.g_nav-fixwidth {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.g_nav ul {
+  float: right;
+}
+.g_nav li {
+  float: left;
+  color: #fff;
+}
+.g_nav li a {
+  color: #fff;
+  float: left;
+}
+.g_nav li span {
+  float: left;
+}
+.g_nav-sep {
+  width: 1px;
+  height: 14px;
+  overflow: hidden;
+  background: #686d71;
+  border-right: 1px solid #92989e;
+  margin: 7px 8px 0;
+}
+.g_nav .member-security-icon {
+  display:inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: url(https://i.alipayobjects.com/e/201309/11m4uht8UH.png) no-repeat;
+
+  width:16px;
+  height:16px;
+  margin-top: 5px;
+  margin-right:3px;
+  vertical-align:middle;
+  line-height:16px;
+}
+
+#header {
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  margin-top: 0px;
+}
+#header .header-title {
+  width: 250px;
+  height: 60px;
+  float: left;
+}
+#header .logo {
+  float: left;
+  height: 31px;
+  width: 95px;
+  margin-top: 14px;
+  text-indent: -9999px;
+  background: none; !important
+}
+#header .logo-title {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Microsoft YaHei",微软雅黑,"宋体";
+  border-left: 1px solid #676d70;
+  color: #676d70;
+  height: 20px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.header-container {
+  width: 950px;
+  margin: 0 auto;
+}
+#switchTemplate .ui-select-text {
+  border: 1px solid #cecdc8;
+}
+#switchTemplate .ui-select-text:hover {
+  background: #fd9b30;
+  border-color: #f77e00;
+  color: #fff;
+  text-decoration: none;
+}
+#switchTemplate.focus .ui-select-content {
+  border: 1px solid #cecdc8;
+  margin-top: -1px;
+}
+#switchTemplate .ui-select-content li a {
+  line-height: 20px;
+}
+#switchTemplate .ui-select-content li.ui-select-item a:hover {
+  background: #fd9b30;
+  color: #fff;
+}
+</style>
+<div class="g_nav">
+  <div class="g_nav-fixwidth">
+    <ul>
+      <li>
+        <span>支付宝账户：xxx@163.com</span>
+        <span style="margin-left:3px;" class="member-security-icon J_APop" data-arrowposition="1" id="J-member-security" data-tip="用余额、快捷支付享支付宝“会员保障”，详见会员保障频道。"></span>
+      </li>
+      <li class="g_nav-sep">|</li>
+      <li><a target="_blank" seed="pay-by-standard" href="https://shenghuo.alipay.com/peerpaycore/prePeerPayApply.htm?biz_no=2015052921001001600216518441&amp;biz_type=TRADE">找人代付</a></li>
+      <li class="g_nav-sep">|</li>
+      <li><a href="/standard/fastpay/paymentSwitch.htm?orderId=052959cb908ef4e880fe448010432605&amp;target=fastPayCashier&amp;timeStamp=1432910342230" seed="use-new-version">使用新版</a></li>
+	  <li class="g_nav-sep">|</li>
+      <li><a href="#faq" id="J-faq-trigger" seed="g_navFixwidth-JFaqTrigger" smartracker="on">常见问题</a></li>
+      <li class="g_nav-sep">|</li>
+      <li>唯一热线：95188</li>
+    </ul>
+  </div>
+</div>
+<div class="g_header"></div>
+<div id="header">
+  <div class="header-container fn-clear">
+    <div class="header-title">
+      <img class="logo" src="https://i.alipayobjects.com/i/localhost/png/201405/2h8rzBSOLd.png" seed="alipay-logo-20140521" alt="支付宝-收银台" title="支付宝-收银台">
+         <span class="logo-title">我的收银台</span>
+    </div>
+    <div class="ui-select fn-left switchTemplate   " id="switchTemplate">
+	<a href="#" class="ui-select-text" seed="switchTemplate-link" smartracker="on">
+		<span>中国大陆版</span>
+		 <i class="iconfont"></i>
+	</a>
+	<ul class="ui-select-content">
+		<li class="ui-select-item">
+			<a href="https://cashierzth.alipay.com:443/standard/payment/cashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=CN" seed="-CN">中国大陆版</a>
+		</li>
+		<li class="ui-select-item">
+			<a href="https://cashierzth.alipay.com:443/foreign/foreignpay/foreignPayCashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=HK&amp;isSale=" seed="switchTemplate-linkT1" smartracker="on">香港版</a>
+		</li>
+		<li class="ui-select-item">
+			<a href="https://cashierzth.alipay.com:443/foreign/foreignpay/foreignPayCashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=TW&amp;isSale=" seed="switchTemplate-linkT2" smartracker="on">台湾版</a>
+		</li>
+		<li class="ui-select-item">
+			<a href="https://cashierzth.alipay.com:443/foreign/foreignpay/foreignPayCashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=OTHER&amp;isSale=" seed="switchTemplate-linkT3" smartracker="on">海外其他地区版</a>
+		</li>
+	</ul>
+</div>
+<style>
+  .switchTemplate {
+    width: 120px;
+    padding-top: 15px;
+  }
+
+  .switchTemplate .ui-select-item {
+    padding: 0;
+  }
+
+  .switchTemplate .ui-select-text {
+    display: inline-block;
+    *display: block;
+    *width: 101px;
+    padding: 1px 5px;
+    color: #5b6a6f;
+    text-align: center;
+    background-color: #eff0f1;
+  }
+
+  .switchTemplate .ui-select-text:hover {
+    background: #fd9b30;
+    border-color: #f77e00;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .switchTemplate .ui-select-content {
+    position: absolute;
+    z-index: 102;
+    width: 111px;
+    background-color: #f7f7f5;
+    display: none;
+    border: 1px solid #cecdc8;
+    margin-top: -1px;
+  }
+
+  .switchTemplate.focus .ui-select-content {
+    display: block;
+    border: 1px solid #cecdc8;
+    margin-top: -1px;
+  }
+
+  .switchTemplate .ui-select-content a {
+    color: #696969;
+    display: block;
+    padding: 0 6px 0;
+    text-decoration: none;
+    zoom: 1;
+    line-height: 20px;
+  }
+
+  .switchTemplate .ui-select-content li a:hover {
+    background: #fd9b30;
+    color: #fff;
+  }
+</style>
+
+<script type="text/javascript" charset="utf-8">
+		(function(){
+			function _hasClass(obj, cls) {
+			    return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+			}
+			function _addClass(obj, cls) {
+			    if (!_hasClass(obj, cls)) obj.className += " " + cls;
+			}
+			function _removeClass(obj, cls) {
+			    if (_hasClass(obj, cls)) {
+			        var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+			        obj.className = obj.className.replace(reg, ' ');
+			    }
+			}
+
+			var switchTemplate = document.getElementById("switchTemplate");
+			switchTemplate.onmouseover = function(){
+				_addClass(switchTemplate,'focus');
+			};
+
+			switchTemplate.onmouseout = function(){
+				_removeClass(switchTemplate,'focus');
+			};
+		})()
+	</script>      
+	</div>
+</div>
+
+<div id="container">
+<div id="content">				    	    		
+<link rel="stylesheet" href="https://a.alipayobjects.com/cashierx/common-css/1.0.4/index.css">
+<!-- 订单信息 开始 -->
+<div id="J_Order" class="order order-with-qr" >
+    <div class="order-wrapper">
+        <div class="order-type">
+              <span>正在使用支付宝担保交易</span>
+			  <a class="J_APop" href="javascript:void(0)" seed="gurantee_explain" data-triggertype="hover" data-arrowposition="10" data-target="J_OrderTypeTip">[?]</a>
+			  <div id="J_OrderTypeTip" class="fn-hide">
+                1、买家付款到支付宝；<br>
+                2、支付宝收到买家付款后通知卖家发货；<br>
+                3、买家确认收货后，支付宝付款给卖家。
+              </div>
+  		</div>
+        <div class="order-title">
+                                                淘宝网
+                                --
+                         夏季透气网面男鞋气垫运动鞋男士休闲鞋韩版青春潮流板鞋单网潮鞋 等多件
+        </div>
+		<div class="order-seller">
+                    卖家昵称：开心ttb
+        </div>
+                    
+        <div class="order-amount">
+            <div class="order-real-amount">
+             <em class="">196.00</em> 元
+			 <i class="iconfont" title="刷新">
+				<a href="http://cashierzth.alipay.com/standard/payment/cashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=CN" class="order-reload" seed="get_price"></a>
+			 </i>
+		</div>
+   </div>
+        <!-- 更多订单信息 开始 -->
+        <a id="J_OrderExtTrigger" class="order-ext-trigger" href="#" seed="order-detail-more">
+            <i class="iconfont" title="记录"></i>
+            订单详情
+        </a>
+        <p id="J_OrderExtLoading" class="order-ext-loading fn-hide">
+            加载订单详情信息...
+ <a href="http://cashierzth.alipay.com/standard/payment/cashier.htm?outBizNo=2015052921001001600216518441&amp;timeStamp=1432910342230&amp;bizIdentity=trade10001&amp;orderId=052959cb908ef4e880fe448010432605&amp;country=CN" seed="refresh-account">刷新</a>
+ </p>
+        <div id="J_OrderExt" class="order-ext fn-hide" data-url="https://cashierzth.alipay.com:443/tile/service/standard:orderDetailAsyncProxy.tile?outBizNo=2015052921001001600216518441&amp;outRelationId=&amp;bizIdentity=trade10001&amp;signData=d430a559b429659286bbb03d7e146a41&amp;orderId=052959cb908ef4e880fe448010432605"></div>
+        <!-- 更多订单信息 结束 -->
+    </div>
+</div>
+
+<!-- 账户渠道 开始 -->
+<div id="J_Account" class="account-chls">
+      <div class="account-chl  fn-clear">
+      <i class="iconfont fn-green" title="购物卡"></i>
+      &nbsp;购物卡&nbsp;
+          <span class="account-card fn-mr-5 ">
+            &nbsp;支付宝卡 | 
+			<a class="J_XBox" seed="account-shopping-card" href="https://card.alipay.com/pcardprocess/add.htm?orderId=052959cb908ef4e880fe448010432605&amp;goto=https%3A%2F%2Fcashierzth.alipay.com%3A443%2Fstandard%2Fpayment%2FusePcard.htm%3ForderId%3D052959cb908ef4e880fe448010432605&amp;platformType=SITE_PAY_CASHIER&amp;cashierType=CN" >使用</a>
+          </span>
+	  </div>
+<form id="balancePayForm" name="balancePayForm" autocomplete="off" action="/standard/gateway/balancePayForm.htm" method="post" class="balanceForm">
+<input type="hidden" name="_form_token" value="9cLQansvEPlrM6ARUY3UtISiMU2j4uXB">
+<input type="hidden" id="orderId" name="orderId" value="052959cb908ef4e880fe448010432605">
+<!-- 账户余额 开始 -->
+<div id="J-composite-balance">
+    <input type="hidden" name="_form_token" value="TIOZwWW8SCUrFsghvkbh6iw2Vfo5HC7W">
+  	<input type="hidden" id="orderId" name="orderId" value="052959cb908ef4e880fe448010432605">
+    <input name="isCompositeWithBalance" value="N" type="hidden">
+    <div class="account-chl row-container row-container-disabled" id="J-balance" data-cid="balance" data-widget-cid="widget-1">
+        <input type="checkbox" disabled="disabled" name="compositeWithBalance" seed="account-radiobox" class="j-row-trigger">&nbsp;
+                  账户余额&nbsp;
+          <em>0.00</em> 元
+              </div>
+        <div class="ac-balance-tipbox">
+			<p class="ui-tiptext ui-tiptext-message">
+				<i class="ui-tiptext-icon iconfont" title="提示"></i>
+				没有可支付的余额，请
+				<a href="https://lab.alipay.com:443/user/depositDelegateController.htm" seed="account-a-inpour" target="_blank">充值</a>后付款。
+			</p>
+    </div>
+</div>
+<!-- 账户余额 结束 -->
+<!-- 余额宝 开始 -->
+<input name="isCompositeWithMoneyFund" value="N" type="hidden">
+      <div class="account-chl row-container  row-container-disabled" id="J-moneyFund" data-maxpay="0.00" data-hongbao="" data-cid="moneyFund" data-defselect="" data-widget-cid="widget-2">
+    <label>
+      <input id="j-moneyFund-box" name="compositeWithMoneyFund" type="checkbox" autocomplete="off" disabled="disabled" seed="cashier-moneyFund-input" class="j-row-trigger">&nbsp;
+                                  余额宝<span id="availableAmount"> <strong>0</strong> 元 </span>
+ <a href="https://financeprod.alipay.com/fund/purchase.htm" target="_blank" seed="JMoneyFund-link" smartracker="on">立即转入</a>
+ <span class="account-amount">
+                    支付
+<em class="j-amount-font">0.00</em> 元
+        </span>
+          </label>
+  </div>
+  <!-- 余额宝 结束 -->
+      <br>
+</form>
+    <style>
+      .limit-result-off{margin-left:8px;}
+      .row-container .icon-limit-exceed,
+      .limit-result-off,
+      .action-rt-gray label .limit-result-off{
+        display:none
+      }
+      .ch-limiting .icon-limit-exceed,
+      .row-container-focus .limit-result-off{
+        display:inline;
+      }
+      .action-rt-gray .tag-ext {
+        border: 0;
+        background-color: #cccccc !important;
+        color: #FFFFFF !important;
+      }
+      .action-rt-gray .tag-ext i,
+      .action-rt-gray .rt-discount {
+        background-color: #cccccc !important;
+        color: #FFFFFF !important;
+      }
+    </style>
+  </div>
+
+<!-- 账户渠道 结束 -->
+  
+<!-- 其他渠道 tab 开始 -->
+
+<div class="chl-tab ui-switchable" id="J_ChlTab" data-widget-cid="widget-4">
+    <h3 class="chl-tab-title">付款方式：</h3>
+    <div class="chl-more">
+		<a href="https://shenghuo.alipay.com/peerpaycore/prePeerPayApply.htm?biz_no=2015052921001001600216518441&amp;biz_type=TRADE" target="_blank" seed="link-tab-peerpay">找人代付</a>
+          </div>
+        <!-- 其他渠道 tab 标签 开始 -->
+		<ul class="chl-tab-items ui-switchable-nav">
+		<li data-type="PDEbank" class="chl-tab-item ui-switchable-trigger chl-tab-item-current">
+			<a href="?tab=PDEbank&amp;orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441" seed="link-tab-bank">储蓄卡</a>
+		</li>
+  
+        <li data-type="PCEbank" class="chl-tab-item ui-switchable-trigger">
+			<a href="?tab=PCEbank&amp;orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441" seed="link-tab-creditCard">信用卡</a>
+		</li>
+  
+        <li data-type="QRCode" class="chl-tab-item ui-switchable-trigger">
+			<a href="?tab=QRCode&amp;orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441" seed="link-tab-qrcode"> 
+				<img src="https://i.alipayobjects.com/e/201310/1JzU8WybTR.png" alt="扫码支付"> 扫码支付</a>
+    	</li>
+  
+		<li data-type="PCashConsume" class="chl-tab-item ui-switchable-trigger">
+			<a href="?tab=PCashConsume&amp;orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441" seed="link-tab-cash-consumerCard" style="width: 140px;">现金/其他(消费卡)</a>
+        </li>
+		</ul>
+<!-- 其他渠道 tab 标签 结束 -->
+
+<div class="chl-panels ui-switchable-content">
+<!-- 储蓄卡 开始 -->
+<div class="chl-panel  ui-switchable-panel fn-hide J-cashierx-parent-current" data-widget-cid="widget-5" style="display: block;">
+<form id="bankCardForm" action="/payment/bankCardForm.html" method="post">
+  ##<input type="hidden" name="_form_token" value="hLdyl4djw4u2o0Ka6MBRECTPpY1vzwfg">
+  <input type="hidden" id="orderId" name="orderId" value="1077146023769636">
+  <input type="hidden" name="realAmount" value="0.01">
+      <p class="J_LoadingTip" style="display: none;">
+      加载中...
+      <a seed="refresh-PDEbank" href="cashier.htm?orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441">刷新</a>
+     </p>
+<script type="text/javascript">
+    window.light && light.track("cashier-new-user-shengge");
+</script>
+<div id="J_AjaxDebitNewUser">
+<input type="hidden" name="stat" value="ok" class="stat">
+  <div class="chl-list chl-list-bank-card chl-body-strong">
+	<h5 class="icon-box icon-box-kIcon">
+        <span class="icon KuaiIconY">快捷支付（含卡通）</span>
+        <span class="icon-box-kIcon-explain">
+            <span class="kuaiIconWords"></span>
+            <div class="J_AjaxExpressGuide">
+    			<div class="ui-poptip ui-poptip-blue ui-poptip-kuai">
+    				<div class="ui-poptip-content">
+    					<img src="https://i.alipayobjects.com/i/ecmng/jpg/201412/3vrZi5Dp2D.jpg" style="height: 32px;" alt="" class="expressGuideImg " data-target="J-kuai-point-apop-debit">
+    						<div class="j-apop-detail fn-hide" id="J-kuai-point-apop-debit"></div>
+    	      		</div>
+    			</div>
+    		</div>
+        </span>
+    </h5>
+ <ul class="fn-clear">
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-abc906-1" value="ABC-NET" seed="newUser-debit_express-ABC" checked="checked">
+    <label class="J_IconBox " for="J-debit_express-abc906-1" data-channel="biz-channelType(DEBIT_EXPRESS)-ABC-中国农业银行-type(unsave)" seed="newUser-debit_express-ABC">
+      <i class="chl-icon ABC" data-canbackprofit="false" title="中国农业银行"></i>
+      <span class="chl-name">中国农业银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+   <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-icbc906-2" value="ICBC-NET" seed="newUser-debit_express-ICBC">
+    <label class="J_IconBox " for="J-debit_express-icbc906-2" data-channel="biz-channelType(DEBIT_EXPRESS)-ICBC-中国工商银行-type(unsave)" seed="newUser-debit_express-ICBC">
+      <i class="chl-icon ICBC" data-canbackprofit="false" title="中国工商银行"></i>
+      <span class="chl-name">中国工商银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-ccb906-3" value="CCB-NET" seed="newUser-debit_express-CCB">
+    <label class="J_IconBox " for="J-debit_express-ccb906-3" data-channel="biz-channelType(DEBIT_EXPRESS)-CCB-中国建设银行-type(unsave)" seed="newUser-debit_express-CCB">
+      <i class="chl-icon CCB" data-canbackprofit="false" title="中国建设银行"></i>
+      <span class="chl-name">中国建设银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-psbc907-4" value="POST-NET" seed="newUser-debit_express-PSBC">
+    <label class="J_IconBox " for="J-debit_express-psbc907-4" data-channel="biz-channelType(DEBIT_EXPRESS)-PSBC-中国邮政储蓄银行-type(unsave)" seed="newUser-debit_express-PSBC">
+      <i class="chl-icon PSBC" data-canbackprofit="false" title="中国邮政储蓄银行"></i>
+      <span class="chl-name">中国邮政储蓄银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-boc907-5" value="BOC-NET" seed="newUser-debit_express-BOC">
+    <label class="J_IconBox " for="J-debit_express-boc907-5" data-channel="biz-channelType(DEBIT_EXPRESS)-BOC-中国银行-type(unsave)" seed="newUser-debit_express-BOC">
+      <i class="chl-icon BOC" data-canbackprofit="false" title="中国银行"></i>
+      <span class="chl-name">中国银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-cmb906-6" value="CMBCHINA-NET" seed="newUser-debit_express-CMB">
+    <label class="J_IconBox " for="J-debit_express-cmb906-6" data-channel="biz-channelType(DEBIT_EXPRESS)-CMB-招商银行-type(unsave)" seed="newUser-debit_express-CMB">
+      <i class="chl-icon CMB" data-canbackprofit="false" title="招商银行"></i>
+      <span class="chl-name">招商银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-comm907-7" value="BOCO-NET" seed="newUser-debit_express-COMM">
+    <label class="J_IconBox " for="J-debit_express-comm907-7" data-channel="biz-channelType(DEBIT_EXPRESS)-COMM-交通银行-type(unsave)" seed="newUser-debit_express-COMM">
+      <i class="chl-icon COMM" data-canbackprofit="false" title="交通银行"></i>
+      <span class="chl-name">交通银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-spdb906-8" value="SPDB-NET" seed="newUser-debit_express-SPDB">
+    <label class="J_IconBox " for="J-debit_express-spdb906-8" data-channel="biz-channelType(DEBIT_EXPRESS)-SPDB-浦发银行-type(unsave)" seed="newUser-debit_express-SPDB">
+      <i class="chl-icon SPDB" data-canbackprofit="false" title="浦发银行"></i>
+      <span class="chl-name">浦发银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-ceb906-9" value="CEB-NET" seed="newUser-debit_express-CEB">
+    <label class="J_IconBox " for="J-debit_express-ceb906-9" data-channel="biz-channelType(DEBIT_EXPRESS)-CEB-中国光大银行-type(unsave)" seed="newUser-debit_express-CEB">
+      <i class="chl-icon CEB" data-canbackprofit="false" title="中国光大银行"></i>
+      <span class="chl-name">中国光大银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-citic906-10" value="ECITIC-NET" seed="newUser-debit_express-CITIC">
+    <label class="J_IconBox " for="J-debit_express-citic906-10" data-channel="biz-channelType(DEBIT_EXPRESS)-CITIC-中信银行-type(unsave)" seed="newUser-debit_express-CITIC">
+      <i class="chl-icon CITIC" data-canbackprofit="false" title="中信银行"></i>
+      <span class="chl-name">中信银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-spabank906-11" value="PINGANBANK-NET" seed="newUser-debit_express-SPABANK">
+    <label class="J_IconBox " for="J-debit_express-spabank906-11" data-channel="biz-channelType(DEBIT_EXPRESS)-SPABANK-平安银行-type(unsave)" seed="newUser-debit_express-SPABANK">
+      <i class="chl-icon SPABANK" data-canbackprofit="false" title="平安银行"></i>
+      <span class="chl-name">平安银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-cmbc907-12" value="CMBC-NET" seed="newUser-debit_express-CMBC">
+    <label class="J_IconBox " for="J-debit_express-cmbc907-12" data-channel="biz-channelType(DEBIT_EXPRESS)-CMBC-中国民生银行-type(unsave)" seed="newUser-debit_express-CMBC">
+      <i class="chl-icon CMBC" data-canbackprofit="false" title="中国民生银行"></i>
+      <span class="chl-name">中国民生银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-hxbank906-13" value="HXB-NET" seed="newUser-debit_express-HXBANK">
+    <label class="J_IconBox " for="J-debit_express-hxbank906-13" data-channel="biz-channelType(DEBIT_EXPRESS)-HXBANK-华夏银行-type(unsave)" seed="newUser-debit_express-HXBANK">
+      <i class="chl-icon HXBANK" data-canbackprofit="false" title="华夏银行"></i>
+      <span class="chl-name">华夏银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-debit_express-gdb906-14" value="GDB-NET" seed="newUser-debit_express-GDB">
+    <label class="J_IconBox " for="J-debit_express-gdb906-14" data-channel="biz-channelType(DEBIT_EXPRESS)-GDB-广发银行-type(unsave)" seed="newUser-debit_express-GDB">
+      <i class="chl-icon GDB" data-canbackprofit="false" title="广发银行"></i>
+      <span class="chl-name">广发银行</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+ 
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-abc102-15" value="ABCabc102_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-ABC-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-abc102-15" data-channel="biz-channelType(B2B_EBANK)-ABC-中国农业银行-type(unsave)" seed="newUser-b2b_ebank-ABC-B2B">
+      <i class="chl-icon ABC" data-canbackprofit="false" title="中国农业银行"></i>
+      <span class="chl-name">中国农业银行</span>
+    <span class="chl-tag-enterprise">企业</span>
+    <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-icbc102-16" value="ICBCicbc102_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-ICBC-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-icbc102-16" data-channel="biz-channelType(B2B_EBANK)-ICBC-中国工商银行-type(unsave)" seed="newUser-b2b_ebank-ICBC-B2B">
+      <i class="chl-icon ICBC" data-canbackprofit="false" title="中国工商银行"></i>
+      <span class="chl-name">中国工商银行</span>
+      <span class="chl-tag-enterprise">企业</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+                                                                                        
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-ccb104-17" value="CCBccb104_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-CCB-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-ccb104-17" data-channel="biz-channelType(B2B_EBANK)-CCB-中国建设银行-type(unsave)" seed="newUser-b2b_ebank-CCB-B2B">
+      <i class="chl-icon CCB" data-canbackprofit="false" title="中国建设银行"></i>
+      <span class="chl-name">中国建设银行</span>
+	  <span class="chl-tag-enterprise">企业</span>
+     <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-boc104-18" value="BOCboc104_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-BOC-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-boc104-18" data-channel="biz-channelType(B2B_EBANK)-BOC-中国银行-type(unsave)" seed="newUser-b2b_ebank-BOC-B2B">
+      <i class="chl-icon BOC" data-canbackprofit="false" title="中国银行"></i>
+      <span class="chl-name">中国银行</span>
+      <span class="chl-tag-enterprise">企业</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>                                                                                        
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-cmb102-19" value="CMBcmb102_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-CMB-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-cmb102-19" data-channel="biz-channelType(B2B_EBANK)-CMB-招商银行-type(unsave)" seed="newUser-b2b_ebank-CMB-B2B">
+      <i class="chl-icon CMB" data-canbackprofit="false" title="招商银行"></i>
+      <span class="chl-name">招商银行</span>
+     <span class="chl-tag-enterprise">企业</span>
+     <span class="chl-tags J-discount"></span>
+    </label>
+  </li>
+  <li class="chl-item">
+    <input type="radio" name="channelToken" id="J-b2b_ebank-spdb102-20" value="SPDBspdb102_PAYMENT_DEBIT_NEWUSER_MODULE" seed="newUser-b2b_ebank-SPDB-B2B">
+    <label class="J_IconBox " for="J-b2b_ebank-spdb102-20" data-channel="biz-channelType(B2B_EBANK)-SPDB-浦发银行-type(unsave)" seed="newUser-b2b_ebank-SPDB-B2B">
+      <i class="chl-icon SPDB" data-canbackprofit="false" title="浦发银行"></i>
+      <span class="chl-name">浦发银行</span>
+      <span class="chl-tag-enterprise">企业</span>
+      <span class="chl-tags J-discount"></span>
+    </label>
+  </li>                                   
+   <li class="chl-item chl-item-more">
+    <a class="J_XBox fn-mt-10" href="https://cashierzth.alipay.com:443/standard/payment/chooseDebitNewUser.htm?orderId=052959cb908ef4e880fe448010432605&amp;isCompositeWithMoneyFund=N&amp;isCompositeWithBalance=N&amp;isCompositeWithBaitiao=N" seed="ccRecord-a-newUser-more">
+                所有银行
+    <i class="iconfont" title="所有银行"></i>
+    </a>
+   </li>
+ </ul>  
+</div>
+</div>
+<div class="chl-foot J_ChlFoot">
+  <button class="ui-button ui-button-lorange" type="submit" seed="newuser-bankCard-submit">下一步</button>
+</div>
+</form>
+</div>
+<!-- 储蓄卡 结束 -->
+<div class="chl-panel fn-hide ui-switchable-panel">
+<form id="creditCardForm" action="/standard/payment/creditCardForm.htm" method="post">
+  	<input type="hidden" name="_form_token" value="D8yuN9Sze8YVIgspLDTdTLnWdLzo59bF">
+  <input type="hidden" id="orderId" name="orderId" value="052959cb908ef4e880fe448010432605">
+    <input type="hidden" name="isCompositeWithBalance" value="N">
+  <input type="hidden" name="isCompositeWithMoneyFund" value="N">
+    <input type="hidden" name="balanceRealAmount" value="0.00">
+
+      <p class="J_LoadingTip">
+      加载中...
+      <a href="cashier.htm?tab=PCEbank&amp;orderId=052959cb908ef4e880fe448010432605&amp;bizIdentity=trade10001&amp;outBizNo=2015052921001001600216518441" seed="J_LoadingTip-link" smartracker="on">刷新</a>
+    </p>
+  
+      <div id="J_AjaxCreditExpress" data-newcard="false" data-creditcard="true">
+            <div class="J_LoadingContainer"   ></div>
+    </div>
+      <div id="J_AjaxCreditEbank" data-newcard="false">
+            <div class="J_LoadingContainer" ></div>
+    </div>
+    <div class="chl-foot fn-hide J_ChlFoot">
+      <button class="ui-button ui-button-lorange" type="submit" seed="creditCard-submit">下一步</button>
+    </div>
+  </form>
+</div>
+<div class="chl-panel fn-hide ui-switchable-panel">
+<p class="J_LoadingTip">加载中...</p>
+<div id="qrcodeInfo" class="ui-form">
+  <div class="J_LoadingContainer" ></div>
+</div>
+</div>
+<div class="chl-panel J_PCashConsume fn-hide ui-switchable-panel">
+<form name="cashCardForm" id="cashCardForm" action="/standard/payment/wangDianForm.htm" method="post" target="_top">
+  	<input type="hidden" name="_form_token" value="YHyHgWL7FE7Wgi6FJKUQknFMdL6l3znu">
+  <input type="hidden" name="isCompositeWithBalance" value="N">
+  <input type="hidden" name="isCompositeWithMoneyFund" value="N">
+      <p class="J_LoadingTip">加载中...</p>
+    <div>
+      <div class="J_LoadingContainer" data-url="https://cashierzth.alipay.com:443/tile/service/standard:cashModuleAsyncProxy.tile?orderId=052959cb908ef4e880fe448010432605&amp;signData=b51837f38abd4f51920a0191bfe9e6f0" data-ajaxswitch="on" sendindex="0"></div>
+    </div>
+</form>
+<hr>
+<form id="consumerCardForm" action="/standard/payment/consumerCardForm.htm" method="post" target="_top">
+  	<input type="hidden" name="_form_token" value="YHyHgWL7FE7Wgi6FJKUQknFMdL6l3znu">
+  	<input type="hidden" id="orderId" name="orderId" value="052959cb908ef4e880fe448010432605">
+  <input type="hidden" name="isCompositeWithBalance" value="N">
+  <input type="hidden" name="isCompositeWithMoneyFund" value="N">
+    <input type="hidden" name="balanceRealAmount" value="0.00">
+  <div class="chl-head chl-sub-head fn-clear">
+    <h4>其他：</h4>
+    <span class="ui-tiptext  ui-tiptext-message  ft-12">
+      <i class="ui-tiptext-icon iconfont" title="提示"></i>话费卡无法同时与“余额宝、集分宝、红包”付款
+    </span>
+  </div>
+  <div class="chl-list chl-list-consumer-card">
+    <ul class="fn-clear">
+              <p class="J_LoadingTip">加载中...</p>
+        <div>
+          <div class="J_LoadingContainer" ></div>
+        </div>
+
+        <div>
+          <div class="J_LoadingContainer" ></div>
+        </div>
+          </ul>
+  </div>
+</form>
+
+    <div class="chl-foot fn-hide J_ChlFoot">
+      <button class="ui-button ui-button-lorange" type="button" id="J_submit_cashier_consume" seed="cashConsumerCard-submit">下一步</button>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- 其他渠道 tab 结束 -->
+
+<!-- 帮助文字 开始 -->
+<div id="J_Helps" class="helps">
+
+      <div id="J_HelpPDEbank" class="help">
+<h3>付款遇到问题：</h3>
+<dl>
+      <dt>1.什么是快捷支付(含卡通)？</dt>
+    <dd>答：快捷支付是支付宝联合各大银行推出的全新的支付方式。只要您有银行卡，就可以在支付宝付款。付款时无需登录网上银行，凭支付宝支付密码和手机校验码即可完成付款。（原卡通用户自动升级成为快捷支付用户）。</dd>
+      <dt>2.没有网上银行，怎样用储蓄卡付款？</dt>
+    <dd>答：您可使用储蓄卡快捷支付轻松完成付款。目前暂时支持工行、农行、交行，其他银行储蓄卡快捷支付即将推出。</dd>
+      <dt>3.我有网上银行，如何在线开通储蓄卡快捷支付（含卡通）？</dt>
+    <dd>答：已支持工行、招行、建行、中行、农行、北京银行在线开通。在支付宝填写信息后，根据页面引导完成开通。<a href="https://katong.alipay.com/agreement/chooseBank.htm" target="_blank" seed="J_HelpPDEbank-link" smartracker="on">马上开通</a> </dd>
+      <dt>4.为什么银行卡已经扣款，但支付宝中没有显示？</dt>
+    <dd>答：有可能因为网络原因导致，将在第二个工作日恢复。</dd>
+  </dl>
+<div class="help-more">
+        <a href="http://help.lab.alipay.com/lab/index.htm" target="_blank" seed="link-cashierHelp-moreHelp">更多帮助</a>
+        <a href="https://lab.alipay.com:443/user/i.htm" target="_blank" seed="helpMore-link" smartracker="on">进入我的支付宝</a>
+      </div>
+    </div>
+  
+      <div id="J_HelpPCEbank" class="help  fn-hide">
+      <h3>付款遇到问题：</h3>
+<dl>
+      <dt>1.什么是快捷支付(含卡通)？</dt>
+    <dd> 答：快捷支付是支付宝联合各大银行推出的全新的支付方式。只要您有银行卡，就可以在支付宝付款。付款时无需登录网上银行，凭支付宝支付密码和手机校验码即可完成付款。（原卡通用户自动升级成为快捷支付用户）。</dd>
+      <dt>2.使用信用卡快捷支付才能进行分期付款么？</dt>
+    <dd>答：是的，而且您的交易金额必须在600元及以上，并选择支持分期的信用卡快捷支付银行。目前已支持招行、中行、农行、建行、民生、光大、平安、中信、广发和兴业银行，其他银行即将推出。</dd>
+      <dt>3.如何关闭信用卡快捷支付服务？</dt>
+    <dd>答：您可以登录“账户管理”，在“银行卡”频道下关闭，或拨打支付宝24小时客服热线，客服会在核实您的信息后为您关闭。<a href="http://help.alipay.com/lab/help_detail.htm?help_id=245388" target="_blank" seed="J_HelpPCEbank-link" smartracker="on">查看详情</a></dd>
+      <dt>4.如何修改预存手机号码？</dt>
+    <dd>答：拨打银行信用卡服务热线，进入人工服务后，通知银行客服人员修改手机号。修改生效后，需登录支付宝，进入“账户管理-银行卡”频道，修改成新手机号码。</dd>
+  </dl>
+<div class="help-more">
+        <a href="http://help.lab.alipay.com/lab/index.htm" target="_blank" seed="link-cashierHelp-moreHelp">更多帮助</a>
+        <a href="https://lab.alipay.com:443/user/i.htm" target="_blank" seed="helpMore-linkT1" smartracker="on">进入我的支付宝</a>
+      </div>
+    </div>
+  
+      <div id="J_HelpQRCode" class="help  fn-hide">
+      <h3>常见问题：</h3>
+<dl>
+      <dt>1.扫码支付的作用是什么？</dt>
+    <dd> 答：用户无法在电脑端完成支付时或用户有在钱包上支付的需求时，可通过【扫码支付】在支付宝钱包完成订单的支付。</dd>
+      <dt>2.我可以使用别人的账户进行【扫码支付】吗？</dt>
+    <dd>答：不能，仅支持该笔交易的账户扫描二维码付款。</dd>
+      <dt>3.交易如果已完成付款，再使用扫码支付会重复付款吗？</dt>
+    <dd>答：不会，交易付款完成后该二维码失效。</dd>
+  </dl>
+  <div class="help-more">
+        <a href="http://help.lab.alipay.com/lab/index.htm" target="_blank" seed="link-cashierHelp-moreHelp">更多帮助</a>
+        <a href="https://lab.alipay.com:443/user/i.htm" target="_blank" seed="helpMore-linkT2" smartracker="on">进入我的支付宝</a>
+      </div>
+    </div>
+  
+    <div id="J_HelpPCashConsume" class="help  fn-hide">
+<h3>付款遇到问题：</h3>
+<dl>
+  <dt>1.如何使用现金或刷卡付款？ </dt>
+  <dd>答：现金或刷卡付款是一种允许您到支付宝线下合作网点完成付款的服务。选择您要付款的网点点击下一步，查看网点地址，然后记录下页面显示的交易号，到您方便前往的网点去完成付款。 </dd>
+  <dt>2.使用网点付款完成支付宝交易后，什么时间可以到账？</dt>
+  <dd>答：与其他支付方式相同。付款完成后，支付宝即时通知卖家，交易已付款成功。本服务同样支持支付宝担保交易。</dd>
+  <dt>3.用话费充值卡支付，支付金额没有一次性用完怎么办？</dt>
+  <dd>答：支付后，没有用完的金额，将充入您的支付宝账户。下次支付时，选择支付宝余额付款，即可使用这笔款项。 </dd>
+</dl>
+<div class="help-more">
+      <a href="http://help.alipay.com/lab/210220-210246/0-210246.htm" target="_blank" seed="link-cashier-consume-Help-moreHelp">更多帮助</a>
+      <a href="https://lab.alipay.com:443/user/i.htm" target="_blank" seed="helpMore-linkT3" smartracker="on">进入我的支付宝</a>
+    </div>
+  </div>
+</div>
+<!-- 帮助文字 结束 -->
+</div>
+</div>
+<div id="footer">
+<style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+</style>
+<div class="copyright">
+      支付宝版权所有 2004-2015 <a href="http://fun.alipay.com/certificate/jyxkz.htm" target="_blank">ICP证：浙B2-20120045</a>
+  </div>
+<div class="server" id="ServerNum">
+  cashier-80-838 &nbsp; 0ad3017e14229791100665806_0
+</div>
+</div>
+<div id="partner">
+    <img src="https://i.alipayobjects.com/e/201303/2R3cKfrKqS.png" />
+</div>
+#end##end of the content
+#end ## end of body 
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/payment/payment.vm") 
+#end

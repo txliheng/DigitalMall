@@ -1,0 +1,173 @@
+		<!-- sale -->
+		<div id="Sale" class="newsale">
+			<div class="sale-hd">
+				<h3 class="s-sale">热卖单品</h3>
+				<div id="SaleP4p" class="sale-p4p">
+					<a title="手机" class="line" href="#">手机</a> <a title="平板"
+						class="line" href="#">平板</a> <a title="电脑" class="line" href="#">电脑</a>
+					<a title="相机" class="line" href="#">相机</a> <a title="3C配件"
+						class="line" href="#">3C配件</a> <a title="数码配件" class="line"
+						href="#">数码配件</a> <a title="更多" class="" href="#">更多</a>
+				</div>
+			</div>
+			<ul id="SaleBd" class="sale-bd">
+				<li class="group group-1 big">
+					<div class="item item-1">
+						<div class="item-content">
+							<a href="#" title="美国iRobot智能扫地机器人吸尘器" class="image"><img
+								src="/static/home/widget/sale/images/1.png"> </a>
+							<div class="line-1">
+								<a href="#" title="美国iRobot智能扫地机器人吸尘器" class="price"><span>¥
+								</span><em>2380.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>798</em>笔
+								</a>
+							</div>
+							<div class="sub-title">2002年,iRobot将军事机器人技术延伸至家用领域,研制了一系列家用机器人,将家用机器人带入千万销量的级别,成为风靡全球的时尚家居必备品。</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>562</em></a><a href="#"
+									class="collect">收藏 <em>10466</em></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="group group-2 small">
+					<div class="item item-2">
+						<div class="item-content">
+							<a href="#" title="豹顺2104新品翻领皮毛一体修身皮大衣外套" class="image"><img
+								src="/static/home/widget/sale/images/2.png"> </a>
+							<div class="line-1">
+								<a href="#" title="豹顺2104新品翻领皮毛一体修身皮大衣外套" class="price"><span>¥
+								</span><em>478.00</em></a> <a href="#" title="包邮" class="postfree"></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>377</em>笔
+								</a>
+							</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>1094</em></a><a href="#"
+									class="collect">收藏 <em>1812</em></a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-3">
+						<div class="item-content">
+							<a href="#" title="顾家kuka 布艺沙发组合现代 简约布沙发B004" class="image"><img
+								class="img-responsive" src="/static/home/widget/sale/images/3.png"> </a>
+							<div class="line-1">
+								<a href="#" title="顾家kuka 布艺沙发组合现代 简约布沙发B004" class="price"><span>¥
+								</span><em>4999.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>138</em>笔
+								</a>
+							</div>
+
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>103</em></a><a href="#"
+									class="collect">收藏 <em>829</em></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="group group-3 small">
+					<div class="item item-4">
+						<div class="item-content">
+							<a href="#" title="黑檀木茶盘鸡翅木全实木茶托盘茶海" class="image"><img
+								src="/static/home/widget/sale/images/4.png"> </a>
+							<div class="line-1">
+								<a href="#" title="黑檀木茶盘鸡翅木全实木茶托盘茶海" class="price"><span>¥
+								</span><em>338.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>1208</em>笔
+								</a>
+							</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>684</em></a><a href="#"
+									class="collect">收藏 <em>9398</em></a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-5">
+						<div class="item-content">
+							<a href="#" title="男士商务拉杆箱16寸万向轮女式登机箱蓝色" class="image"><img
+								src="/static/home/widget/sale/images/5.png"> </a>
+							<div class="line-1">
+								<a href="#" title="男士商务拉杆箱16寸万向轮女式登机箱蓝色" class="price"><span>¥
+								</span><em>880.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>2</em>笔
+								</a>
+							</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>11</em></a><a href="#"
+									class="collect">收藏 <em>40</em></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="group group-4 big">
+					<div class="item item-6">
+						<div class="item-content">
+							<a href="#" title="冬季性感pu皮拼接包臀裙半身裙短裙一步裙冬" class="image"><img
+								src="/static/home/widget/sale/images/6.png"> </a>
+							<div class="line-1">
+								<a href="#" title="冬季性感pu皮拼接包臀裙半身裙短裙一步裙冬" class="price"><span>¥
+								</span><em>59.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>60</em>笔
+								</a>
+							</div>
+							<div class="sub-title">穿了两天，有点薄，不适合冬天穿，送的腰带质量很差，我觉得卖家以后可以考虑送其他小东西！！送个小发夹都比那好，还有。裙子容易沾毛！！</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>60</em></a><a href="#"
+									class="collect">收藏 <em>354</em></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="group group-5 small">
+					<div class="item item-7">
+						<div class="item-content">
+							<a href="#" title="琪比小美屋 婴儿棉衣加厚公主宝宝冬装外套" class="image"><img
+								src="/static/home/widget/sale/images/7.png"> </a>
+							<div class="line-1">
+								<a href="#" title="琪比小美屋 婴儿棉衣加厚公主宝宝冬装外套" class="price"><span>¥
+								</span><em>139.00</em></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>1026</em>笔
+								</a>
+							</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>1539</em></a><a href="#"
+									class="collect">收藏 <em>11678</em></a>
+							</div>
+						</div>
+					</div>
+					<div class="item item-8">
+						<div class="item-content">
+							<a href="#" title="娇韵诗黄金双瓶 双萃赋活修护精华露抗皱" class="image"><img
+								src="/static/home/widget/sale/images/8.png"> </a>
+							<div class="line-1">
+								<a href="#" title="娇韵诗黄金双瓶 双萃赋活修护精华露抗皱" class="price"><span>¥
+								</span><em>680.00</em></a> <a href="#" title="包邮" class="postfree"></a>
+							</div>
+							<div class="line-2">
+								<a href="#" class="sell">月销<em>221</em>笔
+								</a>
+							</div>
+							<div class="line-3">
+								<a href="#" class="comment">评价 <em>337</em></a><a href="#"
+									class="collect">收藏 <em>6628</em></a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- end of sale -->

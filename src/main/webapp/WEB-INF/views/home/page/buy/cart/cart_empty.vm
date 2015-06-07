@@ -1,0 +1,48 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+  #block("top") 
+    #widget("common:widget/top/top.vm") 
+  #end 
+  #block("content") 
+  <div id="header">
+    #block("logo") 
+      #widget("common:widget/logo/logo.vm") 
+    #end 
+    #block("searchBox") 
+      #widget("common:widget/search/search.vm")
+    #end
+    </div>
+  #require("home:static/buy/cart/css/cart.css") 
+<div class="cart">
+    <div id="crumbs">
+        <strong>您的位置：</strong>
+        <ol class="crumbs">
+            <li><a href="http://www.digitalmall.com">首页</a>
+            </li>
+            <li><a href="http://i.digitalmall.com/my_digitalmall.htm" >我的数码城</a>
+            </li>
+            <li class="current">我的购物车</li>
+        </ol>
+        <span class="cart-tip">购物车帮您一次性完成批量购买与付款，下单更便捷，付款更简单！
+        <a href="http://service.taobao.com/support/help-11746.htm?spm=a1z0d.1.0.0.ogEwpx" target="_blank" >如何使用购物车</a>
+        </span>
+    </div>
+    <div id="empty">
+        <h2>您的购物车还是空的，赶紧行动吧！您可以：</h2>
+        <ul>
+            <li>看看 <a href="http://shoucang.taobao.com/shop_collect_list.htm" target="_blank">我的收藏夹</a>
+            </li>
+            <li>看看 <a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_blank">已买到
+        的宝贝</a>
+            </li>
+        </ul>
+    </div>
+</div>
+  #end## end of content
+  #block("footer") 
+    #widget("common:widget/footer/footer.vm") 
+  #end 
+#end ## end of body
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/cart/cart_empty.vm") 
+#end

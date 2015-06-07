@@ -1,0 +1,12 @@
+<li id="J_MiniCart" class="J_Menu menu mini-cart" data-fn-name="fn-mini-cart" data-spm="1997525049">
+    <div class="menu-hd"><a href="http://cart.taobao.com/cart.htm?from=mini&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501036000a02c5c3739" target="_top" id="mc-menu-hd"><span class="g-icon"></span><span>购物车</span><strong id="J_MiniCartNum" class="h">70</strong></a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span>
+    </div>
+    <div class="menu-bd">
+        <div class="menu-bd-panel mini-cart-ready">
+            <div class="mini-cart-ft">
+                <p><a target="_top" href="http://ju.atpanel.com/?url=http://cart.taobao.com/my_cart.htm?from=mini&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=150042785330be233161" class="site-nav-btn">查看我的购物车</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</li>

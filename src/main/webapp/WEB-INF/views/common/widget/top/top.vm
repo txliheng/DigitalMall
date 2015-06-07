@@ -1,0 +1,32 @@
+<!-- top -->
+<div class="top">
+
+		<ul  class="navLeft">
+			#if( ${nick} )
+			<li >
+				<span style="color: #6C6C6C;">${nick}</span>
+				<a href="/user/logout.html" ><span >退出</span></a>
+			</li>
+			#else				
+			<li>
+				<a href="/user/login.html" ><span style="color: #F22E00;">亲,请登录</span></a>
+			</li>
+			<li >
+				<a href="/user/reg/fill_mobile.html" class=""><span>免费注册</span></a>
+			</li>
+			#end
+		</ul>
+
+		<ul class="navRight">
+			<li ><a href="#" >我的数码城</a></li>
+			<li >
+				<a href="/buy/cart.html" > 
+					<span class="glyphicon glyphicon-shopping-cart"></span> 购物车
+				</a>
+			</li>
+			<li ><a href="#" >设为首页</a></li>
+			<li ><a href="#" >加入收藏 </a></li>
+			<li ><a href="#" >联系我们</a></li>
+		</ul>
+</div>
+<!-- end of top -->

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+</head>
+
+<body>
+<div class="menu-hd"><a href="http://i.taobao.com/my_taobao.htm?spm=1.7274553.754894437.1.fINakd&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501036000a02c5c3739" target="_top" data-spm-anchor-id="1.7274553.754894437.1">ylguitar80188</a><span class="arrow-icon-wrapper"><span class="g-icon arrow-icon"></span></span></div>
+    <div class="menu-bd-panel">
+        <a href="http://i.taobao.com/my_taobao.htm?spm=1.7274553.754894437.2.fINakd&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501036000a02c5c3739" target="_top" id="J_UserAvatar" class="user-avatar" data-spm-anchor-id="1.7274553.754894437.2"><img src="//wwc.taobaocdn.com/avatar/getAvatar.do?userNick=ylguitar80188&amp;width=80&amp;height=80&amp;type=sns" width="80" height="80" alt="ylguitar80188的头像">
+        </a>
+        <div class="user-info">
+            <p class="user-operate"><a href="http://member1.taobao.com/member/fresh/account_security.htm?spm=1.7274553.754894437.3.fINakd" target="_top" data-spm-anchor-id="1.7274553.754894437.3">账号管理</a><span class="site-nav-pipe">|</span><a href="//login.taobao.com/member/logout.jhtml?spm=1.7274553.754894437.4.fINakd&amp;f=top&amp;out=true&amp;redirectURL=http%3A%2F%2Fwww.taobao.com%2F" target="_top" data-spm-anchor-id="1.7274553.754894437.4">退出</a>
+            </p>
+            <p id="J_Global_UserVipLevel">
+                <a href="http://vip.taobao.com/growth_info.htm?spm=1.7274553.754894437.5.fINakd" target="_top" class="vip-icon vip-icon-5" data-spm-anchor-id="1.7274553.754894437.5"></a>
+            </p>
+            <p><a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.6.fINakd" target="_top" data-spm-anchor-id="1.7274553.754894437.6"><strong id="J_UserPrivilegeCount" class="global-user-privilege-count">我可尊享<b>15</b>项特权</strong></a>
+            </p>
+        </div>
+        <div id="J_UserPrivilegeTip" class="user-privilege-tip">
+            <p class="user-privilege-coming"><a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.7.fINakd&amp;privilegeId=49" target="_top" data-spm-anchor-id="1.7274553.754894437.7">距离<b>会员日</b>开始还剩<b>10</b>天！</a>
+            </p>
+        </div>
+        <div id="J_UserMedal" class="user-medal medal-arrow-show">
+            <div class="user-medal-bd">
+                <div id="J_UserMedalCont" class="user-medal-cont">
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.8.fINakd&amp;privilegeId=49" target="_top" title="会员日" data-spm-anchor-id="1.7274553.754894437.8"><img src="http://gtms03.alicdn.com/tps/i3/TB1ila1GpXXXXbvXpXXeAEpIFXX-75-75.png" title="会员日">会员日</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.9.fINakd&amp;privilegeId=50" target="_top" title="节日特权" data-spm-anchor-id="1.7274553.754894437.9"><img src="http://gtms02.alicdn.com/tps/i2/TB1JLe6GpXXXXbQXFXXeAEpIFXX-75-75.png" title="节日特权">节日特权</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.10.fINakd&amp;privilegeId=55" target="_top" title="周年纪念" data-spm-anchor-id="1.7274553.754894437.10"><img src="http://gtms02.alicdn.com/tps/i2/TB10tKTGpXXXXa6XFXXeAEpIFXX-75-75.png" title="周年纪念">周年纪念</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.11.fINakd&amp;privilegeId=37" target="_top" title="生日特权" data-spm-anchor-id="1.7274553.754894437.11"><img src="http://gtms02.alicdn.com/tps/i2/TB1eLq6GpXXXXXMXpXXeAEpIFXX-75-75.png" title="生日特权">生日特权</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.12.fINakd&amp;privilegeId=57" target="_top" title="酷盘特权" data-spm-anchor-id="1.7274553.754894437.12"><img src="http://gtms02.alicdn.com/tps/i2/TB1PTuRGpXXXXbqaXXXcy0wIpXX-70-70.png" title="酷盘特权">酷盘特权</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.13.fINakd&amp;privilegeId=58" target="_top" title="阿里小号" data-spm-anchor-id="1.7274553.754894437.13"><img src="http://gtms03.alicdn.com/tps/i3/TB1uT4PHXXXXXXvaXXXeAEpIFXX-75-75.png" title="阿里小号">阿里小号</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.14.fINakd&amp;privilegeId=59" target="_top" title="WiFi特权" data-spm-anchor-id="1.7274553.754894437.14"><img src="http://gtms01.alicdn.com/tps/i1/TB1NJ3EGVXXXXaJXFXXcy0wIpXX-70-70.png" title="WiFi特权">WiFi特权</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.15.fINakd&amp;privilegeId=36" target="_top" title="VIP价" data-spm-anchor-id="1.7274553.754894437.15"><img src="http://gtms03.alicdn.com/tps/i3/TB1OduWGpXXXXXeXFXXeAEpIFXX-75-75.png" title="VIP价">VIP价</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.16.fINakd&amp;privilegeId=39" target="_top" title="极速退款" data-spm-anchor-id="1.7274553.754894437.16"><img src="http://gtms01.alicdn.com/tps/i1/TB1aUriGpXXXXXdXXXXeAEpIFXX-75-75.png" title="极速退款">极速退款</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.17.fINakd&amp;privilegeId=56" target="_top" title="活动尊享" data-spm-anchor-id="1.7274553.754894437.17"><img src="http://gtms01.alicdn.com/tps/i1/TB1FIq0GpXXXXXKXVXXeAEpIFXX-75-75.png" title="活动尊享">活动尊享</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.18.fINakd&amp;privilegeId=47" target="_top" title="音乐特权" data-spm-anchor-id="1.7274553.754894437.18"><img src="http://gtms04.alicdn.com/tps/i4/TB1xBWMGpXXXXb7XFXXeAEpIFXX-75-75.png" title="音乐特权">音乐特权</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.19.fINakd&amp;privilegeId=51" target="_top" title="会员升级" data-spm-anchor-id="1.7274553.754894437.19"><img src="http://gtms04.alicdn.com/tps/i4/TB1G.e_GpXXXXXyXpXXeAEpIFXX-75-75.png" title="会员升级">会员升级</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.20.fINakd&amp;privilegeId=52" target="_top" title="百笔好礼" data-spm-anchor-id="1.7274553.754894437.20"><img src="http://gtms04.alicdn.com/tps/i4/TB1znPaGpXXXXXiXpXXeAEpIFXX-75-75.png" title="百笔好礼">百笔好礼</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.21.fINakd&amp;privilegeId=53" target="_top" title="百天好礼" data-spm-anchor-id="1.7274553.754894437.21"><img src="http://gtms01.alicdn.com/tps/i1/TB1CxGIGpXXXXXRXVXXeAEpIFXX-75-75.png" title="百天好礼">百天好礼</a>
+                    <a href="http://vip.taobao.com/privilege/privilege_detail.htm?spm=1.7274553.754894437.22.fINakd&amp;privilegeId=54" target="_top" title="好评达人" data-spm-anchor-id="1.7274553.754894437.22"><img src="http://gtms02.alicdn.com/tps/i2/TB1ae1OGpXXXXbUXFXXeAEpIFXX-75-75.png" title="好评达人">好评达人</a>
+                </div>
+            </div><a href="javascript:;" target="_top" id="J_ArrowL" class="medal-arrow arrow-l" data-spm-anchor-id="1.7274553.754894437.23">&lt;</a><a href="javascript:;" target="_top" id="J_ArrowR" class="medal-arrow arrow-r" data-spm-anchor-id="1.7274553.754894437.24">&gt;</a>
+        </div>
+    </div>
+</body>
+
+</html>

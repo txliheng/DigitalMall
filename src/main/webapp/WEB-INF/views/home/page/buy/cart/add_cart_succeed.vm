@@ -1,0 +1,59 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/buy/cart/css/index.css") 
+
+  #block("top") 
+    #widget("common:widget/top/top.vm") 
+  #end 
+
+  #block("content") 
+  <div id="header">
+    #block("logo") 
+      #widget("common:widget/logo/logo.vm") 
+    #end 
+    #block("searchBox") 
+      #widget("common:widget/search/search.vm")
+    #end
+ </div>
+        
+ <div id="J_ResultMain" class="result-main clearfix" data-spm="1998302264">
+            <div class="item-info J_ItemInfo">
+                <div class="item-title">
+                    <a href="//item.taobao.com/item.htm?id=44303153323" target="_blank">2015新款春季女鞋中口英伦小皮鞋低跟单鞋女士休闲粗跟平底潮</a>
+                </div>
+                <div class="sku-info J_SkuInfo">
+                                            已添加商品：
+                                                    <p>颜色分类:米杏色</p>
+                                                    <p>尺码:38[偏大半码]</p>
+                                                            </div>
+                <div class="quantity-info">数量：1</div>
+                <div class="item-op">
+                    <a href="/item/item.html?itemId=1" class="op-add J_CartPluginTrigger">继续添加其它属性：</a>
+                </div>
+                <div class="item-pic cart-pic s200"><a href="/item/item.html?itemId=1" target="_blank"><img class="J_CurItemPic" src="http://img03.taobaocdn.com/bao/uploaded/i3/TB1MFWqHpXXXXcIXXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" alt=""></a></div>
+            <div class="item-sku-select J_ItemSkuSelect" >
+    <div class="tbc-add2cart J_TbcAdd2Cart"></div>
+    <div class="item-sku-mask J_SkuMask">
+        <div class="item-sku-expand J_ExpandSku"><em>展开全部属性</em><span></span></div>
+    </div>
+    <a href="javascript:void(0);" class="tbc-add2cart-close J_TbcAdd2CartClose"><span class="origin">关闭</span><span class="icon-close"></span></a>
+</div></div>
+            <div id="J_ResultSummary" class="result-summary">
+                <div class="result-hint"><i class="cart-icon icon-success"></i>已成功加入购物车</div>
+                <div class="price-summary">小计：<span class="price">¥<em>39.60</em></span></div>
+                <div class="cart-summary">购物车共有<em>1件</em>商品</div>
+                <div class="result-op">
+                    <a href="/item/item.html?itemId=1" class="op-return"><i class="cart-icon icon-left"></i>返回商品详情</a>
+                    <a href="/buy/cart.html" class="op-cart">去购物车结算</a>
+                </div>
+            </div>
+        </div>
+
+  #end## end of content
+  #block("footer") 
+    #widget("common:widget/footer/footer.vm") 
+  #end 
+#end ## end of body
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/cart/add_cart_succeed.vm") 
+#end

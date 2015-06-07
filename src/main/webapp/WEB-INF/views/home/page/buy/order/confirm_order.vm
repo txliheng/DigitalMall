@@ -1,0 +1,336 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/buy/order/css/index.css")
+#block("top") 
+#widget("common:widget/top/top.vm") 
+#end 
+
+#block("content")
+
+<div class="J_Page confirm-order" style="min-height:600px" id="jigsaw10">
+	<div class="buy-content">
+
+    <div id="jigsaw11" class="stepbar">
+    #block("logo") 
+    #widget("common:widget/logo/logo.vm") 
+    #end 
+    <ol class="tb-stepbar">
+        <li class="step-5 stepbar-current stepbar-first">
+            <span>查看购物车</span>
+        </li>
+        <li class="step-5">
+            <span>拍下商品</span>
+        </li>
+        <li class="step-5">
+            <span>付款到支付宝</span>
+        </li>
+        <li class="step-5">
+            <span>确认收货</span>
+        </li>
+        <li class="step-5 stepbar-last">
+            <span>评价</span>
+        </li>
+    </ol>
+    </div>
+    <div id="jigsaw12" class="address"><form name="addrForm" id="addrForm" action="#" data-spm="2">
+    <h3>确认收货地址
+    <span class="manage-address">
+    <a href="//member1.taobao.com/member/fresh/deliver_address.htm" target="_blank" title="管理我的收货地址" class="J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.7">管理收货地址</a>
+    </span>
+    </h3>
+    <ul id="address-list" class="address-list">
+            <li class="J_Addr J_MakePoint clearfix J_DefaultAddr selected " data-enforce="false" data-addressid="5529755962" data-point-url="//gm.mmstat.com/buy.1.20">
+                <i class="J_Marker marker iconfont icon-dituzuobiao"></i>
+                <span class="marker-tip">寄送至</span>
+                <div class="address-info">
+                    <a href="javascript:void(0);" class="J_Modify modify" data-value="5529755962">修改本地址</a>
+                    <input name="address" class="J_MakePoint" type="radio" value="5529755962" id="addrId_5529755962" data-point-url="" ah:params="id=5529755962^^stationId=^^address=长春市朝阳区卫星路长春大学计算机学院软件工程系^^postCode=130021^^addressee=李珩^^phone=139441-1394413944^^mobile=15526814996^^areaCode=220104^^townCode=^^town=^^" checked="checked">
+                    <label for="addrId_5529755962" class="user-address">
+                          吉林省 长春市 朝阳区 卫星路
+                          长春大学计算机学院软件工程系 (李珩 收) <em>13988888888</em>
+                    </label>
+                    <em class="tip ">默认地址</em>
+                    <a class="J_DefaultHandle set-default hidden" href="javascript:void(0);" data-addressid="5529755962">设置为默认收货地址</a>
+                    <div class="msg J_Msg hidden"><p class="ok naked">设置成功！</p></div>
+                </div>
+            </li>        
+    </ul>
+    <ul id="J_MoreAddress" class="address-list hidden">
+    </ul>
+    <div class="address-bar">
+        <a id="J_OtherAddressLink" class="edit J_MakePoint otherlink hidden" href="javascript:void(0);" data-point-url="//gm.mmstat.com/jsclick?cache=*&amp;tyxd=syqtdzan">使用其它地址</a>
+        <a href="javascript:void(0);" class="new J_MakePoint" id="J_NewAddressBtn" data-point-url="//gm.mmstat.com/buy.1.19">使用新地址</a>
+    </div>
+</form>
+</div>
+    <div class="buy-order-field" data-spm="3">
+        <h3>确认订单信息</h3>
+        <div class="buy-th-line clearfix">
+            <span class="buy-th-title">店铺宝贝</span>
+            <span class="buy-th-price">单价(元)</span>
+            <span class="buy-th-quantity">数量</span>
+            <span class="buy-th-promo">优惠方式(元)</span>
+            <span class="buy-th-total">小计(元)</span>
+        </div>
+        <div id="jigsaw33" class="order"><div id="jigsaw15" class="orderInfo blue-line"><div>
+    <span class="orderInfo-shoparea">店铺：<a class="orderInfo-shop J_MakePoint" href="//store.taobao.com/shop/view_shop.htm?shop_id=109168957" target="_blank" title="〖爱克王潮鞋〗金牌卖家" data-point-url="//gm.mmstat.com/buy.1.6">〖爱克王潮鞋〗金牌</a>
+    </span>
+    <span class="orderInfo-seller">卖家：
+    <a class="orderInfo-sellername J_MakePoint" href="//member1.taobao.com/member/user_profile.jhtml?user_num_id=1854798875" target="_blank" title="开心ttb" data-point-url="//gm.mmstat.com/buy.1.15">开心ttb</a>
+    <span class="ww-light ww-large" data-nick="开心ttb" data-display="inline" data-icon="large"><a href="http://amos.alicdn.com/getcid.aw?v=3&amp;site=cntaobao&amp;groupid=0&amp;s=1&amp;uid=开心ttb" target="_blank" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"><span>旺旺在线</span></a></span>
+     <span class="tm-bubble">
+        <em class="title">点击这里联系卖家！</em>
+        <s class="triangle"></s>
+    </span>
+    </span>
+</div>
+</div>
+<div id="jigsaw21" class="item clearfix"><div id="jigsaw16" class="itemInfo item-title"><a target="_blank" href="//item.taobao.com/item.htm?id=44055305538" title="夏季透气网面男鞋气垫运动鞋男士休闲鞋韩版青春潮流板鞋单网潮鞋" class="itemInfo-link J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.5">
+    <span class="item-pic">
+        <span>
+            <img class="itemInfo-pic" src="//img.alicdn.com/bao/uploaded/i2/1854798875/TB2afPucFXXXXbhXpXXXXXXXXXX_!!1854798875.jpg_50x50.jpg">
+        </span>
+    </span>
+    <span class="itemInfo-title J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.5">夏季透气网面男鞋气垫运动鞋男士休闲鞋韩版青春潮流板鞋单网潮鞋</span>
+</a>
+<div class="itemInfo-sku">
+        <span>颜色分类:997灰色</span>
+        <span>尺码:40[新款抢购中！]</span>
+    <span>
+    </span>
+</div>
+<div class="itemInfo-icons">
+        <a href="//xiaobao.taobao.com/contract/item_contract_detail.htm?scm=1010.100.100.2&amp;contract_id=1&amp;item_id=44055305538" target="_blank"><img src="//img.alicdn.com/tps/i4/TB1A3HyGpXXXXXeXpXXAz6UFXXX-16-16.png" alt="品质承诺" title="品质承诺"></a>
+        <a href="//www.taobao.com/go/act/315/you.php" target="_blank"><img src="//gtd.alicdn.com/tps/i4/T1pegvFrBdXXaSQP_X-16-16.png" alt="如实描述 - 消费者保障服务，卖家承诺商品如实描述" title="如实描述 - 消费者保障服务，卖家承诺商品如实描述"></a>
+        <a href="//xiaobao.taobao.com/contract/item_contract_detail.htm?scm=1010.100.100.1&amp;contract_id=2&amp;item_id=44055305538" target="_blank"><img src="//img.alicdn.com/tps/i2/TB1XY_zGpXXXXbeXXXXAz6UFXXX-16-16.png" alt="15天退货" title="15天退货"></a>
+        <img src="//assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="支持信用卡支付" title="支持信用卡支付">
+</div>
+<div class="itemInfo-sku">
+    卖家承诺12小时内发货
+</div>
+<div class="itemInfo-shop-info">
+    <a class="orderInfo-sellername J_MakePoint" href="//store.taobao.com/shop/view_shop.htm?shop_id=109168957" target="_blank" title=""></a>
+    <span class="ww-light ww-small" data-nick="开心ttb" data-display="inline" data-icon="small"><a href="http://amos.alicdn.com/getcid.aw?v=3&amp;site=cntaobao&amp;groupid=0&amp;s=1&amp;uid=开心ttb" target="_blank" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"><span>旺旺在线</span></a></span>
+</div>
+<p class="c2c-extraInfo-container promo-extraInfo">
+</p></div>
+<div class="item-price">
+    <span id="jigsaw17" class="itemInfo price">
+    <em class="style-normal-small-black J_ItemPrice">388.00</em>
+    </span>
+</div>
+<div id="jigsaw18" class="quantity item-quantity">
+    <p>1</p>
+</div>
+    <div id="jigsaw19" class="promotion item-promo">
+    <div class="promotion-title">商品优惠：</div>
+    <div class="promotion-sel">
+        <div class="promotion-content-box">
+            <select class="promotion-content J_PromotionContent">
+              <option value="0">不使用优惠</option>
+            <option value="MZDZ33760-634082931_3868968064" selected="">已省290元:聚丨划丨算</option>
+            </select>
+            <i rel="icotip" data-ppid="MZDZ33760-634082931_3868968064" class="desc-trigger" data-pptext="<ul><li>聚丨划丨算：省290.00元</li></ul>"></i>
+        </div>
+    </div>
+    <div class="promotion-fee"><span class="price"><em class="style-normal-bold-black">-290.00</em></span></div>
+</div>
+    <div id="jigsaw20" class="itemPay item-total"><p class="itemPay-price price">
+    <em class="style-normal-bold-red J_ItemTotal ">98.00</em>
+ </p></div>
+    <div class="item-form-desc blue-line clearfix">
+        <div class="item-form-eticketDesc">
+        </div>
+        
+    </div>
+</div><div id="jigsaw27" class="item clearfix"><div id="jigsaw22" class="itemInfo item-title"><a target="_blank" href="//item.taobao.com/item.htm?id=44055305538" title="夏季透气网面男鞋气垫运动鞋男士休闲鞋韩版青春潮流板鞋单网潮鞋" class="itemInfo-link J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.5">
+    <span class="item-pic">
+        <span>
+            <img class="itemInfo-pic" src="//img.alicdn.com/bao/uploaded/i1/1854798875/TB22U6vcFXXXXaEXpXXXXXXXXXX_!!1854798875.jpg_50x50.jpg">
+        </span>
+    </span>
+    <span class="itemInfo-title J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.5">夏季透气网面男鞋气垫运动鞋男士休闲鞋韩版青春潮流板鞋单网潮鞋</span>
+</a>
+<div class="itemInfo-sku">
+        <span>颜色分类:276桔色</span>
+        <span>尺码:40[新款抢购中！]</span>
+    <span>
+    </span>
+</div>
+<div class="itemInfo-icons">
+        <a href="//xiaobao.taobao.com/contract/item_contract_detail.htm?scm=1010.100.100.2&amp;contract_id=1&amp;item_id=44055305538" target="_blank"><img src="//img.alicdn.com/tps/i4/TB1A3HyGpXXXXXeXpXXAz6UFXXX-16-16.png" alt="品质承诺" title="品质承诺"></a>
+        <a href="//www.taobao.com/go/act/315/you.php" target="_blank"><img src="//gtd.alicdn.com/tps/i4/T1pegvFrBdXXaSQP_X-16-16.png" alt="如实描述 - 消费者保障服务，卖家承诺商品如实描述" title="如实描述 - 消费者保障服务，卖家承诺商品如实描述"></a>
+        <a href="//xiaobao.taobao.com/contract/item_contract_detail.htm?scm=1010.100.100.1&amp;contract_id=2&amp;item_id=44055305538" target="_blank"><img src="//img.alicdn.com/tps/i2/TB1XY_zGpXXXXbeXXXXAz6UFXXX-16-16.png" alt="15天退货" title="15天退货"></a>
+        <img src="//assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="支持信用卡支付" title="支持信用卡支付">
+</div>
+<div class="itemInfo-sku">
+    卖家承诺12小时内发货
+</div>
+<div class="itemInfo-shop-info">
+    <a class="orderInfo-sellername J_MakePoint" href="//store.taobao.com/shop/view_shop.htm?shop_id=109168957" target="_blank" title=""></a>
+    
+    <span class="ww-light ww-small" data-nick="开心ttb" data-display="inline" data-icon="small"><a href="http://amos.alicdn.com/getcid.aw?v=3&amp;site=cntaobao&amp;groupid=0&amp;s=1&amp;uid=开心ttb" target="_blank" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"><span>旺旺在线</span></a></span>
+</div>
+<p class="c2c-extraInfo-container promo-extraInfo">
+</p></div>
+<div class="item-price">
+    <span id="jigsaw23" class="itemInfo price">
+    <em class="style-normal-small-black J_ItemPrice">388.00</em>
+    </span>
+</div>
+<div id="jigsaw24" class="quantity item-quantity">
+    <p>1</p>
+</div>
+      <div id="jigsaw25" class="promotion item-promo">
+    <div class="promotion-title">商品优惠：</div>
+    <div class="promotion-sel">
+        <div class="promotion-content-box">
+            <select class="promotion-content J_PromotionContent">
+            <option value="0">不使用优惠</option>
+             <option value="MZDZ33760-634082931_3868968064" selected="">已省290元:聚丨划丨算</option>
+            </select>
+             <i rel="icotip" data-ppid="MZDZ33760-634082931_3868968064" class="desc-trigger" data-pptext="<ul><li>聚丨划丨算：省290.00元</li></ul>"></i>
+        </div>
+    </div>
+    <div class="promotion-fee"><span class="price"><em class="style-normal-bold-black">-290.00</em></span></div>
+</div>
+    <div id="jigsaw26" class="itemPay item-total"><p class="itemPay-price price">
+    <em class="style-normal-bold-red J_ItemTotal ">98.00</em>
+</p></div>
+    <div class="item-form-desc blue-line clearfix">
+        <div class="item-form-eticketDesc">
+        </div>
+    </div>
+</div>
+<div class="order-extra">
+    <div class="order-user-info">
+    <div id="jigsaw28" class="memo"><label>给卖家留言：</label>
+<textarea title="选填：对本次交易的说明（建议填写已经和卖家达成一致的说明）" class="memo-input J_MakePoint c2c-text-default memo-close" autocomplete="off" placeholder="选填：对本次交易的说明（建议填写已经和卖家达成一致的说明）" data-placeholder="选填：对本次交易的说明（建议填写已经和卖家达成一致的说明）" data-point-url="//gm.mmstat.com/buy.1.14"></textarea>
+<div class="msg hidden J-msg">
+    <p class="error">最多输入500个字符</p>
+</div>
+</div>
+    </div>
+    <div class="order-extra-info">
+    <div id="jigsaw29" class="deliveryMethod white-line"><div class="deliveryMethod-fee">
+            <span class="price"><em class="style-normal-bold-red">0.00</em></span>
+</div>
+<div class="deliveryMethod-title">运送方式：</div>
+<div class="deliveryMethod-sel">
+    <ul class="fare-group J_fareGroup_100 fare-list">
+        <li class="list-item">
+            <label class="J_fare_id" for="fare67"><input name="fare67" class="fare-radio J_fare_radio" type="radio" checked="checked" id="fare67"> 普通配送</label>
+                <select name="J_fare_sel" class="delivery-method-sel J_fare_sel" aria-label="运送方式" title="运送方式">
+                        <option value="2" selected="selected">快递 免邮</option>
+                    
+                </select>
+            <div class="fare-date-picker J_fare_date"></div>
+        </li>
+    </ul>
+</div>
+</div>
+    <div id="jigsaw30" class="promise shop-promise white-line"><div class="promise-title">发货时间：</div>
+<div class="promise-content">卖家承诺订单在买家付款后, 订单合并12小时内<a href="//service.taobao.com/support/help-16140.htm" target="_blank">发货</a></div></div>
+    <div id="jigsaw31" class="service shop-service white-line clearfix"><div class="service-title">运费险：</div>
+<div class="service-content">
+    <p class="service-check">
+        <span class="service-price price"><em class=" style-normal-bold-red ">0.00</em></span>
+        <input type="checkbox" value="0.00" data-id="1065" id="service-1065service70" checked="" disabled="" class="J_service service-checkbox">
+        <label for="service-1065service70" class="server-text J_check_label" title="卖家已为您的运费投保，最高赔付25元">卖家已为您的运费投保，最高赔付25元</label>
+        
+        <i data-pptext="卖家已为您的运费投保，最高赔付25元" data-ppid="ppid-tips-1065" rel="icotip" class="desc-trigger">tip</i>
+        <a href="http://ju.mmstat.com/?url=http://www.taobao.com/go/act/baoxian/yunfeixian.php?ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=1501061807e4f86844b0" target="_blank">[?]</a>
+    </p>
+<div class="msg J-msg hidden">
+    <p class="error">对不起，您没有勾选运费险</p>
+</div>
+</div></div>
+    </div>
+</div>
+<div id="jigsaw32" class="orderPay blue-line"><p>店铺合计(含运费<span class="J_ServiceText">，服务费</span>)：
+<span class="price g_price "><span>¥</span><em class="style-middle-bold-red J_ShopTotal">196.00</em>
+</span></p></div>
+
+</div>
+    </div>
+</div>
+<div class="buy-footer">
+    <div id="jigsaw37" class="riderClause"><div class="buy-pay-type-tmall clearfix hidden">
+    <p class="buy-pay-type-tmall-text">结算时扣除</p>
+</div>
+<div class="buy-pay-type clearfix">
+    <div id="jigsaw34" class="installment"><input type="checkbox" id="J_XCardPay" class="J_MakePoint" data-point-url="" name="installment" disabled="">
+<label for="J_XCardPay">信用卡分期付款</label>
+    <div class="msg hidden" id="J_XCardPriceLimitTip">
+        <p class="attention">实付款大于等于600元才能使用分期付款</p>
+    </div>
+</div>
+    <div id="jigsaw35" class="anonymous"><input type="checkbox" id="J_AnonBuy" class="J_MakePoint" name="anony" data-point-url="//gm.mmstat.com/buy.1.11">
+<label for="J_AnonBuy" class="J_MakePoint">匿名购买</label>
+</div>
+    <div id="jigsaw36" class="agencyPay"><span class="J_bubbleTip bubble hidden"><span class="title">可以让你的朋友帮你付款哟！</span><em class="right-arrow"></em></span>
+<span>
+<i class="iconfont icon-gonggao J_agencyPayIcon"></i>
+<input type="checkbox" name="pay_for_another" id="J_PayAnother" class="J_MakePoint" data-point-url="//gm.mmstat.com/buy.1.9">
+<label for="J_PayAnother">找人代付</label>
+</span>
+</div>
+    <div id="J_FenqiDescription" class="bank-list"></div>
+</div></div>
+    <div class="order-go clearfix" data-spm="4">
+        <div class="address-confirm clearfix">
+            <div class="box">
+            <div id="jigsaw38" class="realPay" tabindex="0"><em class="t">实付款：</em>
+<span class="price g_price ">
+    <span>¥</span> <em class="style-large-bold-red" id="J_ActualFee">196.00</em>
+</span></div>
+            <div id="jigsaw39" class="address"><div id="J_AddrBottomConfirm">
+</div>
+<p class="buy-footer-address">
+    <span class="buy-line-title buy-line-title-type">寄送至：</span>
+    <span class="buy-footer-address-detail J_BuyFooterAddressDetail">
+            吉林省 长春市 朝阳区
+                长春市朝阳区卫星路长春大学计算机学院软件工程系
+    </span>
+</p>
+<p class="buy-footer-address">
+    <span class="buy-line-title">收货人：</span>
+    <span class="buy-footer-address-detail J_BuyFooterAddressRec">
+    李珩 13988888888
+    </span>
+</p>
+</div>
+            <div class="eticket-bottom hidden">电子凭证接收手机：<span class="eticket-bottom-phone"></span></div>
+            </div>
+            <div id="jigsaw40" class="submitOrder">
+<a id="J_Go" href="javascript:void(0);" class="btn-go " tabindex="0" title="点击此按钮，提交订单" data-point-url="//gm.mmstat.com/buy.1.2">提交订单</a>
+<div class="msg hidden" id="J_GlobalErr">
+    <p class="error"></p>
+</div></div>
+            <a href="/buy/cart.html" class="return-cart J_MakePoint" target="_self" data-point-url="//gm.mmstat.com/buy.1.13"><i class="iconfont icon-fanhui"></i>返回购物车</a>
+        </div>
+        <div class="msg">
+            <p class="tips naked">若价格变动，请在提交订单后联系卖家改价，并查看已买到的宝贝</p>
+            
+        </div>
+    </div>
+</div>
+</div>
+<form  action="/buy/confirm_order.html"  target="_self" method="post" id="multiFormSubmit">
+ <input type="hidden" name="action" value="/order/SubmitOrderAction" />
+ <input type="hidden" name="data" value="" />
+ <input type="hidden" name="linkage" value="" />
+ <input type="hidden" name="hierarchy" value="" />
+ <input type="hidden" name="praper_alipay_cashier_domain" value="" />
+ <input type="hidden" name="input_charset" value="utf-8" />
+</form>
+#end##end of the content
+#widget("home:widget/helper/helper.vm") 
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#require("home:static/buy/order/js/submitOrder.js")
+#end ## end of body 
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/buy/order/confirm_order.vm") 
+#end

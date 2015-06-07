@@ -1,0 +1,49 @@
+<div class="head">
+    <div class="header">
+        <div class="header-cnt fn-clear">
+            <h1 class="logo">
+                <a href="http://member1.taobao.com/member/fresh/account_security.htm" class="logo-img logo-img-taobao" title="淘宝" seed="header-link-logo">
+                    淘宝
+                </a>
+            </h1>
+                            <h2 class="logo-title">
+                    重置登录密码
+                </h2>
+                        <ul class="nav">
+                                <li class="nav-first">
+                        <a href="http://reg.taobao.com/member/new_register.jhtml" seed="nav-link-reg">注册</a>
+                        -
+                        <a href="https://login.taobao.com" seed="nav-link-login">登录</a>
+                </li>
+                                <li>
+                    <a href="http://member1.taobao.com/member/fresh/account_security.htm" seed="nav-link-mySite">我的淘宝</a>
+                </li>
+                <li class=" nav-last ">
+                    <a href="http://service.taobao.com/support/main/service_center.htm" target="_blank" seed="nav-link-help">帮助中心</a>
+                </li>
+	                        </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content">
+
+<!-- CMS:会员中心cms/console/scene.vm开始:console/scene.vm --><div class="mainresult">
+    <div class="ui-result">
+        <div class="ui-tipbox ui-tipbox-success ui-result-tipbox">
+            <div class="ui-tipbox-icon ui-icon-success"></div>
+            <div class="ui-tipbox-content">
+                <h3>邮箱验证成功，请继续操作</h3>
+            </div>
+        </div>
+        <div class="ui-result-link">
+            <ul class="linklist fn-clear">
+                <li>
+                    <a target="_blank" href="https://accounts.alipay.com/console/querypwd/resetQueryPwd.htm?sp=0-resetQueryPwd-fullpage&amp;userId=2088812960605555" seed="mailCheckSuccess-When-resetQueryPwd">继续重置登录密码</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div></div>

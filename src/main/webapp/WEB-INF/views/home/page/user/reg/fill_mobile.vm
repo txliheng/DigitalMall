@@ -1,0 +1,137 @@
+#extends("common:page/frame.vm")
+#block("body")
+#require("home:static/user/reg/css/reg.css")
+#block("top")
+#widget("common:widget/top/top.vm")
+#end
+#block("content")
+<div class="header">
+    #block("logo")
+    #widget("common:widget/logo/logo.vm" "var:isReg=true")
+	#end
+</div>
+<div class="steps">
+    <ol>
+        <li class="active">
+            <i>1</i>
+            <span class="tsl" >设置登录名</span>
+        </li>
+        <li>
+            <i>2</i>
+            <span class="tsl" >填写账户信息</span>
+        </li>
+        <li>
+            <i class="iconfont">√</i>
+            <span class="tsl" >注册成功</span>
+        </li>
+    </ol>
+</div>
+<div class="content">
+    <form action="#" method="post" id="J_MobileForm">
+            <div class="form-list form-main-list">
+                <div class="form-group">
+                     <div class="form-item">
+                        <span class="form-label tsl" >手机号码</span>
+                        <div class="mobile-text">
+                            <span class="mobile-text-code" id="J_AreaCode">+86</span>
+                            <input autocomplete="off" class="form-text mobile-text-input" name="mobile" id="J_Mobile" type="text" value="" placeholder="请输入你的手机号码"  >
+						</div>
+                     </div>
+                        <div class="form-item form-item-checkcode">
+                            <span class="form-label tsl" >验证码</span>
+                            <input id="J_CheckCodeInput" autocomplete="off" class="form-text checkcode-text " name="imgChkcode" type="text" value="">
+                                <span id="J_CheckCodeMsgRefer" class="text-input-refer"></span>
+                                <div id="J_CheckCodeContainer" class="checkcode-container" >
+                                    <div class="checkcode-img" id="J_ImgCode1" style="display: block;">
+                                        <img id="J_CheckCodeImg1" width="" height=""  src="/user/checkcode/get_image_check_code.do">
+                                        <a href="#nogo"  role="button" title="重新获取验证码" aria-label="重新获取验证码" id="J_ImgRefresher1" class="checkcode-refresher" >重新获取验证码</a>
+									</div>									
+                                </div>								
+                         </div>
+				</div>
+                <div class="form-group">
+                    <div class="form-item">
+                        <input class="form-checkbox" type="checkbox" name="" id="J_Agreement" checked="">
+                            <label for="J_Agreement" class="f12 tsl" >同意<a href="#" target="_blank">《数码城服务协议》</a>
+								和<a href="#" target="_blank">《法律声明及隐私权政策》</a>                               
+                            </label>
+                    </div>
+                    <div class="form-item form-item-short">
+                                        <button type="submit" class="btn btn-large tsl"  id="J_BtnMobileForm">下一步</button>
+                                        <div class="msg " id="J_MsgMobileForm" >
+                                            <i class="iconfont"></i>
+                                            <div class="msg-tit"></div>
+                                            <div class="msg-cnt"></div>
+                                        </div>
+                    </div>
+                    <div class="form-item f12 tsl" >
+                        <a href="/user/reg/fill_email.html">需通过邮箱注册&gt;</a>
+                    </div>
+				</div>
+			</div>
+	</form>
+</div>
+<div class="msg" id="J_MsgMobile" style="position: absolute; left: 668.5px; top: 207px;display:none;">
+	<i class="iconfont"></i>
+	<div class="msg-tit"></div>
+	<div class="msg-cnt"></div>
+</div>
+<div class="msg" id="J_MsgCheckCode" style="position: absolute; left: 712.5px; top: 261px;display:none;">
+	<i class="iconfont"></i>
+	<div class="msg-tit"></div>
+	<div class="msg-cnt"></div>
+</div>
+  <!--手机验证START-->
+  <div class="ks-dialog mobile-check ks-dialog-focused ks-overlay-focused" id="J_MobileCheck" style="left: 141.5px; top: 187px; " aria-hidden="false">
+	<div class="ks-dialog-content">
+		<a href="javascript:void('close')" onclick="$('#J_MobileCheck').fadeOut();changeImageCode();" class="ks-dialog-close ks-overlay-close" role="button">
+			<span class="iconfont ks-dialog-close-x ks-overlay-close-x">㐲</span>
+		</a>
+		<div class="ks-dialog-header">
+			<h3 class="tsl" data-phase-id="r_p_fillCheckcode">填写校验码</h3>
+			<div class="msg tsl msg-type-info msg-display-block" data-phase-id="r_p_checkcodeSentTip" data-type="info" data-show="1" id="J_MsgCodeTitle" data-display="block"><i class="iconfont">󰅂</i><div class="msg-tit"></div><div class="msg-cnt">
+				校验码已发送到你的手机，15分钟内输入有效，请勿泄漏
+			</div></div>
+		</div>
+		<div class="ks-dialog-body">
+			<form action="#" method="post" id="J_MobileCodeForm">
+				<div class="form-list">
+					<div class="form-group">
+						<div class="form-item">
+							<span class="form-label tsl" >手机号码</span>
+							<span id="J_MobileNumber"></span>
+						</div>
+						<div class="form-item">
+							<span class="form-label tsl" >校验码</span>
+							<input class="form-text checkcode-text" id="J_MobileCode" type="text" name="code" value="" maxlength="6">
+							<button type="button" class="btn btn-white btn-weak tsl btn-disabled" id="J_BtnMobileCode" disabled=""></button>
+							<div class="msg msg-type-ok msg-display-block" id="J_MsgResendCode" >
+								<i class="iconfont">󰅖</i>
+								<div class="msg-tit"></div>
+								<div class="msg-cnt">校验码已发送至你的手机，请查收</div>
+							</div>							
+						</div>
+						<div class="form-item">
+							<button id="J_BtnMobileCodeForm" class="btn btn-normal tsl" data-phase-id="r_p_confirm" type="submit">确定</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+  
+<!--手机验证END-->
+
+#widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+
+#require("home:static/user/reg/js/reg.js")
+#end##end of body
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("home:page/user/reg/fill_mobile.vm")
+
+#end

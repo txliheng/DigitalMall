@@ -1,0 +1,1659 @@
+
+<!doctype html>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta charset="gbk">
+<meta name="data-spm" content="a1z09">
+<title>已买到的宝贝</title>
+<meta name="keywords" content="淘宝,掏宝,网上购物,C2C,在线交易,交易市场,网上交易,交易市场,网上买,网上卖，购物网站,团购,网上贸易,安全购物,电子商务,放心买,供应,买卖信息,网店,一口价,拍卖,网上开店,网络购物,打折,免费开店,网购,频道,店铺">
+<meta name="description" content="中国最大、最安全的网上交易社区,尽享淘宝乐趣！">
+<link rel="shortcut icon" href="http://img.taobaocdn.com/favicon.ico" type="image/x-icon">
+ <script>
+ window.g_rateGift = {
+ orders: [
+             ],
+ giftCheckAPI: "http://rate.taobao.com/gift/gift_item_list_check.jhtml"
+ }
+ </script>
+ <link rel="stylesheet" href="http://g.alicdn.com/tb/global/3.4.2/global-min.css">
+<script src="http://g.alicdn.com/??kissy/k/1.4.7/seed-min.js,tb/global/3.4.2/global-min.js"></script>
+<script>
+ window.g_config={
+  appId: 24,   startTime: new Date().valueOf(),
+ jstracker: {spm: ''}
+ };
+</script>
+<link rel="stylesheet" href="http://g.alicdn.com/??tb/trademanager/3.0.3/2014/pages/bought/page/index-min.css,tb/dts/1.0.12/eb_trade/eb_trade.css">
+<script>
+ window.globalInfo = {
+ assetsTimestamp:'20150129',
+ serverName: 'trademanager010179147158.s.et2'
+ };
+ KISSY.config({
+ combine: ! KISSY.Config.debug,
+ modules: {
+ 'sizzle':{
+ alias: ['node']
+ },
+ 'calendar':{
+ alias: ['gallery/calendar-deprecated/1.0/']
+ },
+ 'datalazyload':{
+ alias: ['gallery/datalazyload/1.0/']
+ },
+ 'switchable':{
+ alias: ['gallery/switchable/1.3.1/']
+ },
+ 'imagezoom':{
+ alias: ['gallery/imagezoom/1.0/']
+ },
+ 'waterfall':{
+ alias: ['gallery/waterfall/1.0/']
+ },
+ 'flash':{
+ alias: ['gallery/flash/1.0/']
+ }
+ }
+ });
+</script>
+
+<script src="http://g.alicdn.com/tb/trademanager/3.0.3/2014/pages/bought/page/index-min.js"></script>
+<script>
+ KISSY.use('index');
+</script>
+
+
+ </head>
+<body id="list-bought-items" class="bought  mytaobao-v1" data-spm="2"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=2102363696&aplus&yunid=&angFQ2OfhHcQgA&asid=AAEk8dBUnIoFuQ6JY1E=",id="tb-beacon-aplus",src=(location>"https"?"//s":"//a")+".tbcdn.cn/s/aplus_v2.js")
+</script>
+
+ <script>if((document.documentElement.clientWidth || document.body.offsetWidth || document.getElementsByTagName('body')[0].clientWidth)>1441){document.body.className = document.body.className + ' SCREEN1360 JS_SCREEN1360'}</script>
+<!-- TMS:global_blacklist -->
+  <script>
+          TB.Global.blacklist = ['fn-cart'];
+  </script>
+
+<!-- S GLOBAL HTML -->
+<div id="J_SiteNav" class="site-nav">
+ <div id="J_SiteNavBd" class="site-nav-bd">
+ <ul id="J_SiteNavBdL" class="site-nav-bd-l"></ul>
+ <ul id="J_SiteNavBdR" class="site-nav-bd-r"></ul>
+ </div>
+</div>
+<!-- -->
+
+<!-- 全网顶通 -->
+
+<!-- E GLOBAL HTML -->
+<script>TB.Global.init()</script>
+ <div id="page">
+       
+    <link rel="stylesheet" href="//g.alicdn.com/tb/mtbframe/1.0.2/pages/home/base.css" />
+ <script type="text/javascript" src="//g.alicdn.com/tb/mtbframe/1.0.2/components/common/base.js"></script>
+ 
+     <header class="mt-header" data-spm="a210b">
+ <article>
+ <div class="mt-logo">
+ <a title="我的淘宝" href="http://i.taobao.com/my_taobao.htm?nekot=1422979364527&tracelog=newmytb_logodianji" class="mt-tblogo" data-spm="d1000351"></a>
+ </div>
+ <nav class="mt-nav">
+ <ul id="J_MtMainNav">
+ <li >
+ <a href="http://i.taobao.com/my_taobao.htm?tracelog=mytaobaonavindex&nekot=1422979364527" data-spm="d1000352">首页</a>
+ <i class="mt-arrow"></i>
+ </li>
+ <li >
+ <a href="http://my.taobao.com/home?tracelog=mytaobaonavmyindex&nekot=1422979364527" data-spm-click="gostr=/sns;locaid=d1000353;" data-spm="d1000353" target="_blank">个人主页</a>
+ <i class="mt-arrow"></i>
+ </li> 
+ <li class="J_MtNavSubTrigger">
+ <a class="mt-nav-parent" href="http://member1.taobao.com/member/fresh/account_security.htm?tracelog=mytaobaonavsetup&nekot=1422979364527" data-spm="d1000356">账户设置<i><em></em><s></s></i></a>
+ <i class="mt-arrow"></i>
+ <div class="J_MtNavSub mt-nav-sub hide">
+ <div class="mt-nav-arr" ></div>
+ <dl class="mt-nav-sub-col1" >
+ <dt>安全设置</dt>
+ <dd>
+ <p><a data-spm="11" href="http://110.taobao.com/account/product_validate.htm?type=password">修改登录密码</a></p>
+ <p><a data-spm="12" href="http://110.taobao.com/account/rebind_phone_begin.htm">手机绑定</a></p>
+ <p><a data-spm="13" href="http://110.taobao.com/product/question_set.htm">密保问题设置</a></p>
+ <p><a data-spm="10" href="http://member1.taobao.com/member/fresh/account_security.htm">其他</a></p>
+ </dd>
+ </dl>
+ <dl class="mt-nav-sub-col2" >
+ <dt>个人资料</dt>
+ <dd>
+ <p><a data-spm="8" href="http://member1.taobao.com/member/fresh/deliver_address.htm">收货地址</a></p>
+ <p><a data-spm="14" href="http://i.taobao.com/user/baseInfoSet.htm">修改头像、昵称</a></p>
+ <p><a data-spm="15" href="http://msg.taobao.com/message/message_set.htm">消息提醒设置</a></p>
+ <p><a data-spm="9" href="http://i.taobao.com/user/privacy_set.htm">隐私设置</a></p>
+ </dd>
+ </dl>
+ <dl class="mt-nav-sub-col3" >
+ <dt>账号绑定</dt>
+ <dd>
+ <p><a data-spm="7" href="http://member1.taobao.com/member/fresh/account_management.htm" >支付宝绑定</a></p>
+ <p><a data-spm="16" href="http://member1.taobao.com/member/fresh/weibo_bind_management.htm">微博绑定</a></p>
+ <p><a data-spm="17" href="http://t.taobao.com/cooperate/connect/connect_manager.htm">分享绑定</a></p>
+ </dd>
+ </dl>
+ </div>
+ </li>
+ <li class="">
+ <a class="mt-nav-parent" href="http://msg.taobao.com/message/list.htm?tracelog=mytaobaonavmessage&nekot=1422979364527" data-spm="d1000357">消息</a>
+ <i class="mt-arrow"></i>
+ 
+ </li>
+ </ul> 
+   <div class="search" id="J_Search" role="search">
+ <div class="search-panel search-sns-panel-field">
+ <form target="_blank" action="http://s.taobao.com/search" name="search" id="J_TSearchForm" class="search-panel-focused">
+ <div class="search-button">
+ <button class="btn-search" type="submit">搜 索</button>
+ </div>
+ <div class="search-panel-fields">
+ <label for="q"></label>
+ <input id="q" name="q" accesskey="s" autofocus="true" autocomplete="off" x-webkit-speech=""
+ x-webkit-grammar="builtin:translate">
+ </div>
+ <input type="hidden" name="commend" value="all">
+ <input type="hidden" name="ssid" value="s5-e" autocomplete="off">
+ <input type="hidden" name="search_type" value="mall" autocomplete="off">
+ <input type="hidden" name="sourceId" value="tb.index">
+ <input type="hidden" name="spm" value="a1z02.1.6856637.d4910789">
+ <!--[if lt IE 9]><s class="search-fix search-fix-panellt"></s><s class="search-fix search-fix-panellb"></s>
+ <![endif]-->
+ </form>
+ </div>
+ </div>
+   </nav>
+ <a id="J_Nav_Side" title="展开导航"><em>&#61532;</em></a>
+ </article>
+</header>
+<!-- end vmcommon/mytaobao -->
+
+
+ <div id="content">
+ <div id="mytaobao-panel" class="grid-c2">
+ <div class="col-main" id="J_Col_Main" style="padding-bottom: 0;">
+ 
+
+
+<div class="main-wrap">
+ <input id="J_ShareParam" type="hidden" value='{"client_id":"004"}'>
+ <span class="mytaobao-rc-tp"><span></span></span>
+
+ <div id="main-content">
+
+     <div class="J_MakePoint J_trade_banner_mobile" data-point-url="http://gm.mmstat.com/wap.1001.3" data-action-name="auto" style="margin-bottom: 10px">
+		<a href="http://ju.mmstat.com/?url=http://h5.m.taobao.com/alone/pclaxin/index.html?flag=3&ad_id=&am_id=&cm_id=&pm_id=15010883417afe28e5de" target="_blank" style="display: block; overflow: hidden; background-color: #fffede; border: 1px solid #c8c8c6; border-left: 0 none;">
+        	<img src="http://gtms01.alicdn.com/tps/i1/TB1deOKHXXXXXcAXFXX5gYz9XXX-828-38.jpg" style="vertical-align: middle;" />
+		</a>
+	</div>
+
+ 
+     <textarea id="J_Mobile_Point_Link" class="hidden">
+ <p class="mobile J_MakePoint" data-point-url="http://gm.mmstat.com/wap.1001.4">
+    	<img src="http://gtms01.alicdn.com/tps/i1/T19RdKFuXaXXaSQP_X-16-16.png" />
+		<a href="http://ju.mmstat.com/?url=http://h5.m.taobao.com/alone/pclaxin/index.html?spm=1.7111941.a214bmr.1&flag=4&ad_id=&am_id=&cm_id=&pm_id=150108265196895d668e" target="_blank">恭喜你查物流获得10元新人礼包</a>
+	</p>
+
+ </textarea>
+ 
+     <textarea id="J_NoviceData" style="display:none">
+ {
+ "remindType": 1,
+ "onReadyShowTips": false,
+ "newfishTips": [
+ {
+ "question":"淘宝上购物我怎么付款?",
+ "answerTitle":"在淘宝购物，付款方式有多种选择：",
+ "answerList":[
+ "使用开通网上支付功能的银行卡或信用卡支付。一次操作，方便终生。<em style='color: #f00;'>（推荐）</em>",
+ "货到付款。",
+ "使用现金、消费卡或他人支付宝进行支付。"
+ ],
+ "moreLink":"http://www.taobao.com/wui/pay/index.php?f=index&p=index",
+ "category":"unpay"
+ },
+ {
+ "question":"我东西拍下了，但是不想要了怎么办?",
+ "answerList":[
+ "如果已经拍下了但还没付款，可以通过阿里旺旺及时联系卖家协商，让卖家关闭交易即可。"
+ ],
+ "category":"unpay"
+ },
+ {
+ "question":"如果到时候我收不到货，或收到的东西有问题怎么办?",
+ "answerList":[
+ "付款后，卖家才会发货，货款不会立即支付给卖家；若收不到货，或商品有问题，可申请退款，淘宝将退款给您。"
+ ],
+ "moreLink":"http://service.taobao.com/support/help-11689.htm",
+ "category":"unpay"
+ },
+ {
+ "question":"卖家一直不发货，我该怎么办?",
+ "answerTitle":"卖家不发货，您可以：",
+ "answerList":[
+ "通过<a target='_blank' href='http://www.taobao.com/wangwang/2010_fp/buyer.php'>阿里旺旺</a>联系卖家协商；",
+ "在“已买到的宝贝”页面申请退款。"
+ ],
+ "category":"unsend"
+ },
+ {
+ "question":"我买的东西卖家说没货了，我该怎么办?",
+ "answerList":[
+ "卖家缺货，您可在“已买到的宝贝”页面申请退款。"
+ ],
+ "category":"unsend"
+ },
+ {
+ "question":"我东西拍下了，但是不想要了怎么办?",
+ "answerTitle":"如果付款后不想要了，您可以：",
+ "answerList":[
+ "通过<a target='_blank' href='http://www.taobao.com/wangwang/2010_fp/buyer.php'>阿里旺旺</a>联系卖家协商退款;",
+ "在“已买到的宝贝”页面申请退款。"
+ ],
+ "category":"unsend"
+ },
+ {
+ "question":"卖家发货了，可是我没收到，怎么办?",
+ "answerTitle":"卖家发货后：",
+ "answerList":[
+ "请<a target='_blank' href='http://service.taobao.com/support/help-12026.htm'>注意交易超时</a>，并在“已买到的宝贝”页面申请退款",
+ "如果卖家不同意退款，可以在申请退款的3天后在“已买到的宝贝”页面申请维权，淘宝会保障您的利益。"
+ ],
+ "category":"sended"
+ },
+ {
+ "question":"没收到货，钱会打给卖家吗?",
+ "answerList":[
+ "卖家发货后，买家在一定时间内未确认收货，钱将自动打给卖家。<br/> 如未收到货，可联系卖家延长交易超时时间，或者在“已买到的宝贝”页面申请退款"
+ ],
+ "category":"sended"
+ },
+ {
+ "question":"我收到的商品出问题了，怎么办?",
+ "answerTitle":"如果您收到的商品存在质量问题或和卖家描述的不一致：",
+ "answerList":[
+ "请<a target='_blank' href='http://service.taobao.com/support/help-12026.htm'>注意交易超时</a>，并在“已买到的宝贝”页面申请退款",
+ "如果卖家不同意退款，可以在申请退款的3天后在“已买到的宝贝”页面申请维权，淘宝会保障您的利益。"
+ ],
+ "moreLink":"http://service.taobao.com/support/help-12026.htm",
+ "category":"sended"
+ },
+ {
+ "question":"我购买的商品出了问题，要退货，卖家不肯承担运费怎么办",
+ "answerList":[
+ "商品质量问题等卖家责任引起的退货，卖家承担退货运费；",
+ "运费问题无法和卖家协商，可在申请退款后在“已买到的宝贝”页面申请维权，淘宝会保障您的利益。"
+ ],
+ "moreLink":"http://service.taobao.com/support/help-12165.htm",
+ "category":"sended"
+ },
+ {
+ "question":"钱打给卖家了，我没收到货怎么办?",
+ "answerList":[
+ "您可以通过<a target='_blank' href='http://www.taobao.com/wangwang/2010_fp/buyer.php'>阿里旺旺</a>联系卖家协商，要求卖家退款；",
+ "自己找卖家无法获得退款时，可在“已买到的宝贝”页面点击“申请维权”，淘宝客服会帮助处理。"
+ ],
+ "category":"succeed"
+ },
+ {
+ "question":"交易成功后，商品出现问题，需要维修或退换：",
+ "answerList":[
+ "您可以通过<a target='_blank' href='http://www.taobao.com/wangwang/2010_fp/buyer.php'>阿里旺旺</a>联系卖家协商；",
+ "自己找卖家无法获得售后保障时，可在收货后的15天内在“已买到的宝贝”页面点击“申请维权”，淘宝会保障您的利益。"
+ ],
+ "moreLink":"http://service.taobao.com/support/help-12086.htm",
+ "category":"succeed"
+ }
+]  }
+ </textarea>
+ 
+ <textarea id="xxx" style="display:none">
+ {
+ "wapNoPay": true,
+ "wapNoLogin": true
+ }
+ </textarea>
+
+     
+<div class="trade-remind" id="J_navbar">
+   <ul class="list" data-spm="7">
+ 
+ <li class="selected first">
+ <a class="link" href="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm" data-spm="d1"><span>所有订单</span>
+ <i class="interval">|</i></a>
+ </li>
+
+ <li >
+ <a class="link" href="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&auctionStatus=NOT_PAID&tradeRemindFrom=NOT_PAID" data-spm="d2"><span>待付款</span><em class="tm-h">1</em><i class="interval">|</i></a>
+ </li>
+
+ <li >
+ <a class="link" href="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&auctionStatus=NOT_SEND&tradeRemindFrom=NOT_SEND" data-spm="d3"><span>待发货</span><em class="tm-h">0</em><i class="interval">|</i></a>
+ </li>
+
+ <li >
+ <a class="link" href="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&auctionStatus=SEND&tradeRemindFrom=SEND" data-spm="d4"><span>待收货</span><em class="tm-h">0</em><i class="interval">|</i></a>
+ </li>
+
+ <li >
+ <a class="link" href="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&auctionStatus=ALL&commentStatus=I_HAS_NOT_COMMENT&tradeRemindFrom=I_HAS_NOT_COMMENT" data-spm="d5"><span>待评价</span><em class="tm-h">0</em><i class="interval">|</i></a>
+ </li>
+
+   
+       
+ <li class="last ">
+ <a id="J_orderRecyleBin" class="recycle J_MakePoint" href="http://trade.taobao.com/trade/itemlist/list_recyled_items.htm" data-spm="d8" data-point-url="http://gm.mmstat.com/listbought.1.4">订单回收站</a>
+ </li>
+ </ul>
+   
+ <div class="wrap-line">
+ <span class="line selected0"></span>
+ </div>
+</div>
+
+   
+<div class="searchbar">
+ <form class="skin-gray clearfix bought-search " action="?search" method="post" id="J_QueryConditionForm">
+ <input id="submitNameId" type="hidden" name="event_submit_do_query" value="1"/>
+ <input type="hidden" id="myAction" name="action" value="itemlist/QueryAction"/>
+ <input type="hidden" name="user_type" value="0"/>
+ <input type="hidden" id="order" name="order" value=""/>
+ <input type="hidden" id="visibility" name="visibility" value=""/>
+ <input type="hidden" id="J_FormExpandCls" name="wrap" value=""/>
+ 
+ <div class="simple">
+ <input type="text" size="50" id="J_BaobeiName" class="auction-title" name="auctionTitle" value="" maxLength="30" placeholder="输入商品标题或订单号进行搜索">
+ <span class="search-btn">
+ <button class="J_MakePoint button" type="submit" data-point-url="http://gm.mmstat.com/listbought.1.17">订单搜索</button>
+ </span>
+ <span class="search-opt" id="J_SearchBoxToggle">
+ <a href="#" class="J_MakePoint show-whole" data-point-url="//gm.mmstat.com/listbought.1.23">
+ 更多筛选条件
+ <i><em></em><span></span></i>
+ </a>
+ <a href="#" class="J_MakePoint show-simple" data-point-url="//gm.mmstat.com/listbought.1.24">
+ 精简筛选条件<i><em></em><span></span></i>
+ </a>
+ </span>
+ </div>
+
+ <div id="J_MoreControl" class="whole" >
+ <ul>
+   <li class="col1">
+ <label>订单类型：</label>
+ <select name="queryBizType" class="J_NiceSelect" data-config='{"w": 68, "h": 17}'>
+   <option value="">全部订单</option>
+ <option  value="1400">机票订单</option>
+ <option  value="1500">数字订单</option>
+ <option  value="3000"">理财订单</option>
+ <option  value="900">网游订单</option>
+ <option  value="710">酒店订单</option>
+ <option  value="1102">保险订单</option>
+ </select>
+ </li>
+ <li class="col2"> 
+ <label>成交时间：</label>
+ <input type="text" size="10" id="J_BeginTime" class="trade-time" name="bizOrderTimeBegin" value="">
+ 到 <input type="text" size="10" id="J_EndTime" class="trade-time" name="bizOrderTimeEnd" value="">
+ </li>
+ <li class="col3">
+ <label for="J_NickName"> 卖家昵称：</label>
+ <input type="text" name="sellerNick" size="15" id="J_NickName" class="seller-nick" value="">
+ </li>
+ <li class="col1">
+ <label for="J_ReviewStatus">评价状态：</label>
+ <select id="J_ReviewStatus" class="J_NiceSelect" name="commentStatus" data-config='{"w": 68, "h": 17}'>
+ <option value="ALL" >全部</option>
+ <option value="I_HAS_NOT_COMMENT" >需我评价</option>
+ <option value="I_HAS_COMMENT" >我已评价</option>
+ <option value="OTHER_HAS_COMMENT" >对方已评</option>
+ <option value="ALL_COMMENT" >双方已评</option>
+ </select>
+ </li>
+ <li class="col2">
+ <label for="J_TradeStatus">交易状态：</label>
+ <select id="J_TradeStatus" class="J_NiceSelect" name="auctionStatus" data-config='{"w": 104, "h": 17}'>
+ <option value="ALL" >全部</option>
+ <option value="NOT_PAID" >等待买家付款</option>
+   <option value="PAID" >买家已付款</option>
+ <option value="SEND" >卖家已发货</option>
+ <option value="SUCCESS" >交易成功</option>
+ <option value="DROP" >交易关闭</option>
+ <option value="REFUNDING" >退款中的订单</option>
+ </select>
+ </li>
+ <li class="col3">
+ <label for="J_AfterServiceStatus">售后服务：</label>
+ <select name="tradeDissension" class="J_NiceSelect" id="J_AfterServiceStatus" data-config='{"w": 72, "h": 17}'>
+ <option value="ALL" > 全部</option>
+ <option value="ACCUSED" >已投诉</option>
+ <option value="REFUNDING" >退款中</option>
+ </select>
+ </li>
+   </ul>
+ <button id="J_SearchBox_Submmit" class="J_MakePoint extended-submit" type="submit" data-point-url="http://gm.mmstat.com/listbought.1.17">搜索</button>
+ </div>
+ 
+ </form>
+
+ <p class="consume-tip">
+ <a class="other" target="_blank" href="http://weibo.com/1878960481/C2zwocZXi?from=page_1006061878960481_profile&wvr=6&mod=weibotime&type=comment#_rnd1422943058238">晒客服之莫名其妙的交易</a>
+
+ </p>
+</div>
+
+  
+ <div class="bought-list">
+
+   <form action="" method="post" id="J_BoughtListForm" autocomplete="off">
+ <input id="J_Token" type="hidden" name="_tb_token_" value="angFQ2OfhHcQgA">
+ <input id="J_MainBizIds" type="hidden" name="main_biz_order_ids" value="969385874979636-843003716639636">
+ <input id="J_buddy_require_url" type="hidden" value="//tbskip.taobao.com/json/show_buddy_biz_order.do">
+ <input id="J_buddy_result_link" type="hidden" value="http://follow.taobao.com/buddy_detail.htm">
+ <input id="J_activity_require_url" type="hidden" value="//active.taobao.com/json/bought_icon.htm">
+
+ <table class="bought-table" id="J_BoughtTable" data-spm="9">
+
+   
+<colgroup>
+ <col class="baobei">
+ <col class="price">
+ <col class="quantity">
+ <col class="item-operate">
+ <col class="amount">
+ <col class="trade-status">
+ <col class="trade-operate">
+</colgroup>
+<thead>
+ <tr class="col-name">
+ <th class="baobei">宝贝</th>
+ <th class="price">单价(元)</th>
+ <th class="quantity">数量</th>
+ <th class="item-operate">商品操作</th>
+ <th class="amount">实付款(元)</th>
+ <th class="trade-status">
+<div class="trade-status">
+<select id="J_TradeStatusHandle" class="J_NiceSelect" data-config='{"w": 86, "h": 15}'>
+<option data-msg="交易状态" value="ALL" >交易状态</option>
+<option data-msg="等待买家付款" value="NOT_PAID" >等待买家付款</option>
+<option data-msg="买家已付款" value="PAID" >买家已付款</option>
+<option data-msg="卖家已发货" value="SEND" >卖家已发货</option>
+<option data-msg="交易成功" value="SUCCESS" >交易成功</option>
+<option data-msg="交易关闭" value="DROP" >交易关闭</option>
+<option data-msg="退款中的订单" value="REFUNDING" >退款中的订单</option>
+</select>
+
+</div>
+ </th>
+ <th class="trade-operate">交易操作</th>
+ </tr>
+<tr class="sep-row"><td colspan="9"></td></tr>
+  <tr class="toolbar toolbar-top">
+ <td colspan="7">
+ <div class="operates">
+<label><input type="checkbox" class="J_AllSelector all-selector">全选</label>
+ <a href="javascript:void(0)" class="J_MakePoint J_CombinPay toolbtn" data-url="http://buyer.trade.taobao.com/trade/AlipayListScreen.htm" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.1.8">合并付款</a>
+<a href="javascript:void(0)" class="J_MakePoint J_CombinAgentPay toolbtn" data-url="http://buyer.trade.taobao.com/trade/AlipayListScreen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">合并代付</a>
+ <a href="javascript:void(0)" class="J_BatchReceive J_MakePoint toolbtn long-toolbtn" data-url="http://trade.taobao.com/trade/confirm/batch_confirm_goods.htm" data-point-url="http://gm.mmstat.com/listbought.1.11">批量确认收货</a>
+ <span id="J_xCardTip" style="display: none;">如想使用信用卡付款，请只选择带有 <img src="http://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="支持信用卡支付" title="支持信用卡支付"> 标识的宝贝</span>
+  </div>
+ <div class="paging-box paging-simple">
+
+  
+
+<div class="paging-previous-grey g-u" href="" hidefocus="true">
+<span class="paging-arrow paging-arrow-left-grey"></span>
+</div>
+<div class="paging-next g-u" href="">
+下一页
+<span class="paging-arrow paging-arrow-right-grey"></span>
+</div>
+</div>
+</td>
+ </tr>
+</thead>
+
+
+   
+      
+
+
+
+
+<tbody data-isarchive="false" data-orderid="969385874979636" data-status="WAIT_BUYER_PAY"
+ class="mainOrder969385874979636  xcard">
+
+   
+<tr class="sep-row"><td colspan="7"></td></tr>
+<tr class="order-hd">
+ <td class="first">
+ <div class="summary">
+ <span>
+ <input type="checkbox" class="J_Selector selector" id="cb969385874979636" name="biz_order_id" value="969385874979636" >
+ </span>
+ <span class="dealtime" title="2015-02-03 23:58">2015-02-03</span>
+ <span class="number last-item">订单号：<em>969385874979636</em></span>
+ </div>
+ </td>
+ <td class="column" colspan="2">
+   
+   
+    
+       <a target="_blank" class="shopname J_MakePoint" title="快乐衣家淘" href="http://store.taobao.com/shop/view_shop.htm?user_number_id=822217404"
+ data-point-url="http://gm.mmstat.com/listbought.1.21">快乐衣家淘</a>
+       </td>
+ <td class="column">
+   
+      <span class="J_WangWang J_MakePoint" data-nick="a469010857" data-tnick="a469010857" data-display="inline" data-item="$bizOrder.itemID:969385874979636"
+ data-point-url="http://gm.mmstat.com/listbought.1.13"></span>
+   
+
+  </td>
+ <td class="last" colspan="3">
+   <div class="operates">
+ 
+     <a class="J_ShareSNS share J_placeholder_buddy" href="#" data-param='{"type":"item","key":"42401362031", "comment" : "亲，很棒的宝贝噢~", "client_id": "180218"}'
+ data-name="969385874979636" class="J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.1.14" title="分享">分享
+ </a>
+ 
+   
+   
+   
+     <a class=" memo J_MakePoint" data-url="/trade/json/memoInfo.htm?user_type=buyer&orderid=969385874979636&isArchive=false" title="编辑标记信息，仅自己可见" href="http://trade.taobao.com/trade/memo/update_buy_memo.htm?bizOrderId=969385874979636&amp;buyerId=2102363696&amp;user_type=0&amp;clickMore=0&amp;pageNum=1&amp;auctionTitle=&amp;bizOrderTimeBegin=&amp;bizOrderTimeEnd=&amp;commentStatus=&amp;sellerNick=&amp;auctionStatus=&amp;isArchive=false&amp;logisticsService=&amp;visibility=true" data-point-url="http://gm.mmstat.com/listbought.1.15">
+ 标记
+ </a>
+
+     </div>
+ 
+ <input type="hidden" name="payOrderId_969385874979636" id="payOrderId_969385874979636" value="969385874979636"/>
+ <input type="hidden" name="tradeStatus_969385874979636" id="tradeStatus_969385874979636" value="WAIT_BUYER_PAY"/>
+ <input type="hidden" name="sellerId" value="822217404">
+ <input type="hidden" name="buyerId" value="2102363696">
+ <input type="hidden" name="tradeStatus_969385874979636" id="tradeStatus_969385874979636" value="WAIT_BUYER_PAY">
+ </td>
+</tr>
+   
+   
+   <tr id="item969385874979636"
+ class="order-bd 
+    last     ">
+   <td class="baobei">
+   
+
+
+    
+     
+    <a target="_blank" hidefocus="true" title="查看宝贝详情" href="http://item.taobao.com/item.htm?id=42401362031&amp;_u=41ukv1hgf660" class="pic J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.5">
+   <img alt="查看宝贝详情" src="http://img04.taobaocdn.com/bao/uploaded/i4/TB1ynTpGFXXXXcoXFXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg "/>
+   </a>
+ 
+ <div class="desc">
+   
+   <p class="baobei-name">
+ <a target="_blank" href="http://item.taobao.com/item.htm?id=42401362031&amp;_u=41ukv1hgf660" class="J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.6">
+ ggcc女鞋快乐玛丽高蒂依依鸟卡莱莉尔2014雪娃娃靴子秋冬新款飞驼
+     </a>
+   <a href="http://buyer.trade.taobao.com/trade/detail/tradeSnap.htm?tradeID=969385874979636&amp;snapShot=true" target="_blank" class="J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.7">[交易快照]</a>
+   </p>
+ 
+ 
+     
+       
+ <div class="spec" title="">
+     <span>颜色分类: 黑色</span><span>尺码: 39</span>
+   
+   
+ 
+   
+     </div>
+
+
+   
+     <span class="good-icons">
+
+
+ 
+      
+ 
+ 
+   <a title="保障卡" href="http://trade.taobao.com/trade/security/security_card.htm?bizOrderId=969385874979636" target="_blank">
+ <img src="http://img02.taobaocdn.com/tps/i2/T1S4ysXh8pXXXXXXXX-52-16.png"/>
+
+   </a>
+ 
+ 
+   </span>  
+         
+   
+ 
+
+ 
+   </div>    </td>
+ 
+     <td class="price" title="495.00">
+     <i class="special-num">495.00</i>
+   </td>
+   
+       <td class="quantity" title="1">
+ <i class="special-num">1</i>
+   </td>
+ 
+ 
+     
+     <td class="item-operate"  >
+         
+     
+  
+
+ 
+    
+
+
+  
+             
+
+  
+    
+         
+     <a href="javascript:void(0)" class="tousu-weiquan J_MakePoint J_HasBuy J_ApplyRepayTrigger" title="" target="_blank" url="http://support.taobao.com/myservice/rules/rules_redirect.jhtml?trade_id=969385874979636"
+ data-point-url="http://gm.mmstat.com/listbought.1.12">投诉卖家</a><input type="hidden" id = "pioneerRulesType" value="">
+   
+   
+
+  
+   
+ 
+   
+   
+   
+           </td>
+   
+   
+           
+    
+     
+   
+   <td class="amount" rowspan="1">
+ 
+     
+
+
+  <p>
+ <em class="real-price special-num">
+   510.00
+   </em>
+     </p>
+
+  <p class="post-type">
+           
+     </p>
+  
+     
+      <p>
+ (含运费：<i class="special-num">15.00</i>)
+ </p>
+     
+     
+
+   
+     
+   
+ <img alt="支持信用卡支付" title="支持信用卡支付" src="http://assets.taobaocdn.com/sys/common/icon/trade/xcard.png"/>
+
+  
+     </td>
+
+ 
+   <td class="trade-status" rowspan="1">
+ 
+
+
+     
+
+    
+
+
+
+
+ 
+ 
+                 
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+   
+         
+
+   
+ 
+   <a href="http://buyer.trade.taobao.com/trade/detail/trade_item_detail.htm?bizOrderId=969385874979636" target="_blank" data-point-url="//gm.mmstat.com/listbought.2.8" class="J_MakePoint status">
+   等待买家付款
+     </a>
+   
+   
+   
+ <span>
+     
+    
+
+<a href="http://buyer.trade.taobao.com/trade/detail/trade_item_detail.htm?bizOrderId=969385874979636" target="_blank" class="detail-link J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.1.29">
+ 订单详情
+</a>
+
+       </span>
+
+ 
+ 
+ 
+   
+    
+
+
+       
+ 
+    
+
+
+
+
+  </td>
+ 
+     <td class="trade-operate" rowspan=" 1 ">
+   
+
+  
+ 
+ 
+ 
+  
+ 
+       
+  
+   
+       
+ <a class="tm-btn tm-skin-orange J_MakePoint  "
+
+ 
+ href="
+   http://buyer.trade.taobao.com/trade/pay.htm?bizOrderId=969385874979636&amp;bizType=200&amp;ispayforanother=false
+   "
+ target="_blank"
+ data="width=630&height=360"
+ title="付款到支付宝"
+ data-point-url="http://gm.mmstat.com/listbought.1.7">
+   立即付款
+   </a>
+ 
+ 
+         <a class="J_MakePoint  "
+ href="
+   http://trade.taobao.com/trade/pay.htm?biz_order_id=969385874979636&amp;biz_type=200&amp;ispayforanother=true
+   "
+ target="_blank" title="付款到支付宝"
+ data="width=530&height=360"
+ data-point-url="http://gm.mmstat.com/listbought.1.9"
+ >
+ 找人代付
+ </a>
+ 
+       <a class="J_DialogTrigger J_MakePoint"
+   data="width=400&height=180"
+   data-point-url="http://gm.mmstat.com/listbought.1.16"
+ title="请与卖家协商取消订单，每天不得取消超过5笔订单。"
+ href="
+   /trade/cancel_order_buyer.htm?biz_order_id=969385874979636&amp;biz_type=200&amp;cell_redirect=0
+   "
+ >
+   取消订单
+   </a>
+ 
+     
+  
+            
+      
+  
+  
+ 
+  
+ 
+
+  
+
+  
+  
+  
+ 
+  
+ 
+       
+       
+ 
+  
+ 
+
+
+
+
+    </td>
+     </tr>
+
+   
+                   
+   
+                                                         
+ </tbody>         
+
+
+
+
+<tbody data-isarchive="true" data-orderid="843003716639636" data-status="CREATE_CLOSED_OF_TAOBAO"
+ class="mainOrder843003716639636  close-order xcard">
+
+   
+<tr class="sep-row"><td colspan="7"></td></tr>
+<tr class="order-hd">
+ <td class="first">
+ <div class="summary">
+ <span>
+ <input type="checkbox" class="J_Selector selector" id="cb843003716639636" name="biz_order_id" value="843003716639636"  disabled="disabled">
+ </span>
+ <span class="dealtime" title="2014-10-31 17:55">2014-10-31</span>
+ <span class="number last-item">订单号：<em>843003716639636</em></span>
+ </div>
+ </td>
+ <td class="column" colspan="2">
+         <span class="g-u" >
+ <a href="http://www.tmall.com"><img src="//gtd.alicdn.com/tps/i2/T14aUaFNJaXXaSQP_X-16-16.png"/></a>
+ </span>
+   
+   
+    
+       <a target="_blank" class="shopname J_MakePoint" title="沃林旗舰店" href="http://store.taobao.com/shop/view_shop.htm?user_number_id=875304292"
+ data-point-url="http://gm.mmstat.com/listbought.1.21">沃林旗舰店</a>
+       </td>
+ <td class="column">
+   
+      <span class="J_WangWang J_MakePoint" data-nick="沃林旗舰店" data-tnick="沃林旗舰店" data-display="inline" data-item="$bizOrder.itemID:843003716639636"
+ data-point-url="http://gm.mmstat.com/listbought.1.13"></span>
+   
+
+  </td>
+ <td class="last" colspan="3">
+   <div class="operates">
+   <a class="J_placeholder_activity activity" title="查看本店活动" data-sellerId="875304292" href="">
+ 查看店铺活动
+ </a>
+ 
+     <a class="J_ShareSNS share J_placeholder_buddy" href="#" data-param='{"type":"item","key":"15967638049", "comment" : "亲，很棒的宝贝噢~", "client_id": "180218"}'
+ data-name="843003716639636" class="J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.1.14" title="分享">分享
+ </a>
+ 
+   
+   
+   
+     <a class=" memo J_MakePoint" data-url="/trade/json/memoInfo.htm?user_type=buyer&orderid=843003716639636&isArchive=true" title="编辑标记信息，仅自己可见" href="http://trade.taobao.com/trade/memo/update_buy_memo.htm?bizOrderId=843003716639636&amp;buyerId=2102363696&amp;user_type=0&amp;clickMore=0&amp;pageNum=1&amp;auctionTitle=&amp;bizOrderTimeBegin=&amp;bizOrderTimeEnd=&amp;commentStatus=&amp;sellerNick=&amp;auctionStatus=&amp;isArchive=true&amp;logisticsService=&amp;visibility=true" data-point-url="http://gm.mmstat.com/listbought.1.15">
+ 标记
+ </a>
+
+       <a class="J_DelOrder J_MakePoint del" data-action="delOrder"
+ data-point-url="http://gm.mmstat.com/listbought.1.1"
+ href="javascript:void(0)" title="删除">删除</a>
+     </div>
+ 
+ <input type="hidden" name="payOrderId_843003716639636" id="payOrderId_843003716639636" value="843003716639636"/>
+ <input type="hidden" name="tradeStatus_843003716639636" id="tradeStatus_843003716639636" value="CREATE_CLOSED_OF_TAOBAO"/>
+ <input type="hidden" name="sellerId" value="875304292">
+ <input type="hidden" name="buyerId" value="2102363696">
+ <input type="hidden" name="tradeStatus_843003716639636" id="tradeStatus_843003716639636" value="CREATE_CLOSED_OF_TAOBAO">
+ </td>
+</tr>
+   
+   
+   <tr id="item843003716639636"
+ class="order-bd 
+    last     ">
+   <td class="baobei">
+   
+
+
+    
+     
+    <a target="_blank" hidefocus="true" title="查看宝贝详情" href="http://item.taobao.com/item.htm?id=15967638049&amp;_u=41ukv1hga5d9" class="pic J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.5">
+   <img alt="查看宝贝详情" src="http://img04.taobaocdn.com/bao/uploaded/i4/TB1wfyxGXXXXXXDXFXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg "/>
+   </a>
+ 
+ <div class="desc">
+   
+   <p class="baobei-name">
+ <a target="_blank" href="http://item.taobao.com/item.htm?id=15967638049&amp;_u=41ukv1hga5d9" class="J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.6">
+ 【沃林】蓝莓果干358g 特级蓝梅干无添加无糖 零食干果特产 包邮
+     </a>
+   <a href="http://tradearchive.taobao.com/trade/detail/tradeSnap.htm?tradeID=843003716639636" target="_blank" class="J_MakePoint" data-point-url="//gm.mmstat.com/listbought.2.7">[交易快照]</a>
+   </p>
+ 
+ 
+     
+       
+ <div class="spec" title="">
+ 
+   
+ 
+   
+     </div>
+
+
+   
+     <span class="good-icons">
+
+
+ 
+     
+
+   
+   
+   
+ 
+     
+   
+   
+     <a href="http://www.tmall.com/market/mall/qttk.php?spm=3.7095809.2000g001.2.RuHN6j%3E" title="七天退换" target="_blank">
+ <span class="tb-brand tb-brand-qtth">
+ <i class="tb-icon"></i>
+ </span>
+ </a>
+ 
+   
+         
+   
+   
+   
+     <a href="http://www.taobao.com/go/act/315/xfzbz_rsms.php?ad_id=&amp;am_id=130011830696bce9eda3&amp;cm_id=&amp;pm_id=" title="如实描述" target="_blank">
+ <span class="tb-brand tb-brand-xb">
+ <i class="tb-icon"></i>
+ </span>
+ </a>
+ 
+           <a href="http://www.taobao.com/go/act/315/xfzbz_jyps.php?ad_id=&amp;am_id=1300118304240d56fca9&amp;cm_id=&amp;pm_id=" title="假一赔三" target="_blank">
+ <span class="tb-brand tb-brand-jyps">
+ <i class="tb-icon"></i>
+ </span>
+ </a>
+ 
+   
+   
+   
+   
+         
+   
+     <a href="http://www.taobao.com/go/act/315/xfzbz_zpbz.php?ad_id=&amp;am_id=130011830709c0515500&amp;cm_id=&amp;pm_id=" title="正品保证" target="_blank">
+ <span class="tb-brand tb-brand-zpbz">
+ <i class="tb-icon"></i>
+ </span>
+ </a>
+ 
+   
+   
+       
+ 
+   
+
+   
+ </span>  
+         
+   
+ 
+
+ 
+   </div>    </td>
+ 
+     <td class="price" title="215.00">
+     <i class="special-num">215.00</i>
+   </td>
+   
+       <td class="quantity" title="2">
+ <i class="special-num">2</i>
+   </td>
+ 
+ 
+     
+     <td class="item-operate"  >
+         
+     
+  
+
+ 
+
+
+
+  
+             
+
+  
+    
+           
+     
+   
+
+  
+   
+ 
+                 <a href="http://baoxian.taobao.com/thwy/detail.html?biz_trade_id=843003716639636&biz_order_id=843003716639636&type=yfx1" target="_blank" class="J_MakePoint" data-point-url="//gm.mmstat.com/listbought.1.35">退运保险</a>
+ 
+   
+   
+           </td>
+   
+   
+           
+    
+     
+   
+   <td class="amount" rowspan="2">
+ 
+     
+
+
+  <p>
+ <em class="real-price special-num">
+   256.00
+   </em>
+     </p>
+
+  <p class="post-type">
+           
+     </p>
+  
+     
+      <p>
+ (含运费：<i class="special-num">0.00</i>)
+ </p>
+     
+     
+
+   
+     
+   
+ 
+  
+     </td>
+
+ 
+   <td class="trade-status" rowspan="2">
+ 
+
+
+     
+
+    
+
+
+
+
+ 
+ 
+       
+   
+   
+   
+   
+   
+     
+   
+ 
+ 
+ 
+   
+         
+
+   
+ 
+   <a href="http://tradearchive.taobao.com/trade/detail/trade_item_detail.htm?bizOrderId=843003716639636" target="_blank" data-point-url="//gm.mmstat.com/listbought.2.12" class="J_MakePoint status">
+   交易关闭
+     </a>
+   
+   
+   
+ <span>
+     
+    
+
+<a href="http://tradearchive.taobao.com/trade/detail/trade_item_detail.htm?bizOrderId=843003716639636" target="_blank" class="detail-link J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.1.29">
+ 订单详情
+</a>
+
+       </span>
+
+ 
+ 
+ 
+   
+    
+
+
+       
+ 
+    
+
+
+
+
+  </td>
+ 
+     <td class="trade-operate" rowspan=" 2 ">
+   
+
+  
+ 
+ 
+ 
+  
+ 
+       
+  
+  
+            
+      
+  
+  
+ 
+  
+ 
+
+  
+
+  
+  
+  
+ 
+  
+ 
+       
+       
+ 
+  
+ 
+
+
+
+
+    </td>
+     </tr>
+
+   
+                   
+   
+                                                         <tr class="order-bd freight-info ">
+ <td class="baobei">
+ <a href="http://prod.baoxian.taobao.com/item/query.htm?bizOrderId=843003716639636" target="_blank">
+ 保险服务
+ </a>
+ </td>
+ <td class="price"><i class="special-num">0.00</i></td>
+ <td class="quantity">-</td>
+ <td class="item-operate"></td>
+   </tr>
+       
+ </tbody>      
+     
+<tfoot>
+ <tr class="sep-row"><td colspan="7"></td></tr>
+ <tr class="toolbar toolbar-bottom">
+ <td colspan="7">
+ <div class="operates">
+ <label><input type="checkbox" class="J_AllSelector all-selector">全选</label>
+     <a href="javascript:void(0)" class="J_CombinPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.1.8">合并付款</a>
+ <a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">合并代付</a>
+     <a href="javascript:void(0)" class="J_BatchReceive J_MakePoint toolbtn long-toolbtn" data-url="http://trade.taobao.com/trade/confirm/batch_confirm_goods.htm" data-point-url="http://gm.mmstat.com/listbought.1.11">批量确认收货</a>
+</div>
+
+ 
+
+<div class="paging-box paging-full" id="J_trade_pagenation">
+
+
+<ul class="items">
+<li class="item prev  prev-disabled ">
+<a class="num " >
+<span class="icon"></span>
+</a>
+</li>
+
+
+
+<li class="item active">
+1
+</li>
+
+
+<li class="item next  next-disabled ">
+<a class="num " >
+<span class="icon"></span>
+</a>
+</li>
+</ul>
+
+
+<div class="total">
+共 1 页，
+ </div>
+
+ <div class="form">
+<span class="text">到第</span>
+<input class="input" type="number" value="1" min="1">
+<span class="text">页</span>
+<span class="button J_MakePoint" id="J_JumpTo" data-url="http://buyer.trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&amp;prePageNo=1&amp;clickMore=0&tPage=1&isJumpTo=true" data-point-url="http://gm.mmstat.com/listbought.31">确定</span>
+ </div>
+
+
+</div></td>
+</tr>
+</tfoot>
+    
+     </table>
+ </form>
+
+   </div><!--end bought-list-->
+
+ </div><!--end main-content-->
+
+</div> <!--end main-wrap-->
+
+<span class="mytaobao-rc-bt"><span></span></span>
+
+ </div>
+ <div class="col-sub" id="J_Col_Sub">
+ <aside class="mt-menu" id="J_MtSideMenu">
+<div class="mt-menu-tree">
+<dl class="mt-menu-item" data-spm="a2109">
+<dt class="fs14">我的交易</dt>
+<dd>
+<a href="http://cart.taobao.com/cart.htm?nekot=1422979364528" target="_blank" role="menuitem" data-spm="d1000367">我的购物车</a>
+</dd>
+<dd class="mt-menu-sub unfold J_MtSideTree">
+<b class="mt-indicator J_MtIndicator">-</b>
+<a id="bought" href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm?nekot=1422979364528" data-spm="d1000368">已买到的宝贝</a>
+<ul class="mt-menu-sub-content">
+<li id="jinpai">
+<a href="http://paimai.taobao.com/auctionList/my_auction_list.htm?nekot=1422979364528" data-spm="d1000369">我的拍卖</a>
+</li>
+<li id="jipiao">
+<a href="http://jipiao.trip.taobao.com/order_manager.htm?nekot=1422979364528" role="menuitem" data-spm="d1000370">机票酒店保险</a>
+</li>
+<li id="caipiao">
+<a href="http://caipiao.taobao.com/lottery/order/my_all_lottery_order.htm?nekot=1422979364528" data-spm="d1000371">我的彩票</a>
+</li>
+<li id="gamebuy">
+<a href="http://game.taobao.com/gamecenter/played.htm?nekot=1422979364528" data-spm="d1000372">我的游戏</a>
+</li>
+<li id="ebookbuy">
+<a href="http://ebook.taobao.com/myebook/my_items_list.htm?nekot=1422979364528" data-spm="d1000384">我的电子书</a>
+</li>
+<li id="finance">
+<a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm?event_submit_do_query=1&action=itemlist/QueryAction&user_type=0&queryBizType=3000&refine=false" >我的理财</a>
+</li>
+
+<li id="trade1688">
+<a href="http://trade.taobao.com/trade/itemlist/list_bought_items_outer.htm?from=1688&scm=1217.1688.0.1&nekot=1422979364528" data-spm="d1000390">我的1688订单</a>
+</li>
+  <script>
+   if(
+ ( typeof __MT_MENU_FLAGS !== "undefined" )
+ && __MT_MENU_FLAGS.showB2BMenu
+ ){
+ 
+ document.write(
+ '<li id="trade1688">' +
+ '<a href="http://trade.taobao.com/trade/itemlist/list_bought_items_outer.htm?from=1688&scm=1217.1688.0.1&nekot=1422979364528" data-spm="d1000390">我的1688订单</a>'+
+ '</li>'
+ );
+ }
+ 
+ </script>
+ </ul>
+</dd>
+<dd id="boughtShop"><a href="http://favorite.taobao.com/bought_shop_list.htm?itemtype=0&nekot=1422979364528" data-spm="d1000373">购买过的店铺</a></dd>
+<dd id="favorite"><a href="http://shoucang.taobao.com/collectList.htm?nekot=1422979364528" data-spm="d1000374">我的收藏</a></dd>
+<dd id="point"><a href="http://vip.tmall.com/point/all?nekot=1422979364528" target="_blank" data-spm="d1000375">我的积分</a></dd>
+     <dd id="gotBonus"><a href="http://taoquan.taobao.com/framework/got_bonus.htm?nekot=1422979364528" data-spm="d1000376">我的优惠信息</a></dd>
+ <dd id="myRate"><a href="http://rate.taobao.com/myRate.htm?nekot=1422979364528" data-spm="d1000377">评价管理</a></dd>
+<dd class="mt-menu-sub fold J_MtSideTree">
+<b class="mt-indicator J_MtIndicator">+</b>
+<a class="J_MtIndicator" href="#" data-spm="d1000378">退款维权</a>
+<ul class="mt-menu-sub-content">
+<li id="refundList">
+<a href="http://refund.taobao.com/refund_list.htm?nekot=1422979364528" data-spm="d1000379">退款管理</a>
+</li>
+<li id="rightManager">
+<a href="http://support.taobao.com/myservice/aftersales/buyer_rights_list.htm?nekot=1422979364528" data-spm="d1000380">售后管理</a>
+</li>
+<li id="rulesManager">
+<a href="http://support.taobao.com/myservice/rules/buyer_rules_list.htm?nekot=1422979364528" data-spm="d1000383">投诉管理</a>
+</li>
+<li id="postedSuit">
+<a href="http://archer.taobao.com/myservice/report/report_i_posted_list.htm?type=2&user_role=2&isarchive=false&nekot=1422979364528" data-spm="d1000381">举报管理</a>
+</li>
+<li id="leaveWord">
+<a href="http://service.taobao.com/support/leave_word_list.htm?nekot=1422979364528" data-spm="d1000382">咨询/回复</a>
+</li>
+</ul>
+</dd>
+
+ <dd>
+ <a data-spm="d1000391" href="http://lu.taobao.com/newMyPath.htm?nekot=1422979364528" target="_blank" role="menuitem" >我的足迹<i class="icon-new" ></i></a>
+ </dd>
+
+</dl>
+ <p class="hide J_RecentVisitPlaceholder" ></p>
+<?php
+ob_start();
+echo "\r\n";
+?><style></style>
+
+</aside> 
+
+ </div>
+ </div>
+
+   <div style="width: 100%; overflow:hidden;">
+ <script type="text/javascript">
+ window.p4p_itemid = "15967638049,42401362031,";
+ </script>
+ <div style="margin: 30px 0 30px 0;" id="p4p_ad">
+    <script src="//assets.alicdn.com/apps/med/other/etao/etao_srp_doplots.js"></script>
+    <script>
+        KISSY.use('node, ajax', function(S, Node, IO) {
+            window._ent = []
+            window.P4P = window.P4P || {}
+            var doplots = com_TBCC.util.getDoplots("cna") || 0;
+            var acookie = document.cookie.match("(?:^|;) *" + "cna" + "=([^;]*)")
+            acookie = encodeURIComponent(acookie ? unescape(acookie[1]) : "")
+            var p4pItemid = window.p4p_itemid || ""
+            var args = "sw=1&ac=" + acookie + "&itemid=" + p4pItemid
+            var h, s, main_id, main_name
+
+            function getScript(url, callback, charset) {
+                if(!url) {
+                    return;
+                }
+                var head = document.head || document.getElementsByTagName("head")[0] || document.documentElement;
+                var script = document.createElement("script");
+                script.src = url;
+                script.async = true; // async load script , prevent block browser render(HTML5)
+                script.charset = charset || "utf-8";
+                // standard(onload) , IE(10-)(onreadystatechange)
+                script.onload = script.onreadystatechange = function () {
+                    // standard || IE
+                    if(!script.readyState || /loaded|complete/.test(script.readyState)) {
+                        script.parentNode.removeChild(script); // auto remove script node
+                        script.onload = script.onreadystatechange = null; // prevent memory leak
+                        script = null;
+                        if(callback && typeof callback == "function") {
+                            callback();
+                        }
+                    }
+                }
+                head.appendChild(script);
+            }
+
+            function method_old(id, name, sbid, k2syt) {
+                var uid = "c" + id.replace(/[^-a-z0-9]/ig, "-")
+                var config  = P4P[id] = {}
+                config.pid  = "420986_1007"
+                config.name = "itemdsp"
+                args += "&sbid=" + sbid
+                
+                if (k2syt) {
+                  	args += "&k2syt=" + encodeURIComponent("2,3")
+                }
+
+                document.createElement("tbcc");
+                document.getElementById("p4p_ad").innerHTML = '<tbcc id="tbcc-c-' + uid + '" style="display:none" data-args="?' + args + '"><tbcc></tbcc></tbcc>'
+
+                S.getScript('//acc.alicdn.com/tfscom/' + name + '.js',
+                    function() {
+                        _ent.use("cc/show", function (cc) {
+                            cc.show(id, uid);
+                        });
+                    }
+                )
+            }
+
+            main_id = "2014_12/127769"
+            main_name = "TB1e_AcGVXXXXaHXFXXdutXFXXX"
+
+            if (doplots > 0 && doplots <= 5) {
+                //试验田
+                var k2syt = true
+                if (doplots < 5 * 1/3) {
+                    method_old(main_id, main_name, 2, k2syt)
+                } else if (doplots < 5 * 2/3) {
+                    method_old("2014_12/127770", "TB14jAgGVXXXXaZXXXXdutXFXXX", 5, k2syt)
+                } else {
+                    method_old("2015_2/128827", "TB1eVnUHXXXXXbbaXXXdutXFXXX", 6, k2syt)
+                }
+            } else {
+                //非mbox
+                var k2syt = false
+                method_old(main_id, main_name, 1, k2syt)
+            }
+        })
+    </script>
+</div>
+
+</div>
+   <script src="//g.alicdn.com/tbc/webww/1.0.16/webww-min.js" async=""></script>
+<!--TMS:1084840-->
+<div class="J_Tuijian_Modules_BoughtItem" data-spm="a1z6g"></div>
+<script type="text/javascript">
+   KISSY.ready(function(){
+        var recommend_domain=location.href.indexOf('daily')>-1 || location.href.indexOf('localhost')>-1? 'assets.daily.taobao.net/g': 'g.alicdn.com',
+            git_version='1.4.1';
+            KISSY.config({
+                'packages': {
+                    'recommend': {
+                        'base': '//'+recommend_domain+'/tb/relationrecommendplug/'+git_version,
+                        'charset': 'utf-8'
+                    }
+                }
+            });
+        //引入“已买到猜你喜欢”模块
+        KISSY.use('recommend/trade/boughtItem_new_module/boughtItem_new_module', function(S, Recommend){
+            new Recommend();
+        });
+    });
+</script>
+
+
+   <div style="padding:10px">
+ <img width="18" height="18" style="vertical-align: middle;" alt="反馈" src="//gtd.alicdn.com/tps/i1/T1TPhsXoRlXXXXXXXX-18-18.png">
+ 我对已买到的宝贝有意见或建议，
+ <a target="_blank" href="http://ur.taobao.com/survey/view.htm?id=2445">跟淘宝说两句</a>
+</div>
+ </div>
+ </div>
+
+ 
+<script>
+ /* KISSY.ready(function() { 
+    KISSY.use('tbc/m1212/1.0.12/', function(S, M1212) {
+      var m = new M1212({
+        container: '#content', //要置入的容器，默认是body
+        isCloseSecondKill: false, //默认是 false, 如果需要关闭秒杀入口， 改成true
+        isCloseMsgPop: false,  //默认是false,如果出现需要减轻服务器压力，改为true
+        isPutOut: true //默认是false,投放到非主分会场的时候，设置为true
+      });
+    });
+  });*/
+</script>
+
+
+<div class="sidebar-float" id="J_SidebarFloat">
+ <a href="#" class="has-border is-top">
+ 回到<br>顶部
+ </a>
+   <a href="#" class="has-border is-guide" id="J_NewfishTipTrigger">
+ 新手<br>指南
+ </a>
+   <a href="http://service.taobao.com/support/help-12010.htm" target="_blank" class="has-border is-help">
+ 查看<br>帮助
+ </a>
+ <a href="http://ur.taobao.com/survey/view.htm?id=2445" target="_blank" class="is-feedback">
+ 我要<br>反馈
+ </a>
+</div>
+<style>
+  .footer_2014{
+    width: 1190px;
+    margin: 0 auto;
+  }
+  .w990 .footer_2014{
+    width: 990px;
+  }
+
+</style>
+<div class="footer_2014">
+<style>
+.footer{position:relative;margin:0 auto;padding:7px 0 9px;border-top:1px solid #ddd}.footer .footer-bd p,.footer .footer-hd p{padding-bottom:8px;overflow:hidden;*zoom:1}.footer .footer-bd a,.footer .footer-hd a{display:inline;float:left;margin:0 4px;white-space:nowrap;color:#6c6c6c}.footer .footer-bd a:hover,.footer .footer-hd a:hover{color:#f40;text-decoration:none}.footer .footer-bd b,.footer .footer-hd b{display:inline;float:left;margin:0 3px;font-weight:400;color:#ddd}.footer .footer-bd em,.footer .footer-bd span,.footer .footer-hd em,.footer .footer-hd span{display:inline;float:left;white-space:nowrap;color:#9c9c9c}.footer .footer-bd em,.footer .footer-hd em{margin-left:30px}.footer .footer-bd span,.footer .footer-hd span{margin:0 4px}.footer .footer-bd span a,.footer .footer-hd span a{float:none}.footer .footer-hd p{margin-bottom:8px;line-height:27px;border-bottom:1px solid #ddd}.footer .foot-ft{display:none}
+</style><div class="footer" data-spm="1997523009">
+  <div class="footer-hd">
+    <p>
+      <a href="//www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
+      <b>|</b>
+      <a href="//www.taobao.com">淘宝网</a>
+      <b>|</b>
+      <a href="//www.tmall.com">天猫</a>
+      <b>|</b>
+      <a href="//ju.taobao.com">聚划算</a>
+      <b>|</b>
+      <a href="//www.aliexpress.com">全球速卖通</a>
+      <b>|</b>
+      <a href="//www.alibaba.com/">阿里巴巴国际交易市场</a>
+      <b>|</b>
+      <a href="//www.1688.com">1688</a>
+      <b>|</b>
+      <a href="//www.alimama.com">阿里妈妈</a>
+      <b>|</b>
+      <a href="//trip.taobao.com">阿里旅行 · 去啊</a>
+      <b>|</b>
+      <a href="//www.aliyun.com">阿里云计算</a>
+      <b>|</b>
+      <a href="//www.yunos.com">YunOS</a>
+      <b>|</b>
+      <a href="//www.aliqin.cn/">阿里通信</a>
+      <b>|</b>
+      <a href="//www.net.cn">万网</a>
+      <b>|</b>
+      <a href="//www.autonavi.com/">高德</a>
+      <b>|</b>
+      <a href="//www.uc.cn/">优视</a>
+      <b>|</b>
+      <a href="//www.umeng.com/">友盟</a>
+      <br>
+      <a href="//kanbox.com?ref=taobao">酷盘</a>
+      <b>|</b>
+      <a href="//www.xiami.com">虾米</a>
+      <b>|</b>
+      <a href="//www.ttpod.com/">天天动听</a>
+      <b>|</b>
+      <a href="//www.laiwang.com/">来往</a>
+      <b>|</b>
+      <a href="//www.alipay.com">支付宝</a>
+    </p>
+  </div>
+  <div class="footer-bd">
+    <p>
+      <a href="//www.taobao.com/about">关于淘宝</a>
+      <a href="//www.taobao.com/about/partners.php">合作伙伴</a>
+      <a href="//pro.taobao.com">营销中心</a>
+      <a href="//jubao.alibaba.com" >廉正举报</a>
+      <a href="//service.taobao.com/support/main/service_route.htm">联系客服</a>
+      <a href="//open.taobao.com">开放平台</a>
+      <a href="//www.taobao.com/about/join.php">诚征英才</a>
+      <a href="//www.taobao.com/about/contact.php">联系我们</a>
+      <a href="//www.taobao.com/sitemap.php">网站地图</a>
+      <a href="//www.taobao.com/go/chn/tb-fp/2014/law.php">法律声明</a>
+      <em>&copy; 2003-2015 Taobao.com 版权所有</em>
+    </p>
+    <p>
+      <span>网络文化经营许可证：<a href="//img04.taobaocdn.com/tps/i4/T1ysdvXtNeXXcPpEkQ-972-636.jpg">文网文[2010]040号</a></span>
+      <b>|</b>
+      <span data-spm-protocol="i">增值电信业务经营许可证：<a href="http://zcainfo.miitbeian.gov.cn/state/outPortal/loginPortal.action">浙B2-20080224-1</a></span>
+      <b>|</b>
+      <span>信息网络传播视听节目许可证：1109364号</span>
+      <b>|</b>
+      <span> 互联网违法和不良信息举报电话:0571-81683755 </span>
+    </p>
+  </div>
+  <div class="footer-ft">
+    
+            <a href="//www.pingpinganan.gov.cn/" class="mod " >
+                <img width="36" alt="杭州网警" height="36" src="//img01.taobaocdn.com/tps/i1/T1FeW3XXNfXXXXXXXX-36-36.gif">
+              </a>
+            <a href="//idinfo.zjaic.gov.cn/bscx.do?spm=1.7274553.1997523009.28.alN7ce&method=hddoc&id=33018400000067" class="mod mod-a" >
+              </a>
+            <a href="//idinfo.zjaic.gov.cn/bscx.do?spm=1.7274553.1997523009.29.alN7ce&method=hddoc&id=33018400000067" class="mod mod-b" >
+              </a>
+            <a href="//www.theclimategroup.org.cn/about/friend?spm=1.7274553.1997523009.30.alN7ce" class="mod mod-c" >
+              </a>
+            <a href="https://ss.knet.cn/verifyseal.dll?spm=1.7274553.1997523009.31.alN7ce&&sn=2010062300100001357&pa=20100701" class="mod mod-d" >
+              </a>
+            <a href="//www.ppaaol.com/verifySite.do?spm=1.7274553.1997523009.32.alN7ce&id=1051" class="mod mod-e" >
+              </a>
+          
+  </div>
+</div></div>
+<script>
+ KISSY.ready(function(S) {
+ var count = 0;
+ var si = function() {
+ count++;
+ if(window.selectItem) {
+ selectItem("bought");
+ }else if(10 > count){
+ setTimeout(si, 500)
+ }
+ };
+ si();
+ });
+</script>
+
+<script>
+ window.G_RobotConfig = {
+  offsetY: 247,         sourceId: 109,
+ autoClose: 2000
+ }
+</script>
+<script src="http://g.alicdn.com/tb/support/1.2.8/robot/robot-entry.js"></script>
+
+
+<link type="text/css" href="http://g.alicdn.com/tb/trademanager/3.0.3/2014/common/compatible/paimai/order_confirm-min.css" rel="stylesheet"/>
+<script type="text/javascript" src="http://g.alicdn.com/tb/trademanager/3.0.3/2014/common/compatible/paimai/order_confirm-min.js"></script>
+<script>
+ Paimai.OrderConfirm.init({
+ zipData: 'http://assets.alicdn.com/p/address/120214/tdist.js',
+ userData: '/trade/json/buyer_confirm_address.htm',
+ prepay: '/trade/json/auction_prepay.htm',
+ admin: 'http://member1.taobao.com/member/fresh/deliver_address.htm'
+ ,hook: '.J_Paimai_Pay'  });
+</script>
+
+<script type="text/javascript" src="http://g.alicdn.com/alilog/mlog/xwj.js"></script>
+<script type="text/javascript">
+window._ap_xwj && _ap_xwj.monitor("201409172747281621", {"sample_rate”:0.01,”dead_line":1426521600000});
+</script> 
+</div>
+</body>
+</html>

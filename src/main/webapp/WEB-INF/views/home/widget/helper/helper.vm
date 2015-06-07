@@ -1,0 +1,55 @@
+		<!-- helper -->
+		<div id="Helper" class="helper">
+			<div class="mod ">
+				<div class="mod-wrap">
+					<h4>
+						<span class="glyphicon glyphicon-certificate"></span> <span>消费者保障</span>
+					</h4>
+					<ul>
+						<li><a title="保障范围" href="#">保障范围</a></li>
+						<li><a title="退货退款流程" href="#">退货退款流程</a></li>
+						<li><a title="服务中心" href="#">服务中心</a></li>
+						<li><a title="更多特色服务" href="#">更多特色服务</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="mod">
+				<div class="mod-wrap">
+					<h4>
+						<span class="glyphicon glyphicon-question-sign"> </span> <span>新手上路</span>
+					</h4>
+					<ul>
+						<li><a title="新手专区" href="#">新手专区</a></li>
+						<li><a title="消费警示" href="#">消费警示</a></li>
+						<li><a title="交易安全" href="#">交易安全</a></li>
+						<li><a title="24小时在线帮助" href="#">24小时在线帮助</a></li>
+						<li><a title="免费开店" href="#">免费开店</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="mod ">
+				<div class="mod-wrap">
+					<h4>
+						<span class="glyphicon glyphicon-credit-card"> </span> <span>付款方式</span>
+					</h4>
+					<ul>
+						<li><a title="支付宝快捷支付"
+							href="http://help.alipay.com/lab/help_detail.htm?help_id=245296">支付宝快捷支付</a>
+						</li>
+						<li><a title="支付宝卡（现金）付款"
+							href="http://help.alipay.com/lab/help_detail.htm?help_id=253912">支付宝卡（现金）付款</a>
+						</li>
+						<li><a title="支付宝余额付款"
+							href="http://help.alipay.com/lab/help_detail.htm?help_id=251547">支付宝余额付款</a>
+						</li>
+						<li><a title="货到付款"
+							href="http://www.taobao.com/go/act/sale/cod2.php?spm=1.7388829.a214tlt.13">货到付款</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end of helper -->

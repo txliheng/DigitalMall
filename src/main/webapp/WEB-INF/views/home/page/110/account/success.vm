@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="content">
+<div class="mainresult">
+    <div class="ui-result">
+        
+            <div class="ui-tipbox ui-tipbox-success ui-result-tipbox">
+                <div class="ui-tipbox-icon ui-icon-success"></div>
+                <div class="ui-tipbox-content">
+                                            <h3>重置成功，支付宝账户的登录密码也同步进行了修改</h3>
+                        <p class="ui-tipbox-explain">下次登录时请使用新密码进行登录</p>
+                                    </div>
+            </div>
+            <div class="ui-result-link">
+                                <ul class="linklist fn-clear">
+                    <li>
+                        <a href="http://member1.taobao.com/member/fresh/account_security.htm" target="_blank" seed="linklist-link" smartracker="on">返回我的淘宝</a>
+                    </li>
+                </ul>
+                            </div>
+
+		    </div></div>
+
+</div></div>

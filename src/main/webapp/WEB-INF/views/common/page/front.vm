@@ -1,0 +1,24 @@
+## 首页布局
+#extends("common:page/frame.vm")
+
+    #block("body")
+                
+        #block("top")
+            #widget("common:widget/top/top.vm" )
+        #end
+
+        #block("header")
+            #widget("common:widget/header/header.vm")
+        #end
+
+        #block("content")#end
+
+        #block("footer")
+            #widget("common:widget/footer/footer.vm")
+        #end
+        
+    #end
+
+    ## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+    #require("common:page/front.vm")
+#end

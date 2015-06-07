@@ -1,0 +1,214 @@
+#extends("common:page/frame.vm") 
+#block("body") 
+#require("home:static/item/itemDetail.css")
+##require("home:static/item/css/index.css")
+#block("top") 
+#widget("common:widget/top/top.vm") 
+#end
+#block("content")
+<div id="header">
+    #block("logo") 
+    #widget("common:widget/logo/logo.vm") 
+    #end 
+    #block("searchBox") 
+    #widget("common:widget/search/search.vm") 
+    #end
+</div>
+<div id="detail">
+  <div id="J_DetailMeta" class="tm-detail-meta tm-clear">
+    <div class="tm-clear">
+      <div class="tb-property">
+        <div class="tb-wrap">
+          <div class="tb-detail-hd">
+            <h1 > 
+            ${ItemTitle}
+            </h1>
+            <p>${Description}</p>
+          </div>
+          <!--引入normalBasic-->
+          <div class="tm-fcs-panel">
+            <dl class="tm-promo-panel tm-promo-cur" id="J_PromoPrice" data-label="促销">
+              <dt class="tb-metatit">促销价</dt>
+              <dd>
+                <div class="tm-promo-price">
+                  <em class="tm-yen">¥</em> <span class="tm-price">${PromoPrice}</span>
+                  <em class="tm-promo-type "><s></s>立春盛惠</em>&nbsp;&nbsp;
+                </div>
+                <p></p>
+              </dd>
+            </dl>
+            <dl class="tm-price-panel" id="J_StrPriceModBox">
+                <dt class="tb-metatit">价格</dt>
+                <dd><em class="tm-yen">¥</em><span class="tm-price">${SkuInfo.item.price}</span></dd>
+            </dl>
+          </div>
+          <div class="tb-meta">
+              <dl class="tm-delivery-panel" id="J_RSPostageCont"><dt class="tb-metatit">运费</dt>
+                <dd>
+                  <div class="tb-postAge">
+                    <span class="tb-deliveryAdd" id="J_deliveryAdd">湖北武汉</span>至
+                    <span id="J_AddrSelectTrigger" class="mui_addr_tri"><span data-code="220100" class="mui_addr_tri_1">长春<i class="mui_addr_icon"></i></span></span>
+                    <div id="J_PostageToggleCont" class="tb-postAge-info"><p><span>快递: 0.00 </span></p></div>
+                  </div>
+                </dd>
+              </dl>
+          </div>
+          <ul class="tm-ind-panel">
+            <li class="tm-ind-item tm-ind-sellCount canClick" data-label="月销量">
+              <div class="tm-indcon"><span class="tm-label">月销量</span><span class="tm-count">87</span></div></li>
+            <li class="tm-ind-item tm-ind-reviewCount canClick tm-line3" id="J_ItemRates">
+              <div class="tm-indcon"><span class="tm-label">累计评价</span><span class="tm-count">32</span></div></li>
+            <li class="tm-ind-item tm-ind-emPointCount" >
+              <div class="tm-indcon"><a href="http://vip.tmall.com/vip/index.htm" target="_blank"><span class="tm-label">送数码城积分</span><span class="tm-count">205</span></a></div></li>
+          </ul>
+          <div class="tb-key">
+            <div class="tb-skin">
+            <p class="tb-note-title" style="display:none;">请选择您要的商品信息<b class="J_PanelCloser">x</b></p>
+              <div class="tb-sku">
+                   
+				  #foreach($prop in ${SkuInfo.prop.entrySet()})
+						  
+				  <dl class="tb-prop tm-sale-prop tm-clear ">
+                    <dt class="tb-metatit">$prop.key</dt>
+                    <dd>
+                      <ul class="tm-clear J_TSaleProp">
+						 ##$sorter.sort($prop.value)
+						 ##$prop.value
+						  #foreach($sku_prop in $prop.value.entrySet())
+							<li data-value="$sku_prop.key">
+								<a href="#"><span>$sku_prop.value</span></a>
+							</li>
+						  #end
+						  #*
+						  <li ><a href="#"><span>35</span></a></li>
+                          <li ><a href="#"><span>36</span></a></li>
+                          <li ><a href="#"><span>37</span></a></li>
+                          <li ><a href="#"><span>38</span></a></li>
+                          <li ><a href="#"><span>39</span></a></li>
+						  
+                          <div class="tm-sizeHelper">尺码助手</div>
+						  *#
+                      </ul>
+                    </dd>
+                  </dl>
+				  #end
+				  #*
+                  <dl class="tb-prop tm-sale-prop tm-clear tm-img-prop ">
+                    <dt class="tb-metatit">颜色分类</dt>
+                    <dd>
+                      <ul class="tm-clear J_TSaleProp tb-img  ">
+                            <li title="粉色现货">
+                              <a href="#" style="background:url(http://gi1.md.alicdn.com/bao/uploaded/i1/454246936/TB27Vu2bFXXXXbpXXXXXXXXXXXX_!!454246936.jpg_40x40q90.jpg) center no-repeat;">
+                              <span>粉色现货</span>
+                               </a>
+                            </li>
+                            <li  title="白色现货">
+                              <a href="#" style="background:url(http://gi4.md.alicdn.com/bao/uploaded/i4/454246936/TB2o9S2bFXXXXXyXXXXXXXXXXXX_!!454246936.jpg_40x40q90.jpg) center no-repeat;">
+                              <span>白色现货</span>
+                              </a>
+                            </li>
+                            <li title="黑色现货">
+                              <a href="#" style="background:url(http://gi3.md.alicdn.com/bao/uploaded/i3/454246936/TB2KN52bFXXXXazXXXXXXXXXXXX_!!454246936.jpg_40x40q90.jpg) center no-repeat;">
+                              <span>黑色现货</span>
+                              </a>
+                            </li>
+                      </ul>
+                    </dd>
+                 </dl>
+				 *#
+                 <dl class="tb-amount tm-clear">
+                  <dt class="tb-metatit">数量</dt>
+                  <dd id="J_Amount">
+                    <span class="tb-amount-widget mui-amount-wrap">
+						<input id="J_IptAmount" type="text" class="tb-text mui-amount-input" value="1" maxlength="8" title="请输入购买量">
+                        <span class="mui-amount-btn">
+                      <span class="mui-amount-increase"></span>
+                      <span class="mui-amount-decrease"></span>
+                      </span>
+                      <span class="mui-amount-unit">件</span>
+                    </span>
+                    <em id="J_EmStock" class="tb-hidden" style="display: inline;">(库存<span id="J_SpanStock" class="tb-count">280</span>件)</em>
+                    <span id="J_StockTips">  </span>
+                  </dd>
+                </dl>
+				
+				
+                <div class="tb-action tm-clear">
+                    <div class="tb-btn-buy tb-btn-sku">
+                     <a id="J_LinkBuy" href="#" rel="nofollow" data-addfastbuy="true" title="点击此按钮，到下一步确认购买信息。">立刻购买<span class="ensureText">确认</span></a>
+                    </div>
+                    <div class="tb-btn-basket tb-btn-sku "><a href="#" rel="nofollow" id="J_LinkBasket"><i></i>加入购物车<span class="ensureText">确认</span></a></div>
+                      <div class="tb-btn-add tb-btn-sku tb-hidden"><a href="#" rel="nofollow" id="J_LinkAdd"><i></i>加入购物车</a></div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div class="tm-ser tm-clear">
+                      <dl class="tm-clear">
+                        <dt class="tb-metatit">服务承诺</dt>
+                        <dd class="tm-laysku-dd">
+                          <ul class="tb-serPromise">
+                              <li ><a href="http://service.tmall.com/support/tmall/knowledge-1126800.htm?spm=a220o.1000855.0.116.lkS5km" title="按时发货" target="_blank">按时发货</a></li>
+                              <li><a href="http://vip.tmall.com/privilege/wuyou" title="售后无忧是天猫为T4 天猫会员提供的专享售后服务特权，让您购物更省心。" target="_blank"><s>T4</s>售后无忧</a></li>
+                              <li><a href="http://vip.tmall.com/vip/privilege.htm?spm=3.1000588.0.141.2a0ae8&amp;priv=speed" title="极速退款是天猫为T2及T3天猫会员提供的退款退货流程的专享特权，目前针对部分T2、T3的天猫会员开放" target="_blank"><s>T3</s>极速退款</a></li>
+                              <li><a href="http://service.tmall.com/support/tmall/knowledge-1121473.htm?spm=0.0.0.0.asbDA1" title="卖家为您购买的商品投保退货运费险" target="_blank">赠运费险</a></li>
+                              <li> <a href="http://www.tmall.com/market/mall/qttk.php?spm=3.7095809.2000g001.2.RuHN6j" title="七天无理由退换" target="_blank">七天无理由退换</a></li>
+                          </ul>
+                        </dd>
+                      </dl>
+                <div class="tm-pay-box">
+                  <div class="tm-pay">
+                    <em class="pay-title">支付方式</em>
+                    <em title="显示所有信息" class="pay-toggler" id="J_Toggler" style="display: inline;"></em>
+                      <div class="pay-credit J_Paylist" >
+                        <a title="余额宝支付金额先冻结，延期支付给卖家，期间收益继续享" target="_blank" href="http://fenqi.alipay.com/yuebaofenqiforbuyer.htm" ><img class="imageIcon" width="16" height="16" src="http://gtms02.alicdn.com/tps/i2/TB1Y4UCGXXXXXaIXpXXCBGNFFXX-24-24.png">余额宝分期</a>
+                        <a title="支持使用信用卡分期支付" target="_blank" href="http://help.alipay.com/lab/help_detail.htm?help_id=249183" >信用卡分期<s></s></a>
+                        <a title="支持用绑定了支付宝的银行卡付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=245296" target="_blank" >快捷支付</a>
+                        <a title="支持用开通了网上银行的银行卡付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=251545" target="_blank" >网银支付</a>
+                        <a title="拍下商品后，让其他人帮您付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=214301" target="_blank" >找人代付</a>
+                        <a title="支持手机话费卡充值付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=251558" target="_blank" >消费卡</a>
+                        <a title="到支付宝合作的线下网点（如便利店、邮局、药店等），用现金或刷卡即可完成网上订单付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=211741" target="_blank" >网点支付</a>
+                        <a title="支持使用支付宝账户余额的钱付款" href="http://help.alipay.com/lab/help_detail.htm?help_id=251547" target="_blank" >支付宝余额</a>
+                      </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="tb-gallery">
+        <div class="tb-booth">
+            <a href="http://www.taobao.com/view_image.php?pic=Wx0GGlFDXANRBh1fEUcSCAIPEhwWWl1eG1pSBl0fGwAcBVxRVx0cW1wwKV1YLWpMekNsYGsxESAKNCs8YGxrai0xKzw0TVdCFVBGVllnQwARRAEcFA==&amp;title=sNfB7MD2yMsyMDE1tLrQwr%2Fu08XWytHyxqS84s23tNa4%2Bszww8C6%2B7X7veHHs7%2Faxa61pdCsMzMzOVE%3D&amp;version=2&amp;c=M2NhZjFlYmQzNWFlNmNiMGZkNmQ0ZTYwY2ZlZmI4NDY%3D&amp;itemId=42878802103&amp;shopId=62224154&amp;sellerRate=318165&amp;dbId=&amp;fv=9" rel="nofollow" target="_blank">
+			  <span class="zoomIcon" style="display: none;">󰄬</span>
+			  <span class="ks-imagezoom-wrap">
+				##http://gi4.md.alicdn.com/imgextra/i4/454246936
+				<img id="J_ImgBooth" alt="白领丽人2015春新款优质羊皮尖头粗跟甜美蝴蝶结浅口女单鞋3339Q" src="/static/home/item/images/TB2dVqTbpXXXXX8XXXXXXXXXXXX_!!454246936.jpg_430x430q90.jpg" data-haszoom="700">
+				##<span style="position: absolute; top: 22.8094323730469px; left: 92.31068359375px; width: 218.405px; height: 218.405px;" class="ks-imagezoom-lens"></span>
+			  </span>
+            </a>
+        </div>
+        <ul id="J_UlThumb" class="tb-thumb tm-clear">
+			##http://gi2.md.alicdn.com/bao/uploaded/i2
+			##http://gi4.md.alicdn.com/imgextra/i4/454246936
+                <li class=""><a href="#"><img src="/static/home/item/images/TB1._RuHpXXXXcJaXXXXXXXXXXX_!!0-item_pic.jpg_60x60q90.jpg"></a></li>
+                <li class=""><a href="#"><img src="/static/home/item/images/TB2dVqTbpXXXXX8XXXXXXXXXXXX_!!454246936.jpg_60x60q90.jpg"></a></li>
+                <li class=""><a href="#"><img src="/static/home/item/images/TB2.F1TbpXXXXX7XXXXXXXXXXXX_!!454246936.jpg_60x60q90.jpg"></a></li>
+                <li class=""><a href="#"><img src="/static/home/item/images/TB1gxLtGpXXXXajapXXXXXXXXXX_!!0-item_pic.jpg_60x60q90.jpg"></a></li>
+                <li class=""><a href="#"><img src="/static/home/item/images/TB24huFbFXXXXX2XXXXXXXXXXXX_!!454246936.jpg_60x60q90.jpg"></a></li>
+        </ul>
+        
+      </div>
+      <form id="J_FrmBid" name="bidForm" action="" method="post">
+      </form>
+      </div>
+  </div>
+</div>
+#widget("home:widget/helper/helper.vm")
+#end## end of content 
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#require("home:static/item/js/itemDetail.js")
+#end ## end of body 
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。 
+#require("home:page/item/item.vm") 
+#end

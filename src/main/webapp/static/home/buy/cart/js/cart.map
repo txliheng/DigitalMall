@@ -1,0 +1,1 @@
+{"version":3,"file":"cart.org.js","sources":["cart.org.js"],"sourcesContent":["$(function(){\r\n\t$('checkbox').click(function(){\r\n\t\t$('#J_SelectAll1').attr('class','selected');\r\n\r\n});\r\n});\r\n"],"names":["$","click","attr"],"mappings":"AAAAA,EAAE,WACDA,EAAE,YAAYC,MAAM,WACnBD,EAAE,iBAAiBE,KAAK,QAAQ"}

@@ -1,0 +1,88 @@
+#extends("common:page/frame.vm")
+
+    #block("body")
+        #require("home:static/user/reg/css/reg.css")
+        #block("top")
+            #widget("common:widget/top/top.vm")
+        #end
+        #block("content")
+        <div class="header">
+        #block("logo")
+            #widget("common:widget/logo/logo.vm" "var:isReg=true")
+        #end
+      </div>
+    <div class="steps">
+        <ol>
+            <li class="active">
+				<i>1</i>
+				<span class="tsl" >设置登录名</span>
+			</li>
+            <li>
+				<i>2</i>
+				<span class="tsl" >填写账户信息</span>
+			</li>
+           <li>
+				<i class="iconfont">√</i>
+				<span class="tsl" >注册成功</span>
+		   </li>
+        </ol>                
+    </div>
+    
+<div class="content">
+        <div class="form-list form-main-list">
+            <form id="J_EmailForm" method="post" action="#">
+				
+                <div class="form-group">
+                    <div class="form-item">
+                        <span class="form-label tsl" >电子邮箱</span>
+                        <input class="form-text" autocomplete="off" id="J_Email" name="email" type="text" value="" placeholder="请输入你的电子邮箱" >
+                        
+                    </div>
+                    
+                    <div class="form-item form-item-checkcode">
+                        <span class="form-label tsl" >验证码</span>
+                        <input id="J_CheckCodeInput" name="imgChkcode" autocomplete="off" class="form-text checkcode-text disabled" disabled="" type="text" value="">
+                        <div id="J_CheckCodeContainer" class="checkcode-container dn" "></div>
+                        <span id="J_CheckCodeMsgRefer" class="text-input-refer"></span>
+                        
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-item">
+                        <input class="form-checkbox" type="checkbox" name="" id="J_Agreement" checked="">
+                       	<label for="J_Agreement" class="f12 tsl" >同意<a href="#" target="_blank">《数码城服务协议》</a>
+						和<a href="#" target="_blank">《法律声明及隐私权政策》</a>                               
+                        </label>
+                    </div>
+                    <div class="form-item form-item-short">
+                        <button type="submit" class="btn btn-large tsl" id="J_BtnEmailForm">下一步</button>
+                        <div class="msg" id="J_MsgEmailForm" >
+							<i class="iconfont"></i>
+							<div class="msg-tit"></div>
+							<div class="msg-cnt"></div>
+						</div>
+                    </div>
+                    <div class="form-item f12 tsl" >
+                        没有邮箱？先去注册邮箱<br><a href="/user/reg/fill_mobile.html">个人用户可以使用手机号注册&gt;</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+ 	<div class="msg tsl " id="J_MsgEmail" style="position: absolute; left: 616.5px; top: 205px;display:none;">
+		<i class="iconfont"></i>
+		<div class="msg-tit"></div>
+		<div class="msg-cnt"></div>
+	</div>
+#widget("home:widget/helper/helper.vm")
+#end##end of content
+#block("footer") 
+#widget("common:widget/footer/footer.vm") 
+#end
+#require("home:static/user/reg/js/reg.js")
+#end##end of body
+
+## 需要依赖一下自己，否则该 vm 中依赖没法自动加载进来。
+#require("home:page/user/reg/fill_email.vm")
+#end
+

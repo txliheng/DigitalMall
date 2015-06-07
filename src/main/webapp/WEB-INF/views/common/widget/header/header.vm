@@ -1,0 +1,7 @@
+<!-- head -->
+<div id="Head" class="head">
+    #widget("common:widget/logo/logo.vm")
+
+    #widget("common:widget/search/search.vm")
+</div>
+<!-- end of head -->
